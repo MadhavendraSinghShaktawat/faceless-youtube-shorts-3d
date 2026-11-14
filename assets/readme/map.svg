@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">What is inside the repo: SKILL.md, skills, engine, videos, reference, research and tools</title>
+  <desc id="d">Seven folder cards sit on a film set while a spotlight moves from one to the next: SKILL.md is the director, skills holds 14 craft guides, engine is the three.js and HyperFrames renderer, videos holds your shorts, reference holds frame sheets and measured analysis, research holds benchmarks and free asset catalogues, tools holds contact sheets and cleanup.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .cap{font-family:"Arial Black","Helvetica Neue",Arial,sans-serif;font-weight:900;fill:#fff;stroke:#0d070c;paint-order:stroke;stroke-linejoin:round}
+    .ink{stroke:#2c1821;stroke-linecap:round;stroke-linejoin:round}
+
+    .creep{transform-origin:600px 240px;animation:creep 14s ease-in-out infinite alternate}
+    @keyframes creep{from{transform:scale(1) translateX(6px)}to{transform:scale(1.025) translateX(-6px)}}
+
+    /* spotlight hops card to card: 7 cards x 1.5 s */
+    .spot{animation:spot 10.5s infinite}
+    @keyframes spot{
+      0%{transform:translateX(0);animation-timing-function:steps(1,end)}
+      11.4%{transform:translateX(0);animation-timing-function:cubic-bezier(.5,0,.3,1)}
+      14.29%{transform:translateX(160px);animation-timing-function:steps(1,end)}
+      25.7%{transform:translateX(160px);animation-timing-function:cubic-bezier(.5,0,.3,1)}
+      28.57%{transform:translateX(320px);animation-timing-function:steps(1,end)}
+      40%{transform:translateX(320px);animation-timing-function:cubic-bezier(.5,0,.3,1)}
+      42.86%{transform:translateX(480px);animation-timing-function:steps(1,end)}
+      54.3%{transform:translateX(480px);animation-timing-function:cubic-bezier(.5,0,.3,1)}
+      57.14%{transform:translateX(640px);animation-timing-function:steps(1,end)}
+      68.6%{transform:translateX(640px);animation-timing-function:cubic-bezier(.5,0,.3,1)}
+      71.43%{transform:translateX(800px);animation-timing-function:steps(1,end)}
+      82.9%{transform:translateX(800px);animation-timing-function:cubic-bezier(.5,0,.3,1)}
+      85.71%{transform:translateX(960px);animation-timing-function:steps(1,end)}
+      97.1%{transform:translateX(960px);animation-timing-function:cubic-bezier(.5,0,.3,1)}
+      100%{transform:translateX(0)}
+    }
+    /* active card lifts (one-frame pop, held) */
+    .lift{animation:lift 10.5s step-end infinite}
+    @keyframes lift{0%{transform:translateY(-10px)}14.29%{transform:translateY(0)}100%{transform:translateY(0)}}
+    .hi{opacity:0;animation:hi 10.5s step-end infinite}
+    .k0{animation-delay:0s}.k1{animation-delay:-9s}.k2{animation-delay:-7.5s}.k3{animation-delay:-6s}.k4{animation-delay:-4.5s}.k5{animation-delay:-3s}.k6{animation-delay:-1.5s}
+    @keyframes hi{0%{opacity:1}14.29%{opacity:0}100%{opacity:0}}
+
+    .mote{animation:mote 8s linear infinite}
+    @keyframes mote{0%{transform:translate(0,0);opacity:0}20%{opacity:.8}100%{transform:translate(12px,-120px);opacity:0}}
+    .reel{transform-box:fill-box;transform-origin:center;animation:spin 3s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .tick{animation:tick 1.2s step-end infinite}
+    @keyframes tick{50%{opacity:.25}}
+
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#160c1b"/>
+      <stop offset="1" stop-color="#2d1531"/>
+    </linearGradient>
+    <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3d6" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#fff3d6" stop-opacity=".02"/>
+    </linearGradient>
+    <radialGradient id="pool" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffe7b0" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#ffe7b0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1932"/>
+      <stop offset="1" stop-color="#1f1124"/>
+    </linearGradient>
+    <g id="tab"><path d="M0 14q0-8 8-8h38l10 10h80q8 0 8 8v168q0 8-8 8H8q-8 0-8-8z"/></g>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <!-- floor -->
+  <rect y="372" width="1200" height="48" fill="#120914"/>
+  <path d="M0 372h1200" stroke="#3d2445" stroke-width="2"/>
+
+  <g class="creep">
+    <text x="60" y="58" class="sans" font-size="13" font-weight="700" letter-spacing="2.6" fill="#ff8fc8">WHAT IS IN THE REPO</text>
+    <text x="58" y="98" class="cap" font-size="32" stroke-width="8">ONE FOLDER. A WHOLE STUDIO.</text>
+    <text x="1140" y="62" text-anchor="end" class="mono" font-size="13" fill="#c8afc1">~/.claude/skills/faceless-youtube-shorts-3d/</text>
+    <text x="1140" y="84" text-anchor="end" class="sans" font-size="13.5" fill="#9d8296">clone it once, Claude reads the rest</text>
+
+    <!-- spotlight -->
+    <g class="spot">
+      <polygon points="96,-10 132,-10 194,370 34,370" fill="url(#cone)"/>
+      <ellipse cx="114" cy="372" rx="84" ry="10" fill="url(#pool)"/>
+    </g>
+
+    <g fill="#ffeacc">
+      <circle class="mote" cx="120" cy="330" r="1.4" style="animation-delay:-1s"/>
+      <circle class="mote" cx="460" cy="350" r="1.2" style="animation-delay:-3s"/>
+      <circle class="mote" cx="760" cy="340" r="1.5" style="animation-delay:-5s"/>
+      <circle class="mote" cx="1010" cy="345" r="1.1" style="animation-delay:-6.5s"/>
+      <circle class="mote" cx="300" cy="360" r="1" style="animation-delay:-2.2s"/>
+    </g>
+
+    <!-- cards: x = 42 + i*160, 144 wide -->
+    <g class="sans">
+      <!-- SKILL.md -->
+      <g transform="translate(42 160)"><g class="lift k0">
+        <use href="#tab" fill="url(#card)" stroke="#4a2c50" stroke-width="2"/>
+        <use href="#tab" class="hi k0" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <g transform="translate(72 70)" class="ink">
+          <path d="M-16-26v32M16-26v32" stroke="#e9d6c3" stroke-width="4"/>
+          <path d="M-14 8l28 20M14 8l-28 20" stroke="#e9d6c3" stroke-width="4"/>
+          <rect x="-22" y="-28" width="44" height="15" rx="2" fill="#ff4fa3" stroke-width="2.6"/>
+          <text y="-17" text-anchor="middle" font-size="7.5" font-weight="900" fill="#fff" stroke="none" letter-spacing=".6">DIRECTOR</text>
+          <rect x="-22" y="2" width="44" height="7" rx="2" fill="#ff4fa3" stroke-width="2.6"/>
+          <path d="M-24-6h-4v10M24-6h4v10" stroke="#e9d6c3" stroke-width="3" fill="none"/>
+        </g>
+        <text x="72" y="124" text-anchor="middle" class="mono" font-size="14" font-weight="700" fill="#fbfaf5">SKILL.md</text>
+        <text x="72" y="146" text-anchor="middle" font-size="12" fill="#c8afc1">the director:</text>
+        <text x="72" y="162" text-anchor="middle" font-size="12" fill="#c8afc1">13-step workflow,</text>
+        <text x="72" y="178" text-anchor="middle" font-size="12" fill="#c8afc1">rules, quality gates</text>
+      </g></g>
+      <!-- skills/ -->
+      <g transform="translate(202 160)"><g class="lift k1">
+        <use href="#tab" fill="url(#card)" stroke="#4a2c50" stroke-width="2"/>
+        <use href="#tab" class="hi k1" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <g transform="translate(72 66)" class="ink" stroke-width="2.6">
+          <rect x="-30" y="-20" width="11" height="44" rx="2" fill="#ff8fc8"/>
+          <rect x="-18" y="-26" width="11" height="50" rx="2" fill="#7fe0c4"/>
+          <rect x="-6" y="-16" width="11" height="40" rx="2" fill="#ffd27a"/>
+          <rect x="6" y="-22" width="11" height="46" rx="2" fill="#9ec8ff"/>
+          <rect x="16" y="-16" width="11" height="40" rx="2" fill="#f3a3b6" transform="rotate(12 22 24)"/>
+        </g>
+        <text x="72" y="124" text-anchor="middle" class="mono" font-size="14" font-weight="700" fill="#fbfaf5">skills/</text>
+        <text x="72" y="146" text-anchor="middle" font-size="12" fill="#c8afc1">14 craft guides:</text>
+        <text x="72" y="162" text-anchor="middle" font-size="12" fill="#c8afc1">camera, motion, ink,</text>
+        <text x="72" y="178" text-anchor="middle" font-size="12" fill="#c8afc1">captions, audio …</text>
+      </g></g>
+      <!-- engine/ -->
+      <g transform="translate(362 160)"><g class="lift k2">
+        <use href="#tab" fill="url(#card)" stroke="#4a2c50" stroke-width="2"/>
+        <use href="#tab" class="hi k2" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <g transform="translate(72 70)" class="ink" stroke-width="3">
+          <rect x="-24" y="-6" width="34" height="26" rx="4" fill="#4a3a52"/>
+          <path d="M10 0l16-8v30l-16-8z" fill="#4a3a52"/>
+          <g class="reel"><circle cx="-14" cy="-18" r="10" fill="#fbfaf5"/><path d="M-14-26v16M-22-18h16" stroke-width="2"/></g>
+          <g class="reel"><circle cx="6" cy="-18" r="10" fill="#fbfaf5"/><path d="M6-26v16M-2-18h16" stroke-width="2"/></g>
+          <circle class="tick" cx="-16" cy="6" r="3" fill="#ff4fa3" stroke="none"/>
+        </g>
+        <text x="72" y="124" text-anchor="middle" class="mono" font-size="14" font-weight="700" fill="#fbfaf5">engine/</text>
+        <text x="72" y="146" text-anchor="middle" font-size="12" fill="#c8afc1">the renderer:</text>
+        <text x="72" y="162" text-anchor="middle" font-size="12" fill="#c8afc1">three.js scene kit +</text>
+        <text x="72" y="178" text-anchor="middle" font-size="12" fill="#c8afc1">HyperFrames + ffmpeg</text>
+      </g></g>
+      <!-- videos/ -->
+      <g transform="translate(522 160)"><g class="lift k3">
+        <use href="#tab" fill="url(#card)" stroke="#4a2c50" stroke-width="2"/>
+        <use href="#tab" class="hi k3" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <g transform="translate(72 64)">
+          <rect class="ink" x="-15" y="-28" width="30" height="54" rx="6" fill="#2c1821" stroke-width="2"/>
+          <rect x="-11" y="-23" width="22" height="44" rx="2" fill="#e5188c"/>
+          <circle cx="0" cy="-8" r="5" fill="#fbfaf5" stroke="#2c1821" stroke-width="1.6"/>
+          <path d="M0-3v12M-4 16l4-7 4 7M-5 2l5-2 5 2" stroke="#2c1821" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+          <rect x="-9" y="10" width="18" height="4" rx="1" fill="#fff" stroke="#000" stroke-width=".6"/>
+        </g>
+        <text x="72" y="124" text-anchor="middle" class="mono" font-size="14" font-weight="700" fill="#fbfaf5">videos/</text>
+        <text x="72" y="146" text-anchor="middle" font-size="12" fill="#c8afc1">one folder per short:</text>
+        <text x="72" y="162" text-anchor="middle" font-size="12" fill="#c8afc1">video.js, your voice,</text>
+        <text x="72" y="178" text-anchor="middle" font-size="12" fill="#c8afc1">out/final.mp4</text>
+      </g></g>
+      <!-- reference/ -->
+      <g transform="translate(682 160)"><g class="lift k4">
+        <use href="#tab" fill="url(#card)" stroke="#4a2c50" stroke-width="2"/>
+        <use href="#tab" class="hi k4" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <g transform="translate(72 66)" class="ink" stroke-width="2">
+          <rect x="-30" y="-26" width="60" height="50" rx="3" fill="#fbfaf5"/>
+          <rect x="-26" y="-22" width="16" height="12" fill="#ff8fc8"/><rect x="-8" y="-22" width="16" height="12" fill="#ffb3d6"/><rect x="10" y="-22" width="16" height="12" fill="#e5188c"/>
+          <rect x="-26" y="-6" width="16" height="12" fill="#9ed8ff"/><rect x="-8" y="-6" width="16" height="12" fill="#b9f0a8"/><rect x="10" y="-6" width="16" height="12" fill="#ffe08a"/>
+          <path d="M-26 14h52" stroke="#8a6f86"/>
+        </g>
+        <text x="72" y="124" text-anchor="middle" class="mono" font-size="14" font-weight="700" fill="#fbfaf5">reference/</text>
+        <text x="72" y="146" text-anchor="middle" font-size="12" fill="#c8afc1">frame sheets with</text>
+        <text x="72" y="162" text-anchor="middle" font-size="12" fill="#c8afc1">metadata + measured</text>
+        <text x="72" y="178" text-anchor="middle" font-size="12" fill="#c8afc1">style analysis</text>
+      </g></g>
+      <!-- research/ -->
+      <g transform="translate(842 160)"><g class="lift k5">
+        <use href="#tab" fill="url(#card)" stroke="#4a2c50" stroke-width="2"/>
+        <use href="#tab" class="hi k5" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <g transform="translate(72 66)" class="ink" stroke-width="3.4">
+          <circle cx="-6" cy="-6" r="18" fill="#9ec8ff"/>
+          <path d="M-14-10a9 9 0 0 1 8-7" stroke="#fff" stroke-width="3" fill="none"/>
+          <path d="M7 7l16 16" stroke-width="6"/>
+        </g>
+        <text x="72" y="124" text-anchor="middle" class="mono" font-size="14" font-weight="700" fill="#fbfaf5">research/</text>
+        <text x="72" y="146" text-anchor="middle" font-size="12" fill="#c8afc1">render benchmark,</text>
+        <text x="72" y="162" text-anchor="middle" font-size="12" fill="#c8afc1">outline shader, 326</text>
+        <text x="72" y="178" text-anchor="middle" font-size="12" fill="#c8afc1">free assets listed</text>
+      </g></g>
+      <!-- tools/ -->
+      <g transform="translate(1002 160)"><g class="lift k6">
+        <use href="#tab" fill="url(#card)" stroke="#4a2c50" stroke-width="2"/>
+        <use href="#tab" class="hi k6" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <g transform="translate(72 66)" class="ink" stroke-width="3">
+          <path d="M-20 22l24-24" stroke="#e9d6c3" stroke-width="7"/>
+          <path d="M4-2a11 11 0 1 1 10 10l-4-4 4-8-8 4z" fill="#ffd27a"/>
+          <path d="M-14-24l20 20M-24-14l10-10" stroke="#7fe0c4" stroke-width="5"/>
+        </g>
+        <text x="72" y="124" text-anchor="middle" class="mono" font-size="14" font-weight="700" fill="#fbfaf5">tools/</text>
+        <text x="72" y="146" text-anchor="middle" font-size="12" fill="#c8afc1">contact sheets from</text>
+        <text x="72" y="162" text-anchor="middle" font-size="12" fill="#c8afc1">any video, cleanup</text>
+        <text x="72" y="178" text-anchor="middle" font-size="12" fill="#c8afc1">after each render</text>
+      </g></g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">How a faceless cartoon Short gets made: idea, script, your voiceover, shot plan, render, final.mp4</title>
+  <desc id="d">A round-headed cartoon character hops along a film strip through six stations: idea and research, script you approve, voiceover you record, shot plan and free assets, three.js render with HyperFrames, and a checked final.mp4 with temporary files cleaned up.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .cap{font-family:"Arial Black","Helvetica Neue",Arial,sans-serif;font-weight:900;fill:#fff;stroke:#0d070c;paint-order:stroke;stroke-linejoin:round}
+    .ink{stroke:#2c1821;stroke-linecap:round;stroke-linejoin:round}
+
+    .perf{animation:perf 1.2s linear infinite}
+    @keyframes perf{from{transform:translateX(0)}to{transform:translateX(-40px)}}
+    .creep{transform-origin:600px 230px;animation:creep 12s ease-in-out infinite alternate}
+    @keyframes creep{from{transform:scale(1)}to{transform:scale(1.025) translateX(-8px)}}
+
+    /* walker: holds at each station, hops between in stepped frames */
+    .walker{animation:walk 12s steps(1,end) infinite}
+    .walkpos{animation:walkpos 12s infinite}
+    @keyframes walkpos{
+      0%{transform:translateX(0);animation-timing-function:steps(1,end)}
+      11.7%{transform:translateX(0);animation-timing-function:steps(5,end)}
+      16.67%{transform:translateX(192px);animation-timing-function:steps(1,end)}
+      28.3%{transform:translateX(192px);animation-timing-function:steps(5,end)}
+      33.3%{transform:translateX(384px);animation-timing-function:steps(1,end)}
+      45%{transform:translateX(384px);animation-timing-function:steps(5,end)}
+      50%{transform:translateX(576px);animation-timing-function:steps(1,end)}
+      61.7%{transform:translateX(576px);animation-timing-function:steps(5,end)}
+      66.67%{transform:translateX(768px);animation-timing-function:steps(1,end)}
+      78.3%{transform:translateX(768px);animation-timing-function:steps(5,end)}
+      83.3%{transform:translateX(960px);animation-timing-function:steps(1,end)}
+      100%{transform:translateX(960px)}
+    }
+    .fade{animation:fade 12s linear infinite}
+    @keyframes fade{0%{opacity:0}2%{opacity:1}95%{opacity:1}99%{opacity:0}100%{opacity:0}}
+    /* legs: stand while holding, stride while hopping */
+    .stand{animation:stand 2s step-end infinite}
+    .stride{opacity:0;animation:stride 2s step-end infinite}
+    @keyframes stand{0%{opacity:1}70%{opacity:0}100%{opacity:1}}
+    @keyframes stride{0%{opacity:0}70%{opacity:1}100%{opacity:0}}
+    .wave{animation:wave .6s step-end infinite}
+    .wave2{animation:wave .6s step-end -.3s infinite}
+    @keyframes wave{0%{opacity:1}50%{opacity:0}}
+
+    /* station highlight, one per 2 s, hard swap */
+    .on{opacity:0;animation:on 12s step-end infinite}
+    .s0{animation-delay:0s}.s1{animation-delay:-10s}.s2{animation-delay:-8s}.s3{animation-delay:-6s}.s4{animation-delay:-4s}.s5{animation-delay:-2s}
+    @keyframes on{0%{opacity:1}16.67%{opacity:0}100%{opacity:0}}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 1s ease-out infinite}
+    @keyframes ring{from{transform:scale(1);opacity:.9}to{transform:scale(1.45);opacity:0}}
+
+    .fill{transform-origin:120px 0;animation:fill 12s infinite}
+    @keyframes fill{
+      0%{transform:scaleX(0);animation-timing-function:steps(1,end)}
+      11.7%{transform:scaleX(0);animation-timing-function:steps(5,end)}
+      16.67%{transform:scaleX(.2);animation-timing-function:steps(1,end)}
+      28.3%{transform:scaleX(.2);animation-timing-function:steps(5,end)}
+      33.3%{transform:scaleX(.4);animation-timing-function:steps(1,end)}
+      45%{transform:scaleX(.4);animation-timing-function:steps(5,end)}
+      50%{transform:scaleX(.6);animation-timing-function:steps(1,end)}
+      61.7%{transform:scaleX(.6);animation-timing-function:steps(5,end)}
+      66.67%{transform:scaleX(.8);animation-timing-function:steps(1,end)}
+      78.3%{transform:scaleX(.8);animation-timing-function:steps(5,end)}
+      83.3%{transform:scaleX(1);animation-timing-function:steps(1,end)}
+      100%{transform:scaleX(1)}
+    }
+    .spark{animation:spark 1.6s ease-in-out infinite alternate}
+    @keyframes spark{from{opacity:.35}to{opacity:1}}
+    .bars rect{transform-box:fill-box;transform-origin:center bottom;animation:vu .5s ease-in-out infinite alternate}
+    @keyframes vu{from{transform:scaleY(.35)}to{transform:scaleY(1)}}
+
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.on.s5{opacity:1}}
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#170d1c"/>
+      <stop offset="1" stop-color="#2b1430"/>
+    </linearGradient>
+    <radialGradient id="pool" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff5fb0" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff5fb0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2d0" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#fff2d0" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="holes" width="40" height="18" patternUnits="userSpaceOnUse">
+      <rect x="10" y="4" width="20" height="10" rx="3" fill="#170d1c"/>
+    </pattern>
+
+    <filter id="rim" x="-30%" y="-30%" width="160%" height="160%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2.2" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="1.6" result="b"/>
+      <feFlood flood-color="#ffd9ec" flood-opacity=".9"/>
+      <feComposite in2="b" operator="in" result="r"/>
+      <feMerge><feMergeNode in="r"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- walker body, feet at 0,0 -->
+    <g id="body">
+      <rect class="ink" x="-13" y="-80" width="26" height="44" rx="13" fill="#2f9e83" stroke-width="3"/>
+      <circle cx="0" cy="-66" r="1.3" fill="#2c1821"/><circle cx="0" cy="-58" r="1.3" fill="#2c1821"/><circle cx="0" cy="-50" r="1.3" fill="#2c1821"/>
+      <circle class="ink" cx="0" cy="-99" r="17" fill="#fbfaf5" stroke-width="3"/>
+      <path class="ink" d="M-16-104a16 16 0 0 1 32 0z" fill="#e9a83a" stroke-width="2.4"/>
+      <path class="ink" d="M-17-104h34" stroke-width="5"/>
+      <path d="M-15-104h30" stroke="#f3c160" stroke-width="2" stroke-linecap="round"/>
+      <path class="ink" d="M-9-97q3-3 6 0M3-97q3-3 6 0" stroke-width="1.8" fill="none"/>
+      <path class="ink" d="M-4-90q4 4 8 0" stroke-width="1.8" fill="#c94a4a"/>
+      <ellipse cx="-10" cy="-91" rx="3" ry="1.6" fill="#f3a3b6" opacity=".8"/>
+      <ellipse cx="10" cy="-91" rx="3" ry="1.6" fill="#f3a3b6" opacity=".8"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+
+  <g class="creep">
+    <polygon points="160,-10 260,-10 420,430 120,430" fill="url(#beam)"/>
+    <polygon points="760,-10 840,-10 980,430 720,430" fill="url(#beam)"/>
+
+    <text x="60" y="62" class="sans" font-size="13" font-weight="700" letter-spacing="2.6" fill="#ff8fc8">THE WORKFLOW</text>
+    <text x="58" y="104" class="cap" font-size="34" stroke-width="8">IDEA IN. SHORT OUT.</text>
+    <text x="1140" y="62" text-anchor="end" class="sans" font-size="14" fill="#c8afc1">Claude stops and asks you at the</text>
+    <text x="1140" y="84" text-anchor="end" class="sans" font-size="14" fill="#c8afc1">pink <tspan fill="#ff8fc8" font-weight="700">YOU</tspan> steps. Everything else runs itself.</text>
+
+    <!-- film strip track -->
+    <g>
+      <rect x="0" y="258" width="1200" height="44" fill="#0d070f"/>
+      <g class="perf">
+        <rect x="0" y="258" width="1260" height="18" fill="url(#holes)" opacity=".9"/>
+        <rect x="0" y="284" width="1260" height="18" fill="url(#holes)" opacity=".9"/>
+      </g>
+      <rect x="120" y="277" width="960" height="6" rx="3" fill="#3a2440"/>
+      <rect class="fill" x="120" y="277" width="960" height="6" rx="3" fill="#ff4fa3"/>
+    </g>
+
+    <!-- stations -->
+    <g class="sans" text-anchor="middle">
+      <!-- 1 idea -->
+      <g transform="translate(120 0)">
+        <ellipse cx="0" cy="280" rx="70" ry="22" fill="url(#pool)" class="on s0"/>
+        <circle cx="0" cy="190" r="38" fill="#ff4fa3" opacity=".25" class="on s0"/>
+        <circle class="ring on s0" cx="0" cy="190" r="34" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <circle cx="0" cy="190" r="32" fill="#fbfaf5" stroke="#2c1821" stroke-width="4"/>
+        <path class="ink" d="M0 168a14 14 0 0 1 9 25v6h-18v-6a14 14 0 0 1 9-25z" fill="#ffd45e" stroke-width="3"/>
+        <path class="ink" d="M-7 205h14M-5 210h10" stroke-width="3"/>
+        <path class="spark ink" d="M-24 172l-5-4M24 172l5-4M0 158v-5" stroke="#ffb02e" stroke-width="3"/>
+        <text y="334" font-size="16" font-weight="800" fill="#fbfaf5">1 · Idea</text>
+        <text y="354" font-size="12.5" fill="#bfa6b8">a topic or a full idea</text>
+        <text y="371" font-size="12.5" fill="#bfa6b8">Claude finds true stories</text>
+      </g>
+      <!-- 2 script -->
+      <g transform="translate(312 0)">
+        <ellipse cx="0" cy="280" rx="70" ry="22" fill="url(#pool)" class="on s1"/>
+        <circle cx="0" cy="190" r="38" fill="#ff4fa3" opacity=".25" class="on s1"/>
+        <circle class="ring on s1" cx="0" cy="190" r="34" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <circle cx="0" cy="190" r="32" fill="#fbfaf5" stroke="#2c1821" stroke-width="4"/>
+        <path class="ink" d="M-13 170h20l7 7v29h-27z" fill="#fff" stroke-width="3"/>
+        <path class="ink" d="M-8 182h14M-8 189h14M-8 196h9" stroke="#8a6f86" stroke-width="2.4"/>
+        <rect x="-26" y="134" width="52" height="20" rx="10" fill="#ff4fa3"/>
+        <text y="148" font-size="11.5" font-weight="900" fill="#fff" letter-spacing="1">YOU</text>
+        <text y="334" font-size="16" font-weight="800" fill="#fbfaf5">2 · Script</text>
+        <text y="354" font-size="12.5" fill="#bfa6b8">104–150 words, 30–40 s</text>
+        <text y="371" font-size="12.5" fill="#bfa6b8">you approve it</text>
+      </g>
+      <!-- 3 voiceover -->
+      <g transform="translate(504 0)">
+        <ellipse cx="0" cy="280" rx="70" ry="22" fill="url(#pool)" class="on s2"/>
+        <circle cx="0" cy="190" r="38" fill="#ff4fa3" opacity=".25" class="on s2"/>
+        <circle class="ring on s2" cx="0" cy="190" r="34" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <circle cx="0" cy="190" r="32" fill="#fbfaf5" stroke="#2c1821" stroke-width="4"/>
+        <rect class="ink" x="-8" y="168" width="16" height="26" rx="8" fill="#ff8fc8" stroke-width="3"/>
+        <path class="ink" d="M-14 188a14 14 0 0 0 28 0M0 202v7M-7 209h14" stroke-width="3" fill="none"/>
+        <g class="bars" fill="#ff8fc8">
+          <rect x="18" y="178" width="3" height="18" rx="1.5"/>
+          <rect x="23" y="182" width="3" height="14" rx="1.5" style="animation-delay:-.2s"/>
+          <rect x="-21" y="180" width="3" height="16" rx="1.5" style="animation-delay:-.35s"/>
+        </g>
+        <rect x="-26" y="134" width="52" height="20" rx="10" fill="#ff4fa3"/>
+        <text y="148" font-size="11.5" font-weight="900" fill="#fff" letter-spacing="1">YOU</text>
+        <text y="334" font-size="16" font-weight="800" fill="#fbfaf5">3 · Voiceover</text>
+        <text y="354" font-size="12.5" fill="#bfa6b8">you record it</text>
+        <text y="371" font-size="12.5" fill="#bfa6b8">Claude never makes audio</text>
+      </g>
+      <!-- 4 shot plan -->
+      <g transform="translate(696 0)">
+        <ellipse cx="0" cy="280" rx="70" ry="22" fill="url(#pool)" class="on s3"/>
+        <circle cx="0" cy="190" r="38" fill="#ff4fa3" opacity=".25" class="on s3"/>
+        <circle class="ring on s3" cx="0" cy="190" r="34" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <circle cx="0" cy="190" r="32" fill="#fbfaf5" stroke="#2c1821" stroke-width="4"/>
+        <g class="ink" stroke-width="2.6">
+          <rect x="-17" y="174" width="15" height="13" fill="#9ed8ff"/><rect x="2" y="174" width="15" height="13" fill="#ffb3d6"/>
+          <rect x="-17" y="191" width="15" height="13" fill="#b9f0a8"/><rect x="2" y="191" width="15" height="13" fill="#ffe08a"/>
+        </g>
+        <text y="334" font-size="16" font-weight="800" fill="#fbfaf5">4 · Shot plan</text>
+        <text y="354" font-size="12.5" fill="#bfa6b8">10–14 setups, timed to</text>
+        <text y="371" font-size="12.5" fill="#bfa6b8">your voice · free assets</text>
+      </g>
+      <!-- 5 render -->
+      <g transform="translate(888 0)">
+        <ellipse cx="0" cy="280" rx="70" ry="22" fill="url(#pool)" class="on s4"/>
+        <circle cx="0" cy="190" r="38" fill="#ff4fa3" opacity=".25" class="on s4"/>
+        <circle class="ring on s4" cx="0" cy="190" r="34" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <circle cx="0" cy="190" r="32" fill="#fbfaf5" stroke="#2c1821" stroke-width="4"/>
+        <g class="ink" stroke-width="3">
+          <rect x="-18" y="182" width="26" height="20" rx="3" fill="#4a3a52"/>
+          <path d="M8 186l12-6v24l-12-6z" fill="#4a3a52"/>
+          <circle cx="-10" cy="174" r="7" fill="#fbfaf5"/><circle cx="4" cy="174" r="7" fill="#fbfaf5"/>
+        </g>
+        <circle class="spark" cx="-12" cy="192" r="2.4" fill="#ff4fa3"/>
+        <text y="334" font-size="16" font-weight="800" fill="#fbfaf5">5 · Render</text>
+        <text y="354" font-size="12.5" fill="#bfa6b8">three.js + HyperFrames</text>
+        <text y="371" font-size="12.5" fill="#bfa6b8">stills checked first</text>
+      </g>
+      <!-- 6 final -->
+      <g transform="translate(1080 0)">
+        <ellipse cx="0" cy="280" rx="70" ry="22" fill="url(#pool)" class="on s5"/>
+        <circle cx="0" cy="190" r="38" fill="#ff4fa3" opacity=".25" class="on s5"/>
+        <circle class="ring on s5" cx="0" cy="190" r="34" fill="none" stroke="#ff8fc8" stroke-width="3"/>
+        <circle cx="0" cy="190" r="32" fill="#fbfaf5" stroke="#2c1821" stroke-width="4"/>
+        <rect class="ink" x="-12" y="168" width="24" height="42" rx="5" fill="#2c1821" stroke-width="2"/>
+        <rect x="-9" y="172" width="18" height="34" rx="2" fill="#e5188c"/>
+        <path d="M-3 182l8 6-8 6z" fill="#fff"/>
+        <circle cx="16" cy="206" r="9" fill="#2f9e83" stroke="#2c1821" stroke-width="2.4"/>
+        <path d="M12 206l3 3 5-6" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text y="334" font-size="16" font-weight="800" fill="#fbfaf5">6 · final.mp4</text>
+        <text y="354" font-size="12.5" fill="#bfa6b8">checks pass, credits written</text>
+        <text y="371" font-size="12.5" fill="#bfa6b8">temp files cleaned up</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- walker (outside the creep so it stays on the strip) -->
+  <g class="fade">
+    <g class="walkpos">
+      <g transform="translate(62 258) scale(.8)" filter="url(#rim)">
+        <ellipse cx="0" cy="2" rx="20" ry="4" fill="#000" opacity=".35"/>
+        <g class="stand">
+          <path class="ink" d="M-6 0L-5-40M6 0L5-40" stroke-width="3.5" fill="none"/>
+          <path class="ink" d="M-7 0h-5M7 0h5" stroke-width="3.5"/>
+          <path class="ink" d="M-12-70l-7 22" stroke-width="3.5" fill="none"/>
+          <circle cx="-19" cy="-46" r="3.6" fill="#2c1821"/>
+        </g>
+        <g class="stride">
+          <path class="ink" d="M-14-2L-5-40M14-2L5-40" stroke-width="3.5" fill="none"/>
+          <path class="ink" d="M-14-2h-5M14-2h5" stroke-width="3.5"/>
+          <path class="ink" d="M-12-70l-14 14" stroke-width="3.5" fill="none"/>
+          <circle cx="-27" cy="-55" r="3.6" fill="#2c1821"/>
+        </g>
+        <use href="#body" xlink:href="#body"/>
+        <g class="wave">
+          <path class="ink" d="M12-70l14-20" stroke-width="3.5" fill="none"/>
+          <circle cx="27" cy="-92" r="3.6" fill="#2c1821"/>
+        </g>
+        <g class="wave2">
+          <path class="ink" d="M12-70l20-12" stroke-width="3.5" fill="none"/>
+          <circle cx="33" cy="-83" r="3.6" fill="#2c1821"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

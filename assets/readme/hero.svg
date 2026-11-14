@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">Faceless YouTube Shorts 3D: faceless 3D cartoon YouTube Shorts made with Claude Code and three.js</title>
+  <desc id="d">A phone plays a vertical cartoon short: an ink-outlined character with a round white head holds a pink paint swatch in a pink room, then the scene dissolves to a grassy field where a second character in a yellow beanie waves. Captions swap one to three words at a time.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+    .cap{font-family:"Arial Black","Helvetica Neue",Arial,sans-serif;font-weight:900;fill:#fff;stroke:#0d070c;paint-order:stroke;stroke-linejoin:round}
+    .ink{stroke:#2c1821;stroke-linecap:round;stroke-linejoin:round}
+
+    /* light shafts and dust */
+    .shaft{animation:shaft 6s ease-in-out infinite alternate}
+    .shaft2{animation:shaft 7.5s ease-in-out -3s infinite alternate}
+    @keyframes shaft{from{opacity:.05}to{opacity:.16}}
+    .mote{animation:mote 9s linear infinite}
+    @keyframes mote{0%{transform:translate(0,0);opacity:0}15%{opacity:.9}85%{opacity:.6}100%{transform:translate(18px,-150px);opacity:0}}
+
+    /* whole hero creeps: the camera is never still */
+    .creep{transform-origin:600px 210px;animation:creep 16s ease-in-out infinite alternate}
+    @keyframes creep{from{transform:scale(1) translate(0,0)}to{transform:scale(1.03) translate(-6px,-3px)}}
+
+    /* phone: pink room on top, dissolves to the field and back */
+    .pink{animation:pink 8s linear infinite}
+    @keyframes pink{0%{opacity:1}48.3%{opacity:1}51.7%{opacity:0}96.6%{opacity:0}100%{opacity:1}}
+    .camA{transform-origin:966px 250px;animation:camA 8s ease-in-out infinite}
+    @keyframes camA{0%{transform:scale(1) translate(0,0)}50%{transform:scale(1.12) translate(-6px,-4px)}90%{transform:scale(.97) translate(2px,1px)}100%{transform:scale(1) translate(0,0)}}
+    .camB{transform-origin:966px 250px;animation:camB 8s ease-in-out infinite}
+    @keyframes camB{0%{transform:scale(1.08) translate(10px,0)}45%{transform:scale(1.02) translate(-4px,0)}100%{transform:scale(1.08) translate(10px,0)}}
+    .clouds{animation:clouds 8s linear infinite}
+    @keyframes clouds{from{transform:translateX(-14px)}to{transform:translateX(14px)}}
+
+    /* stepped poses: one-frame swaps, held */
+    .pA{animation:pA 8s step-end infinite}
+    .pB{animation:pB 8s step-end infinite}
+    @keyframes pA{0%{opacity:1}14%{opacity:0}31%{opacity:1}36%{opacity:0}100%{opacity:0}}
+    @keyframes pB{0%{opacity:0}14%{opacity:1}31%{opacity:0}36%{opacity:1}100%{opacity:1}}
+    .wave1{animation:wave .54s step-end infinite}
+    .wave2{animation:wave .54s step-end -.27s infinite}
+    @keyframes wave{0%{opacity:1}50%{opacity:0}}
+    .blink{animation:blink 3.1s step-end infinite}
+    @keyframes blink{0%{opacity:1}94%{opacity:0}100%{opacity:1}}
+
+    /* captions: hard swap, 1 card per second */
+    .c{opacity:0;animation:c 8s step-end infinite}
+    .c0{opacity:1;animation-delay:0s}.c1{animation-delay:-7s}.c2{animation-delay:-6s}.c3{animation-delay:-5s}
+    .c4{animation-delay:-4s}.c5{animation-delay:-3s}.c6{animation-delay:-2s}.c7{animation-delay:-1s}
+    @keyframes c{0%{opacity:1}12.5%{opacity:0}100%{opacity:0}}
+
+    .bar{transform-origin:884px 0;animation:bar 8s linear infinite}
+    @keyframes bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+
+    /* prompt typing */
+    .type{animation:type 8s steps(45,end) infinite}
+    @keyframes type{0%{transform:translateX(0)}6%{transform:translateX(0)}46%{transform:translateX(392px)}100%{transform:translateX(392px)}}
+    .cursor{animation:cursor 8s steps(45,end) infinite}
+    @keyframes cursor{0%{transform:translateX(0)}6%{transform:translateX(0)}46%{transform:translateX(392px)}100%{transform:translateX(392px)}}
+    .cblink{animation:cb 1s step-end infinite}
+    @keyframes cb{50%{opacity:0}}
+
+    .bob{animation:bob 4s ease-in-out infinite alternate}
+    .bob2{animation:bob 4.6s ease-in-out -2s infinite alternate}
+    @keyframes bob{from{transform:translateY(0)}to{transform:translateY(-7px)}}
+
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c0f22"/>
+      <stop offset="1" stop-color="#3a1838"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.25" r="0.55">
+      <stop offset="0" stop-color="#ff5fb0" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ff5fb0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff5d6"/>
+      <stop offset="1" stop-color="#fff5d6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#76b9ea"/>
+      <stop offset="1" stop-color="#d4ecfa"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c50f74"/>
+      <stop offset="1" stop-color="#e5188c"/>
+    </linearGradient>
+    <linearGradient id="roomBeam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="brick" width="28" height="16" patternUnits="userSpaceOnUse">
+      <path d="M0 .5H28M0 8.5H28M.5 0V8M14.5 8V16" stroke="#a90b62" stroke-width="1" fill="none" opacity=".55"/>
+    </pattern>
+    <clipPath id="screen"><rect x="868" y="30" width="196" height="360" rx="22"/></clipPath>
+    <clipPath id="chip"><rect x="64" y="300" width="610" height="46" rx="12"/></clipPath>
+
+    <!-- character: tie guy, feet at 0,0 -->
+    <g id="tieBody">
+      <path class="ink" d="M-6 0L-5-40M6 0L5-40" stroke-width="3.5" fill="none"/>
+      <path class="ink" d="M-7 0h-5M7 0h5" stroke-width="3.5"/>
+      <rect class="ink" x="-13" y="-80" width="26" height="44" rx="13" fill="#fbfaf5" stroke-width="3"/>
+      <path d="M0-76l-3 4 3 22 3-22z" fill="#b5652a" stroke="#2c1821" stroke-width="1.4" stroke-linejoin="round"/>
+      <path d="M-2-64l4-3M-2-58l4-3" stroke="#6f3612" stroke-width="1"/>
+      <circle class="ink" cx="0" cy="-99" r="17" fill="#fbfaf5" stroke-width="3"/>
+      <path class="ink" d="M-16-103a16 15 0 0 1 32 0q-8-6-16-5t-16 5z" fill="#6b3b22" stroke-width="2.4"/>
+    </g>
+    <g id="tieFaceSmug">
+      <path class="ink" d="M-9-97h6M3-97h6" stroke-width="2"/>
+      <path class="ink" d="M-8-101l5 1M3-100l5-1" stroke-width="1.4"/>
+      <path class="ink" d="M-3-88q4 2 7-1" stroke-width="1.6" fill="none"/>
+    </g>
+    <g id="tieFaceCross">
+      <circle cx="-5" cy="-97" r="2" fill="#2c1821"/><circle cx="5" cy="-97" r="2" fill="#2c1821"/>
+      <path class="ink" d="M-9-104l6 3M9-104l-6 3" stroke-width="1.8"/>
+      <rect x="-4" y="-91" width="8" height="4" rx="1" fill="#fff" stroke="#2c1821" stroke-width="1.4"/>
+    </g>
+    <g id="swatch">
+      <rect class="ink" x="-30" y="-150" width="32" height="40" fill="#fff" stroke-width="2"/>
+      <rect x="-27" y="-147" width="26" height="24" fill="#f077b0"/>
+      <text x="-14" y="-114" text-anchor="middle" class="sans" font-size="7" font-weight="700" fill="#2c1821">P-618</text>
+    </g>
+
+    <!-- character: beanie guy -->
+    <g id="beanieBody">
+      <path class="ink" d="M-6 0L-5-40M6 0L5-40" stroke-width="3.5" fill="none"/>
+      <path class="ink" d="M-7 0h-5M7 0h5" stroke-width="3.5"/>
+      <rect class="ink" x="-13" y="-80" width="26" height="44" rx="13" fill="#2f9e83" stroke-width="3"/>
+      <circle cx="0" cy="-68" r="1.3" fill="#2c1821"/><circle cx="0" cy="-60" r="1.3" fill="#2c1821"/><circle cx="0" cy="-52" r="1.3" fill="#2c1821"/>
+      <circle class="ink" cx="0" cy="-99" r="17" fill="#fbfaf5" stroke-width="3"/>
+      <path class="ink" d="M-16-104a16 16 0 0 1 32 0z" fill="#e9a83a" stroke-width="2.4"/>
+      <path class="ink" d="M-17-104h34" stroke-width="5"/>
+      <path d="M-15-104h30" stroke="#f3c160" stroke-width="2" stroke-linecap="round"/>
+      <path class="ink" d="M-9-97q3-3 6 0M3-97q3-3 6 0" stroke-width="1.8" fill="none"/>
+      <path class="ink" d="M-4-90q4 4 8 0" stroke-width="1.8" fill="#c94a4a"/>
+      <ellipse cx="-10" cy="-91" rx="3" ry="1.6" fill="#f3a3b6" opacity=".8"/>
+      <ellipse cx="10" cy="-91" rx="3" ry="1.6" fill="#f3a3b6" opacity=".8"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+
+  <g class="creep">
+    <rect width="1200" height="420" fill="url(#glow)"/>
+    <!-- light shafts -->
+    <polygon class="shaft" points="900,-10 1010,-10 760,430 520,430" fill="url(#beam)"/>
+    <polygon class="shaft2" points="1040,-10 1110,-10 1000,430 840,430" fill="url(#beam)"/>
+    <polygon class="shaft" points="1150,-10 1200,-10 1200,300 1120,430 1060,430" fill="url(#beam)"/>
+
+    <!-- dust motes -->
+    <g fill="#ffe6f3">
+      <circle class="mote" cx="720" cy="380" r="1.6" style="animation-delay:-1s"/>
+      <circle class="mote" cx="790" cy="330" r="1.2" style="animation-delay:-4s"/>
+      <circle class="mote" cx="640" cy="400" r="1.4" style="animation-delay:-6.5s"/>
+      <circle class="mote" cx="1110" cy="360" r="1.8" style="animation-delay:-2.5s"/>
+      <circle class="mote" cx="1160" cy="400" r="1.2" style="animation-delay:-7.5s"/>
+      <circle class="mote" cx="560" cy="350" r="1" style="animation-delay:-3.2s"/>
+      <circle class="mote" cx="820" cy="410" r="1.5" style="animation-delay:-5.4s"/>
+      <circle class="mote" cx="1090" cy="250" r="1.1" style="animation-delay:-8.2s"/>
+      <circle class="mote" cx="460" cy="410" r="1.3" style="animation-delay:-0.4s"/>
+    </g>
+
+    <!-- title block -->
+    <text x="64" y="74" class="sans" font-size="13" font-weight="700" letter-spacing="2.6" fill="#ff8fc8">CLAUDE CODE SKILL · THREE.JS · HYPERFRAMES</text>
+    <text x="60" y="140" class="cap" font-size="54" stroke-width="12">FACELESS YOUTUBE</text>
+    <text x="60" y="204" class="cap" font-size="54" stroke-width="12">SHORTS 3D</text>
+    <text x="64" y="252" class="sans" font-size="20" fill="#f4e6ef">3D cartoon YouTube Shorts, directed by Claude in three.js.</text>
+    <text x="64" y="279" class="sans" font-size="15" fill="#c8afc1">Idea in. Script, scenes, captions, render out. You bring the voice.</text>
+
+    <!-- prompt chip with typing -->
+    <rect x="64" y="300" width="610" height="46" rx="12" fill="#120a14" stroke="#4d2a48"/>
+    <g clip-path="url(#chip)">
+      <text x="84" y="329" class="mono" font-size="14.5" fill="#ff8fc8">&gt;</text>
+      <text x="102" y="329" class="mono" font-size="14.5" fill="#f4e6ef">/faceless make one about a weird siege trick</text>
+      <rect class="type" x="100" y="308" width="570" height="32" fill="#120a14"/>
+      <g class="cursor"><rect class="cblink" x="101" y="315" width="8" height="18" fill="#ff8fc8"/></g>
+    </g>
+    <text x="64" y="378" class="sans" font-size="13" fill="#9d8296">30–40 s · 1080×1920 · 30 fps · word-by-word captions · −14 LUFS · free assets only</text>
+
+    <!-- floating tags -->
+    <g class="bob">
+      <rect x="752" y="96" width="86" height="28" rx="14" fill="#2a1430" stroke="#ff8fc8" stroke-opacity=".6"/>
+      <text x="795" y="115" text-anchor="middle" class="sans" font-size="12.5" font-weight="700" fill="#ffd2ea">9:16</text>
+    </g>
+    <g class="bob2">
+      <rect x="738" y="300" width="100" height="28" rx="14" fill="#2a1430" stroke="#7fe0c4" stroke-opacity=".6"/>
+      <text x="788" y="319" text-anchor="middle" class="sans" font-size="12.5" font-weight="700" fill="#c8fff0">ink outlines</text>
+    </g>
+    <g class="bob2">
+      <rect x="1086" y="120" width="92" height="28" rx="14" fill="#2a1430" stroke="#ffd27a" stroke-opacity=".6"/>
+      <text x="1132" y="139" text-anchor="middle" class="sans" font-size="12.5" font-weight="700" fill="#ffe9b8">three.js</text>
+    </g>
+    <g class="bob">
+      <rect x="1086" y="268" width="92" height="28" rx="14" fill="#2a1430" stroke="#9ec8ff" stroke-opacity=".6"/>
+      <text x="1132" y="287" text-anchor="middle" class="sans" font-size="12.5" font-weight="700" fill="#d6e8ff">your voice</text>
+    </g>
+  </g>
+
+  <!-- phone -->
+  <rect x="858" y="20" width="216" height="380" rx="32" fill="#0b060b" stroke="#5a3150" stroke-width="2"/>
+  <g clip-path="url(#screen)">
+    <!-- field scene (underneath) -->
+    <g class="camB">
+      <rect x="840" y="10" width="260" height="240" fill="url(#sky)"/>
+      <g class="clouds" fill="#fff">
+        <circle cx="900" cy="80" r="22"/><circle cx="925" cy="70" r="26"/><circle cx="952" cy="84" r="18"/>
+        <circle cx="1030" cy="60" r="20"/><circle cx="1052" cy="54" r="24"/><circle cx="1072" cy="66" r="16"/>
+      </g>
+      <ellipse cx="900" cy="250" rx="90" ry="40" fill="#5fae55"/>
+      <ellipse cx="1040" cy="248" rx="100" ry="44" fill="#6cbf5b"/>
+      <rect x="840" y="240" width="260" height="170" fill="#59b347"/>
+      <polygon points="952,240 984,240 1080,410 860,410" fill="#9a6a45"/>
+      <polygon points="958,240 978,240 1030,410 910,410" fill="#a8774f" opacity=".6"/>
+      <g stroke="#3f9a35" stroke-width="2" stroke-linecap="round">
+        <path d="M872 330l-4-14M878 332l2-15M885 330l5-12M1050 340l-3-15M1057 342l3-14M1062 336l6-11M880 380l-6-20M888 384l2-22M1046 392l-2-22M1056 390l6-18"/>
+      </g>
+      <use href="#tieBody" xlink:href="#tieBody" transform="translate(912 300) scale(.62)"/>
+      <use href="#tieFaceSmug" xlink:href="#tieFaceSmug" transform="translate(912 300) scale(.62)"/>
+      <g transform="translate(912 300) scale(.62)">
+        <path class="ink" d="M-12-70l-6 22M12-70l6 22" stroke-width="3.5" fill="none"/>
+        <circle cx="-18" cy="-46" r="3.6" fill="#2c1821"/><circle cx="18" cy="-46" r="3.6" fill="#2c1821"/>
+      </g>
+      <g transform="translate(1008 392) scale(1.5)">
+        <use href="#beanieBody" xlink:href="#beanieBody"/>
+        <g class="wave1">
+          <path class="ink" d="M12-70l14-20M-12-70l-8 22" stroke-width="3.5" fill="none"/>
+          <circle cx="27" cy="-92" r="3.6" fill="#2c1821"/><circle cx="-20" cy="-46" r="3.6" fill="#2c1821"/>
+        </g>
+        <g class="wave2">
+          <path class="ink" d="M12-70l20-12M-12-70l-8 22" stroke-width="3.5" fill="none"/>
+          <circle cx="33" cy="-83" r="3.6" fill="#2c1821"/><circle cx="-20" cy="-46" r="3.6" fill="#2c1821"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- pink room (on top, dissolves) -->
+    <g class="pink">
+      <g class="camA">
+        <rect x="840" y="10" width="260" height="290" fill="url(#wall)"/>
+        <rect x="840" y="10" width="260" height="290" fill="url(#brick)"/>
+        <rect x="840" y="10" width="260" height="22" fill="#a50c5f"/>
+        <rect x="840" y="296" width="260" height="114" fill="#f4cadc"/>
+        <path d="M840 330h260M840 362h260M900 296l-30 114M966 296v114M1030 296l30 114" stroke="#e2a9c2" stroke-width="1"/>
+        <!-- window -->
+        <rect x="996" y="64" width="54" height="58" fill="#f6fbff" stroke="#8a8f98" stroke-width="3"/>
+        <path d="M1009 64v58M1023 64v58M1037 64v58M996 93h54" stroke="#8a8f98" stroke-width="2"/>
+        <polygon class="shaft" points="996,80 1050,70 1000,300 880,300" fill="url(#roomBeam)" style="animation-duration:3s"/>
+        <g fill="#fff">
+          <circle class="mote" cx="960" cy="230" r="1.4" style="animation-duration:5s;animation-delay:-1s"/>
+          <circle class="mote" cx="1000" cy="250" r="1.1" style="animation-duration:6s;animation-delay:-3s"/>
+          <circle class="mote" cx="930" cy="260" r="1.2" style="animation-duration:5.5s;animation-delay:-4.4s"/>
+        </g>
+        <!-- bench -->
+        <rect x="846" y="280" width="46" height="8" fill="#e9d2dc" stroke="#c49aae"/>
+        <g transform="translate(948 394) scale(1.6)">
+          <use href="#tieBody" xlink:href="#tieBody"/>
+          <path class="ink" d="M12-70l6 22" stroke-width="3.5" fill="none"/>
+          <circle cx="18" cy="-46" r="3.6" fill="#2c1821"/>
+          <g class="pA">
+            <use href="#tieFaceSmug" xlink:href="#tieFaceSmug"/>
+            <path class="ink" d="M-12-70l-6 22" stroke-width="3.5" fill="none"/>
+            <circle cx="-18" cy="-46" r="3.6" fill="#2c1821"/>
+          </g>
+          <g class="pB" opacity="0">
+            <use href="#tieFaceCross" xlink:href="#tieFaceCross"/>
+            <path class="ink" d="M-12-70l-14-28" stroke-width="3.5" fill="none"/>
+            <circle cx="-26" cy="-100" r="3.6" fill="#2c1821"/>
+            <use href="#swatch" xlink:href="#swatch"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- captions at 70 % height -->
+    <g text-anchor="middle" font-size="19">
+      <text class="cap c c0" x="966" y="282" stroke-width="6">THIS WALL</text>
+      <text class="cap c c1" x="966" y="282" stroke-width="6">IS THE</text>
+      <text class="cap c c2" x="966" y="282" stroke-width="6">WRONG</text>
+      <text class="cap c c3" x="966" y="282" stroke-width="6">PINK.</text>
+      <text class="cap c c4" x="966" y="282" stroke-width="6">SO HE</text>
+      <text class="cap c c5" x="966" y="282" stroke-width="6">WALKED</text>
+      <text class="cap c c6" x="966" y="282" stroke-width="6">OUTSIDE.</text>
+      <text class="cap c c7" x="966" y="282" stroke-width="6">REAL GRASS,</text>
+    </g>
+
+    <!-- progress -->
+    <rect x="884" y="376" width="164" height="3" rx="1.5" fill="#fff" opacity=".3"/>
+    <rect class="bar" x="884" y="376" width="164" height="3" rx="1.5" fill="#ff4fa3"/>
+  </g>
+  <rect x="938" y="34" width="56" height="14" rx="7" fill="#0b060b"/>
+</svg>

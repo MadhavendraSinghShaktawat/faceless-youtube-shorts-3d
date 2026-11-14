@@ -1,9 +1,10 @@
 ---
-name: animated-cartoon-souls
-description: Direct and render a 30 to 40 second vertical cartoon short in the "animated cartoon souls" style - ink-outlined stick characters with round white heads acting out a strange true story inside a stylised Three.js 3D world, with a camera that never stops, word-by-word captions, a user-supplied voiceover, music and sound effects. Use when the user tags or mentions "animated cartoon souls", asks for a video "in this style" from this repo, gives a topic or idea for one of these shorts, or asks to research a story for one.
+name: faceless
+description: Direct and render a 30 to 40 second vertical faceless 3D cartoon YouTube Short - ink-outlined stick characters with round white heads acting out a strange true story inside a stylised Three.js 3D world, with a camera that never stops, word-by-word captions, a user-supplied voiceover, music and sound effects. Use when the user runs /faceless, mentions "faceless youtube shorts 3d" or "faceless shorts", asks for a video "in this style" from this repo, gives a topic or idea for one of these shorts, or asks to research a story for one.
+argument-hint: "[topic or idea]"
 ---
 
-# Animated Cartoon Souls: the director
+# Faceless YouTube Shorts 3D: the director
 
 You are the director. The user gives a topic or an idea; you research, write, storyboard, build the 3D scenes in code, render, check and clean up. There is no UI. Everything runs from this repo.
 
@@ -34,7 +35,7 @@ Work through these in order. Stop at each **ASK** and wait for the user.
 
 | Step | Do | Read |
 | --- | --- | --- |
-| 1. Intake | **ASK** what video they want: a topic, a category, or a finished idea. Nothing else is needed to start. | |
+| 1. Intake | If the user typed a topic or idea after `/faceless`, start from it. Otherwise **ASK** what video they want: a topic, a category, or a finished idea. Nothing else is needed to start. | |
 | 2. Research | If they gave a topic, find 3 to 5 real stories that fit the hook pattern, check each against two sources, and offer them as one-line hooks. **ASK** which one. If they gave an idea, verify the facts and say what is documented and what is embellished. | `skills/script.md` |
 | 3. Script | Write it to the template and word budget. Count the words. **ASK** for approval or edits. | `skills/script.md` |
 | 4. Voiceover | **ASK** the user to record or generate the voiceover from the approved script and put it at `videos/<slug>/audio/vo.wav` (or mp3, m4a). Give them the voice brief. Wait. | `skills/script.md` |

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">That's a wrap: star the Faceless YouTube Shorts 3D repo</title>
+  <desc id="d">Two cartoon characters with round white heads take a stepped bow under stage lights while a clapperboard snaps shut, confetti falls and captions swap: that's a wrap, star the repo.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .cap{font-family:"Arial Black","Helvetica Neue",Arial,sans-serif;font-weight:900;fill:#fff;stroke:#0d070c;paint-order:stroke;stroke-linejoin:round}
+    .ink{stroke:#2c1821;stroke-linecap:round;stroke-linejoin:round}
+    .creep{transform-origin:600px 200px;animation:creep 10s ease-in-out infinite alternate}
+    @keyframes creep{from{transform:scale(1)}to{transform:scale(1.04) translateY(-4px)}}
+    .shaft{animation:shaft 5s ease-in-out infinite alternate}
+    @keyframes shaft{from{opacity:.08}to{opacity:.2}}
+
+    /* stepped bow: up 0-40 %, bow 40-75 %, up */
+    .up{animation:up 4s step-end infinite}
+    .bow{opacity:0;animation:bow 4s step-end infinite}
+    @keyframes up{0%{opacity:1}40%{opacity:0}75%{opacity:1}}
+    @keyframes bow{0%{opacity:0}40%{opacity:1}75%{opacity:0}}
+    .late .up,.late .bow{animation-delay:-.13s}
+
+    /* clapper snaps shut in one frame, opens again */
+    .arm{transform-origin:978px 132px;animation:clap 4s step-end infinite}
+    @keyframes clap{0%{transform:rotate(-28deg)}38%{transform:rotate(0)}56%{transform:rotate(-28deg)}}
+    .bang{opacity:0;animation:bang 4s step-end infinite}
+    @keyframes bang{0%{opacity:0}38%{opacity:1}46%{opacity:0}}
+
+    .c{opacity:0;animation:c 8s step-end infinite}
+    .c0{opacity:1}.c1{animation-delay:-7s}.c2{animation-delay:-6s}.c3{animation-delay:-5s}.c4{animation-delay:-4s}.c5{animation-delay:-3s}.c6{animation-delay:-2s}.c7{animation-delay:-1s}
+    @keyframes c{0%{opacity:1}12.5%{opacity:0}100%{opacity:0}}
+
+    .conf{animation:fall 5s linear infinite}
+    @keyframes fall{from{transform:translateY(-40px) rotate(0)}to{transform:translateY(340px) rotate(540deg)}}
+    .conf{transform-box:fill-box;transform-origin:center}
+
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#170c1c"/>
+      <stop offset="1" stop-color="#3a1838"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2d0"/>
+      <stop offset="1" stop-color="#fff2d0" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pool" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffe7b0" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffe7b0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="rim" x="-30%" y="-30%" width="160%" height="160%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="1.4" result="b"/>
+      <feFlood flood-color="#ffd9ec" flood-opacity=".85"/>
+      <feComposite in2="b" operator="in" result="r"/>
+      <feMerge><feMergeNode in="r"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <g id="legs"><path class="ink" d="M-6 0L-5-40M6 0L5-40M-7 0h-5M7 0h5" stroke-width="3.5" fill="none"/></g>
+    <g id="tieTop">
+      <rect class="ink" x="-13" y="-80" width="26" height="44" rx="13" fill="#fbfaf5" stroke-width="3"/>
+      <path d="M0-76l-3 4 3 22 3-22z" fill="#b5652a" stroke="#2c1821" stroke-width="1.4" stroke-linejoin="round"/>
+      <circle class="ink" cx="0" cy="-99" r="17" fill="#fbfaf5" stroke-width="3"/>
+      <path class="ink" d="M-16-103a16 15 0 0 1 32 0q-8-6-16-5t-16 5z" fill="#6b3b22" stroke-width="2.4"/>
+      <path class="ink" d="M-9-97q3-3 6 0M3-97q3-3 6 0" stroke-width="1.8" fill="none"/>
+      <path class="ink" d="M-4-90q4 4 8 0" stroke-width="1.8" fill="none"/>
+    </g>
+    <g id="beanieTop">
+      <rect class="ink" x="-13" y="-80" width="26" height="44" rx="13" fill="#2f9e83" stroke-width="3"/>
+      <circle cx="0" cy="-66" r="1.3" fill="#2c1821"/><circle cx="0" cy="-58" r="1.3" fill="#2c1821"/><circle cx="0" cy="-50" r="1.3" fill="#2c1821"/>
+      <circle class="ink" cx="0" cy="-99" r="17" fill="#fbfaf5" stroke-width="3"/>
+      <path class="ink" d="M-16-104a16 16 0 0 1 32 0z" fill="#e9a83a" stroke-width="2.4"/>
+      <path class="ink" d="M-17-104h34" stroke-width="5"/>
+      <path class="ink" d="M-9-97q3-3 6 0M3-97q3-3 6 0" stroke-width="1.8" fill="none"/>
+      <path class="ink" d="M-4-90q4 4 8 0" stroke-width="1.8" fill="#c94a4a"/>
+      <ellipse cx="-10" cy="-91" rx="3" ry="1.6" fill="#f3a3b6" opacity=".8"/><ellipse cx="10" cy="-91" rx="3" ry="1.6" fill="#f3a3b6" opacity=".8"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <g class="creep">
+    <polygon class="shaft" points="420,-10 520,-10 640,300 300,300" fill="url(#beam)"/>
+    <polygon class="shaft" points="680,-10 760,-10 900,300 600,300" fill="url(#beam)" style="animation-delay:-2.5s"/>
+    <rect y="276" width="1200" height="44" fill="#120914"/>
+    <path d="M0 276h1200" stroke="#3d2445" stroke-width="2"/>
+    <ellipse cx="600" cy="278" rx="200" ry="14" fill="url(#pool)"/>
+
+    <!-- confetti -->
+    <g>
+      <rect class="conf" x="120" y="0" width="7" height="4" fill="#ff8fc8" style="animation-delay:-1s"/>
+      <rect class="conf" x="260" y="0" width="6" height="4" fill="#7fe0c4" style="animation-delay:-3.2s"/>
+      <rect class="conf" x="380" y="0" width="7" height="4" fill="#ffd27a" style="animation-delay:-.4s"/>
+      <rect class="conf" x="470" y="0" width="5" height="4" fill="#9ec8ff" style="animation-delay:-2.1s"/>
+      <rect class="conf" x="560" y="0" width="7" height="4" fill="#ff8fc8" style="animation-delay:-4.3s"/>
+      <rect class="conf" x="650" y="0" width="6" height="4" fill="#ffd27a" style="animation-delay:-1.7s"/>
+      <rect class="conf" x="740" y="0" width="7" height="4" fill="#7fe0c4" style="animation-delay:-3.8s"/>
+      <rect class="conf" x="830" y="0" width="5" height="4" fill="#ff8fc8" style="animation-delay:-.9s"/>
+      <rect class="conf" x="1080" y="0" width="7" height="4" fill="#9ec8ff" style="animation-delay:-2.7s"/>
+      <rect class="conf" x="200" y="0" width="5" height="4" fill="#ffd27a" style="animation-delay:-4.8s"/>
+      <rect class="conf" x="1140" y="0" width="6" height="4" fill="#ff8fc8" style="animation-delay:-1.3s"/>
+    </g>
+
+    <!-- tie guy -->
+    <g transform="translate(548 272) scale(1.15)" filter="url(#rim)">
+      <use href="#legs" xlink:href="#legs"/>
+      <g class="up">
+        <use href="#tieTop" xlink:href="#tieTop"/>
+        <path class="ink" d="M-12-70l-14-24M12-70l14-24" stroke-width="3.5" fill="none"/>
+        <circle cx="-27" cy="-96" r="3.6" fill="#2c1821"/><circle cx="27" cy="-96" r="3.6" fill="#2c1821"/>
+      </g>
+      <g class="bow">
+        <g transform="rotate(38 0 -38)">
+          <path class="ink" d="M-12-70l15 19M12-70l15 19" stroke-width="3.5" fill="none"/>
+          <circle cx="3" cy="-50" r="3.6" fill="#2c1821"/>
+          <use href="#tieTop" xlink:href="#tieTop"/>
+          <circle cx="27" cy="-50" r="3.6" fill="#2c1821"/>
+        </g>
+      </g>
+    </g>
+    <!-- beanie guy, one beat late -->
+    <g class="late" transform="translate(652 272) scale(1.15)" filter="url(#rim)">
+      <use href="#legs" xlink:href="#legs"/>
+      <g class="up">
+        <use href="#beanieTop" xlink:href="#beanieTop"/>
+        <path class="ink" d="M-12-70l-14-24M12-70l14-24" stroke-width="3.5" fill="none"/>
+        <circle cx="-27" cy="-96" r="3.6" fill="#2c1821"/><circle cx="27" cy="-96" r="3.6" fill="#2c1821"/>
+      </g>
+      <g class="bow">
+        <g transform="rotate(38 0 -38)">
+          <path class="ink" d="M-12-70l15 19M12-70l15 19" stroke-width="3.5" fill="none"/>
+          <circle cx="3" cy="-50" r="3.6" fill="#2c1821"/>
+          <use href="#beanieTop" xlink:href="#beanieTop"/>
+          <circle cx="27" cy="-50" r="3.6" fill="#2c1821"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- clapperboard -->
+    <g>
+      <rect class="ink" x="976" y="134" width="120" height="84" rx="4" fill="#2c1821" stroke-width="3"/>
+      <path d="M990 160h92M990 180h92M990 200h92" stroke="#fbfaf5" stroke-width="1.5" opacity=".6"/>
+      <text x="992" y="155" class="sans" font-size="11" font-weight="800" fill="#fbfaf5">SCENE  FINAL</text>
+      <text x="992" y="176" class="sans" font-size="11" font-weight="800" fill="#fbfaf5">TAKE   1</text>
+      <text x="992" y="197" class="sans" font-size="11" font-weight="800" fill="#ff8fc8">final.mp4</text>
+      <g class="arm">
+        <rect x="976" y="116" width="120" height="16" rx="3" fill="#fbfaf5" stroke="#2c1821" stroke-width="3"/>
+        <path d="M992 116l-10 16M1012 116l-10 16M1032 116l-10 16M1052 116l-10 16M1072 116l-10 16M1092 116l-10 16" stroke="#2c1821" stroke-width="5"/>
+      </g>
+      <g class="bang" stroke="#ffd27a" stroke-width="3" stroke-linecap="round">
+        <path d="M966 112l-12-10M1104 112l12-10M966 132h-16M1104 132h16"/>
+      </g>
+    </g>
+
+    <!-- captions -->
+    <g text-anchor="middle" font-size="40">
+      <text class="cap c c0" x="600" y="78" stroke-width="9">THAT'S</text>
+      <text class="cap c c1" x="600" y="78" stroke-width="9">A WRAP.</text>
+      <text class="cap c c2" x="600" y="78" stroke-width="9">LIKE IT?</text>
+      <text class="cap c c3" x="600" y="78" stroke-width="9">STAR</text>
+      <text class="cap c c4" x="600" y="78" stroke-width="9">THE REPO.</text>
+      <text class="cap c c5" x="600" y="78" stroke-width="9">THEN</text>
+      <text class="cap c c6" x="600" y="78" stroke-width="9">MAKE</text>
+      <text class="cap c c7" x="600" y="78" stroke-width="9">YOURS.</text>
+    </g>
+    <text x="60" y="300" class="sans" font-size="13" fill="#9d8296">Claude Code skill · three.js · HyperFrames · free assets only</text>
+  </g>
+</svg>

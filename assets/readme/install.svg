@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">Install the Faceless YouTube Shorts 3D Claude Code skill in three commands</title>
+  <desc id="d">A terminal types three commands: git clone into the Claude skills folder, npm ci inside the engine folder, and a render of the demo video, which finishes with OK, 240 frames and 8 of 8 checks passed.</desc>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:13.5px}
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    .all{animation:all 14s linear infinite}
+    @keyframes all{0%{opacity:1}95%{opacity:1}99%{opacity:0}100%{opacity:0}}
+
+    .k1{animation:k1 14s infinite}
+    @keyframes k1{0%{transform:translateX(0);animation-timing-function:steps(1,end)}3%{transform:translateX(0);animation-timing-function:steps(60,end)}15%{transform:translateX(1080px)}100%{transform:translateX(1080px)}}
+    .k3{animation:k3 14s infinite}
+    @keyframes k3{0%{transform:translateX(0);animation-timing-function:steps(1,end)}22%{transform:translateX(0);animation-timing-function:steps(40,end)}31%{transform:translateX(1080px)}100%{transform:translateX(1080px)}}
+    .k5{animation:k5 14s infinite}
+    @keyframes k5{0%{transform:translateX(0);animation-timing-function:steps(1,end)}43%{transform:translateX(0);animation-timing-function:steps(24,end)}49%{transform:translateX(1080px)}100%{transform:translateX(1080px)}}
+
+    .o{opacity:0;animation-duration:14s;animation-iteration-count:infinite;animation-timing-function:step-end}
+    .o2{animation-name:o2}@keyframes o2{0%{opacity:0}18%{opacity:1}}
+    .o4{animation-name:o4}@keyframes o4{0%{opacity:0}38%{opacity:1}}
+    .o6{animation-name:o6}@keyframes o6{0%{opacity:0}52%{opacity:1}}
+    .o7{animation-name:o7}@keyframes o7{0%{opacity:0}76%{opacity:1}}
+    .o8{animation-name:o8}@keyframes o8{0%{opacity:0}77.5%{opacity:1}}
+    .o9{animation-name:o9}@keyframes o9{0%{opacity:0}79%{opacity:1}}
+    .o10{animation-name:o10}@keyframes o10{0%{opacity:0}83%{opacity:1}}
+
+    .bar{transform-origin:520px 0;animation:bar 14s infinite}
+    @keyframes bar{0%{transform:scaleX(0);animation-timing-function:steps(1,end)}53%{transform:scaleX(0);animation-timing-function:steps(24,end)}75%{transform:scaleX(1)}100%{transform:scaleX(1)}}
+
+    .cur{animation:cur 1s step-end infinite}
+    @keyframes cur{50%{opacity:0}}
+    .glow{animation:glow 3s ease-in-out infinite alternate}
+    @keyframes glow{from{opacity:.35}to{opacity:.7}}
+
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}.o{opacity:1}.k1,.k3,.k5{transform:translateX(1080px)}.bar{transform:none}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0e20"/>
+      <stop offset="1" stop-color="#32163a"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff4fa3" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ff4fa3" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="term"><rect x="41" y="55" width="1118" height="282"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <ellipse class="glow" cx="600" cy="190" rx="620" ry="190" fill="url(#halo)"/>
+
+  <!-- window -->
+  <rect x="40" y="22" width="1120" height="316" rx="14" fill="#0f0912" stroke="#4a2c50" stroke-width="1.5"/>
+  <path d="M40 36q0-14 14-14h1092q14 0 14 14v18H40z" fill="#1d1222"/>
+  <circle cx="64" cy="38" r="6" fill="#ff5f57"/><circle cx="84" cy="38" r="6" fill="#febc2e"/><circle cx="104" cy="38" r="6" fill="#28c840"/>
+  <text x="600" y="43" text-anchor="middle" class="sans" font-size="12.5" fill="#9d8296">install · faceless-youtube-shorts-3d</text>
+
+  <g clip-path="url(#term)"><g class="all mono" style="white-space:pre" xml:space="preserve">
+    <!-- 1 clone -->
+    <text x="64" y="86"><tspan fill="#ff8fc8">$ </tspan><tspan fill="#f4e6ef">git clone https://github.com/MadhavendraSinghShaktawat/faceless-youtube-shorts-3d.git ~/.claude/skills/faceless-youtube-shorts-3d</tspan></text>
+    <rect class="k1" x="76" y="70" width="1084" height="22" fill="#0f0912"/>
+    <text class="o o2" x="64" y="110" fill="#8a7386">Cloning into '~/.claude/skills/faceless-youtube-shorts-3d'... done.</text>
+
+    <!-- 2 npm ci -->
+    <text x="64" y="144"><tspan fill="#ff8fc8">$ </tspan><tspan fill="#f4e6ef">cd ~/.claude/skills/faceless-youtube-shorts-3d &amp;&amp; (cd engine &amp;&amp; npm ci)</tspan></text>
+    <rect class="k3" x="76" y="128" width="1084" height="22" fill="#0f0912"/>
+    <text class="o o4" x="64" y="168" fill="#8a7386">added 154 packages</text>
+
+    <!-- 3 render -->
+    <text x="64" y="202"><tspan fill="#ff8fc8">$ </tspan><tspan fill="#f4e6ef">node engine/render.mjs videos/_demo</tspan></text>
+    <rect class="k5" x="76" y="186" width="1084" height="22" fill="#0f0912"/>
+    <g class="o o6">
+      <text x="64" y="226" fill="#8a7386">rendering 240 frames (8.00 s @ 30 fps, 1080x1920) ...</text>
+      <rect x="520" y="216" width="220" height="12" rx="3" fill="#2a1a30"/>
+      <rect class="bar" x="520" y="216" width="220" height="12" rx="3" fill="#ff4fa3"/>
+    </g>
+    <text class="o o7" x="64" y="252" fill="#7fe0c4">OK<tspan x="113">videos/_demo/out/final.mp4  8.00 s, 240 frames, 8.21 MB</tspan></text>
+    <text class="o o8" x="64" y="274" fill="#c8afc1">time<tspan x="113">total 6.69 s  (render 5.51 s = 44 fps)</tspan></text>
+    <text class="o o9" x="113" y="296" fill="#7fe0c4">8/8 checks passed; report: videos/_demo/out/report.json</text>
+    <g class="o o10">
+      <text x="64" y="322"><tspan fill="#ff8fc8">$ </tspan><tspan fill="#f4e6ef">claude</tspan></text>
+      <rect class="cur" x="140" y="310" width="8" height="16" fill="#ff8fc8"/>
+    </g>
+  </g></g>
+</svg>
