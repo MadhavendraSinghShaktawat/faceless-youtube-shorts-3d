@@ -1,0 +1,27 @@
+{
+ "video": "pink-prison.mp4",
+ "duration": 65.233333,
+ "source_fps": 30.0,
+ "source_size": [
+  720,
+  1280
+ ],
+ "sample_fps": 30.0,
+ "range": [
+  19.0,
+  20.0
+ ],
+ "grid": [
+  5,
+  6
+ ],
+ "how_to_read": "Each tile has burned-in time (s) + source frame number. Order is left-to-right, top-to-bottom. Use t_start/t_end to pick the sheet for a moment.",
+ "sheets": [
+  {
+   "file": "t019.00_001.jpg",
+   "t_start": 19.0,
+   "t_end": 20.0,
+   "frames": 30
+  }
+ ]
+}

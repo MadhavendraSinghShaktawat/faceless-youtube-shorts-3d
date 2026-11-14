@@ -1,0 +1,1520 @@
+{
+ "video": "mine-salting",
+ "engine": "faster-whisper small.en, word_timestamps (cross-attention DTW, ~+-50-100 ms)",
+ "words": [
+  {
+   "word": "He",
+   "start": 0.0,
+   "end": 0.2,
+   "prob": 0.323
+  },
+  {
+   "word": "loaded",
+   "start": 0.2,
+   "end": 0.44,
+   "prob": 0.976
+  },
+  {
+   "word": "the",
+   "start": 0.44,
+   "end": 0.66,
+   "prob": 0.989
+  },
+  {
+   "word": "shotgun",
+   "start": 0.66,
+   "end": 0.92,
+   "prob": 0.976
+  },
+  {
+   "word": "with",
+   "start": 0.92,
+   "end": 1.22,
+   "prob": 0.996
+  },
+  {
+   "word": "gold",
+   "start": 1.22,
+   "end": 1.54,
+   "prob": 0.984
+  },
+  {
+   "word": "and",
+   "start": 1.54,
+   "end": 1.86,
+   "prob": 0.64
+  },
+  {
+   "word": "fired",
+   "start": 1.86,
+   "end": 2.2,
+   "prob": 0.984
+  },
+  {
+   "word": "it",
+   "start": 2.2,
+   "end": 2.38,
+   "prob": 0.975
+  },
+  {
+   "word": "into",
+   "start": 2.38,
+   "end": 2.56,
+   "prob": 0.982
+  },
+  {
+   "word": "the",
+   "start": 2.56,
+   "end": 2.76,
+   "prob": 0.995
+  },
+  {
+   "word": "walls",
+   "start": 2.76,
+   "end": 2.98,
+   "prob": 0.988
+  },
+  {
+   "word": "of",
+   "start": 2.98,
+   "end": 3.16,
+   "prob": 0.994
+  },
+  {
+   "word": "the",
+   "start": 3.16,
+   "end": 3.28,
+   "prob": 0.957
+  },
+  {
+   "word": "mine.",
+   "start": 3.28,
+   "end": 3.54,
+   "prob": 0.983
+  },
+  {
+   "word": "His",
+   "start": 3.76,
+   "end": 3.88,
+   "prob": 0.982
+  },
+  {
+   "word": "buddy",
+   "start": 3.88,
+   "end": 4.16,
+   "prob": 0.99
+  },
+  {
+   "word": "just",
+   "start": 4.16,
+   "end": 4.38,
+   "prob": 0.993
+  },
+  {
+   "word": "watches",
+   "start": 4.38,
+   "end": 4.72,
+   "prob": 0.977
+  },
+  {
+   "word": "the",
+   "start": 4.72,
+   "end": 4.96,
+   "prob": 0.992
+  },
+  {
+   "word": "gold",
+   "start": 4.96,
+   "end": 5.18,
+   "prob": 0.997
+  },
+  {
+   "word": "vanish",
+   "start": 5.18,
+   "end": 5.6,
+   "prob": 0.988
+  },
+  {
+   "word": "into",
+   "start": 5.6,
+   "end": 5.86,
+   "prob": 0.993
+  },
+  {
+   "word": "the",
+   "start": 5.86,
+   "end": 6.06,
+   "prob": 0.988
+  },
+  {
+   "word": "rock.",
+   "start": 6.06,
+   "end": 6.36,
+   "prob": 0.993
+  },
+  {
+   "word": "So",
+   "start": 6.7,
+   "end": 6.86,
+   "prob": 0.965
+  },
+  {
+   "word": "we're",
+   "start": 6.86,
+   "end": 7.14,
+   "prob": 0.735
+  },
+  {
+   "word": "shooting",
+   "start": 7.14,
+   "end": 7.36,
+   "prob": 0.995
+  },
+  {
+   "word": "gold",
+   "start": 7.36,
+   "end": 7.82,
+   "prob": 0.981
+  },
+  {
+   "word": "into",
+   "start": 7.82,
+   "end": 8.2,
+   "prob": 0.818
+  },
+  {
+   "word": "a",
+   "start": 8.2,
+   "end": 8.4,
+   "prob": 0.993
+  },
+  {
+   "word": "gold",
+   "start": 8.4,
+   "end": 8.66,
+   "prob": 0.995
+  },
+  {
+   "word": "mine?",
+   "start": 8.66,
+   "end": 8.92,
+   "prob": 0.942
+  },
+  {
+   "word": "You",
+   "start": 9.12,
+   "end": 9.22,
+   "prob": 0.937
+  },
+  {
+   "word": "see,",
+   "start": 9.22,
+   "end": 9.44,
+   "prob": 0.999
+  },
+  {
+   "word": "it's",
+   "start": 9.58,
+   "end": 9.76,
+   "prob": 0.988
+  },
+  {
+   "word": "called",
+   "start": 9.76,
+   "end": 10.02,
+   "prob": 0.999
+  },
+  {
+   "word": "salting.",
+   "start": 10.02,
+   "end": 10.58,
+   "prob": 0.835
+  },
+  {
+   "word": "He's",
+   "start": 10.74,
+   "end": 10.92,
+   "prob": 0.99
+  },
+  {
+   "word": "dug",
+   "start": 10.92,
+   "end": 11.06,
+   "prob": 0.998
+  },
+  {
+   "word": "this",
+   "start": 11.06,
+   "end": 11.26,
+   "prob": 0.993
+  },
+  {
+   "word": "mine",
+   "start": 11.26,
+   "end": 11.48,
+   "prob": 0.99
+  },
+  {
+   "word": "for",
+   "start": 11.48,
+   "end": 11.7,
+   "prob": 0.998
+  },
+  {
+   "word": "10",
+   "start": 11.7,
+   "end": 12.0,
+   "prob": 0.548
+  },
+  {
+   "word": "years",
+   "start": 12.0,
+   "end": 12.36,
+   "prob": 0.999
+  },
+  {
+   "word": "and",
+   "start": 12.36,
+   "end": 12.6,
+   "prob": 0.937
+  },
+  {
+   "word": "found",
+   "start": 12.6,
+   "end": 12.8,
+   "prob": 0.999
+  },
+  {
+   "word": "nothing",
+   "start": 12.8,
+   "end": 13.22,
+   "prob": 0.996
+  },
+  {
+   "word": "but",
+   "start": 13.22,
+   "end": 13.44,
+   "prob": 0.995
+  },
+  {
+   "word": "rock.",
+   "start": 13.44,
+   "end": 13.76,
+   "prob": 0.992
+  },
+  {
+   "word": "And",
+   "start": 13.92,
+   "end": 14.02,
+   "prob": 0.976
+  },
+  {
+   "word": "tomorrow,",
+   "start": 14.02,
+   "end": 14.36,
+   "prob": 0.987
+  },
+  {
+   "word": "a",
+   "start": 14.62,
+   "end": 14.74,
+   "prob": 0.996
+  },
+  {
+   "word": "rich",
+   "start": 14.74,
+   "end": 14.94,
+   "prob": 0.994
+  },
+  {
+   "word": "guy",
+   "start": 14.94,
+   "end": 15.16,
+   "prob": 0.998
+  },
+  {
+   "word": "is",
+   "start": 15.16,
+   "end": 15.32,
+   "prob": 0.995
+  },
+  {
+   "word": "coming",
+   "start": 15.32,
+   "end": 15.48,
+   "prob": 0.997
+  },
+  {
+   "word": "to",
+   "start": 15.48,
+   "end": 15.64,
+   "prob": 0.999
+  },
+  {
+   "word": "buy",
+   "start": 15.64,
+   "end": 15.84,
+   "prob": 0.999
+  },
+  {
+   "word": "it.",
+   "start": 15.84,
+   "end": 16.02,
+   "prob": 0.999
+  },
+  {
+   "word": "So",
+   "start": 16.1,
+   "end": 16.22,
+   "prob": 0.996
+  },
+  {
+   "word": "he",
+   "start": 16.22,
+   "end": 16.34,
+   "prob": 0.954
+  },
+  {
+   "word": "spent",
+   "start": 16.34,
+   "end": 16.5,
+   "prob": 0.979
+  },
+  {
+   "word": "his",
+   "start": 16.5,
+   "end": 16.66,
+   "prob": 0.997
+  },
+  {
+   "word": "last",
+   "start": 16.66,
+   "end": 16.88,
+   "prob": 0.998
+  },
+  {
+   "word": "hundred",
+   "start": 16.88,
+   "end": 17.18,
+   "prob": 0.776
+  },
+  {
+   "word": "bucks",
+   "start": 17.18,
+   "end": 17.48,
+   "prob": 0.996
+  },
+  {
+   "word": "on",
+   "start": 17.48,
+   "end": 17.68,
+   "prob": 0.998
+  },
+  {
+   "word": "gold",
+   "start": 17.68,
+   "end": 18.0,
+   "prob": 0.964
+  },
+  {
+   "word": "dust",
+   "start": 18.0,
+   "end": 18.28,
+   "prob": 0.954
+  },
+  {
+   "word": "instead.",
+   "start": 18.28,
+   "end": 18.7,
+   "prob": 0.986
+  },
+  {
+   "word": "Next",
+   "start": 18.94,
+   "end": 19.12,
+   "prob": 0.994
+  },
+  {
+   "word": "morning,",
+   "start": 19.12,
+   "end": 19.44,
+   "prob": 0.999
+  },
+  {
+   "word": "the",
+   "start": 19.64,
+   "end": 19.72,
+   "prob": 0.992
+  },
+  {
+   "word": "rich",
+   "start": 19.72,
+   "end": 19.92,
+   "prob": 0.999
+  },
+  {
+   "word": "guy",
+   "start": 19.92,
+   "end": 20.12,
+   "prob": 0.998
+  },
+  {
+   "word": "rolls",
+   "start": 20.12,
+   "end": 20.4,
+   "prob": 0.994
+  },
+  {
+   "word": "up",
+   "start": 20.4,
+   "end": 20.62,
+   "prob": 0.999
+  },
+  {
+   "word": "in",
+   "start": 20.62,
+   "end": 20.74,
+   "prob": 0.993
+  },
+  {
+   "word": "a",
+   "start": 20.74,
+   "end": 20.86,
+   "prob": 0.998
+  },
+  {
+   "word": "white",
+   "start": 20.86,
+   "end": 21.04,
+   "prob": 0.994
+  },
+  {
+   "word": "suit",
+   "start": 21.04,
+   "end": 21.36,
+   "prob": 0.998
+  },
+  {
+   "word": "and",
+   "start": 21.36,
+   "end": 21.58,
+   "prob": 0.978
+  },
+  {
+   "word": "bangs",
+   "start": 21.58,
+   "end": 22.04,
+   "prob": 0.994
+  },
+  {
+   "word": "his",
+   "start": 22.04,
+   "end": 22.14,
+   "prob": 0.999
+  },
+  {
+   "word": "head",
+   "start": 22.14,
+   "end": 22.36,
+   "prob": 0.999
+  },
+  {
+   "word": "on",
+   "start": 22.36,
+   "end": 22.5,
+   "prob": 0.998
+  },
+  {
+   "word": "the",
+   "start": 22.5,
+   "end": 22.64,
+   "prob": 0.998
+  },
+  {
+   "word": "first",
+   "start": 22.64,
+   "end": 22.84,
+   "prob": 0.998
+  },
+  {
+   "word": "beam.",
+   "start": 22.84,
+   "end": 23.18,
+   "prob": 0.995
+  },
+  {
+   "word": "But",
+   "start": 23.34,
+   "end": 23.42,
+   "prob": 0.996
+  },
+  {
+   "word": "he's",
+   "start": 23.42,
+   "end": 23.6,
+   "prob": 0.994
+  },
+  {
+   "word": "brought",
+   "start": 23.6,
+   "end": 23.76,
+   "prob": 0.996
+  },
+  {
+   "word": "an",
+   "start": 23.76,
+   "end": 23.92,
+   "prob": 0.991
+  },
+  {
+   "word": "expert,",
+   "start": 23.92,
+   "end": 24.24,
+   "prob": 0.996
+  },
+  {
+   "word": "and",
+   "start": 24.4,
+   "end": 24.5,
+   "prob": 0.994
+  },
+  {
+   "word": "the",
+   "start": 24.5,
+   "end": 24.6,
+   "prob": 0.996
+  },
+  {
+   "word": "expert",
+   "start": 24.6,
+   "end": 25.04,
+   "prob": 0.996
+  },
+  {
+   "word": "isn't",
+   "start": 25.04,
+   "end": 25.48,
+   "prob": 0.998
+  },
+  {
+   "word": "stupid.",
+   "start": 25.48,
+   "end": 25.82,
+   "prob": 0.999
+  },
+  {
+   "word": "He",
+   "start": 25.82,
+   "end": 26.14,
+   "prob": 0.139
+  },
+  {
+   "word": "smashes",
+   "start": 26.14,
+   "end": 26.58,
+   "prob": 0.917
+  },
+  {
+   "word": "a",
+   "start": 26.58,
+   "end": 26.78,
+   "prob": 0.982
+  },
+  {
+   "word": "chunk",
+   "start": 26.78,
+   "end": 26.96,
+   "prob": 0.997
+  },
+  {
+   "word": "of",
+   "start": 26.96,
+   "end": 27.12,
+   "prob": 0.997
+  },
+  {
+   "word": "wall,",
+   "start": 27.12,
+   "end": 27.42,
+   "prob": 0.926
+  },
+  {
+   "word": "swirls",
+   "start": 27.76,
+   "end": 28.02,
+   "prob": 0.995
+  },
+  {
+   "word": "it",
+   "start": 28.02,
+   "end": 28.1,
+   "prob": 0.988
+  },
+  {
+   "word": "in",
+   "start": 28.1,
+   "end": 28.2,
+   "prob": 0.991
+  },
+  {
+   "word": "a",
+   "start": 28.2,
+   "end": 28.3,
+   "prob": 0.994
+  },
+  {
+   "word": "pan,",
+   "start": 28.3,
+   "end": 28.58,
+   "prob": 0.998
+  },
+  {
+   "word": "and",
+   "start": 28.76,
+   "end": 28.86,
+   "prob": 0.978
+  },
+  {
+   "word": "gold",
+   "start": 28.86,
+   "end": 29.18,
+   "prob": 0.923
+  },
+  {
+   "word": "flakes",
+   "start": 29.18,
+   "end": 29.44,
+   "prob": 0.855
+  },
+  {
+   "word": "spin",
+   "start": 29.44,
+   "end": 29.88,
+   "prob": 0.983
+  },
+  {
+   "word": "to",
+   "start": 29.88,
+   "end": 30.06,
+   "prob": 0.99
+  },
+  {
+   "word": "the",
+   "start": 30.06,
+   "end": 30.18,
+   "prob": 0.997
+  },
+  {
+   "word": "bottom.",
+   "start": 30.18,
+   "end": 30.46,
+   "prob": 0.999
+  },
+  {
+   "word": "But",
+   "start": 30.64,
+   "end": 30.72,
+   "prob": 0.98
+  },
+  {
+   "word": "under",
+   "start": 30.72,
+   "end": 30.88,
+   "prob": 0.959
+  },
+  {
+   "word": "his",
+   "start": 30.88,
+   "end": 31.06,
+   "prob": 0.99
+  },
+  {
+   "word": "magnifying",
+   "start": 31.06,
+   "end": 31.58,
+   "prob": 0.998
+  },
+  {
+   "word": "glass,",
+   "start": 31.58,
+   "end": 31.94,
+   "prob": 0.995
+  },
+  {
+   "word": "every",
+   "start": 32.14,
+   "end": 32.42,
+   "prob": 0.987
+  },
+  {
+   "word": "flake",
+   "start": 32.42,
+   "end": 32.78,
+   "prob": 0.98
+  },
+  {
+   "word": "is",
+   "start": 32.78,
+   "end": 32.96,
+   "prob": 0.997
+  },
+  {
+   "word": "flat.",
+   "start": 32.96,
+   "end": 33.38,
+   "prob": 0.997
+  },
+  {
+   "word": "Somebody",
+   "start": 33.66,
+   "end": 33.86,
+   "prob": 0.92
+  },
+  {
+   "word": "shot",
+   "start": 33.86,
+   "end": 34.22,
+   "prob": 0.989
+  },
+  {
+   "word": "this",
+   "start": 34.22,
+   "end": 34.46,
+   "prob": 0.992
+  },
+  {
+   "word": "gold",
+   "start": 34.46,
+   "end": 34.78,
+   "prob": 0.972
+  },
+  {
+   "word": "into",
+   "start": 34.78,
+   "end": 35.02,
+   "prob": 0.994
+  },
+  {
+   "word": "the",
+   "start": 35.02,
+   "end": 35.24,
+   "prob": 0.996
+  },
+  {
+   "word": "wall.",
+   "start": 35.24,
+   "end": 35.52,
+   "prob": 0.997
+  },
+  {
+   "word": "But",
+   "start": 35.7,
+   "end": 35.78,
+   "prob": 0.989
+  },
+  {
+   "word": "the",
+   "start": 35.78,
+   "end": 35.9,
+   "prob": 0.977
+  },
+  {
+   "word": "rich",
+   "start": 35.9,
+   "end": 36.08,
+   "prob": 0.958
+  },
+  {
+   "word": "guy",
+   "start": 36.08,
+   "end": 36.34,
+   "prob": 0.996
+  },
+  {
+   "word": "just",
+   "start": 36.34,
+   "end": 36.56,
+   "prob": 0.995
+  },
+  {
+   "word": "laughs.",
+   "start": 36.56,
+   "end": 36.94,
+   "prob": 0.984
+  },
+  {
+   "word": "Why",
+   "start": 37.3,
+   "end": 37.42,
+   "prob": 0.951
+  },
+  {
+   "word": "would",
+   "start": 37.42,
+   "end": 37.6,
+   "prob": 0.997
+  },
+  {
+   "word": "anyone",
+   "start": 37.6,
+   "end": 37.9,
+   "prob": 0.994
+  },
+  {
+   "word": "shoot",
+   "start": 37.9,
+   "end": 38.28,
+   "prob": 0.995
+  },
+  {
+   "word": "gold",
+   "start": 38.28,
+   "end": 38.68,
+   "prob": 0.99
+  },
+  {
+   "word": "into",
+   "start": 38.68,
+   "end": 38.92,
+   "prob": 0.996
+  },
+  {
+   "word": "a",
+   "start": 38.92,
+   "end": 39.14,
+   "prob": 0.997
+  },
+  {
+   "word": "wall?",
+   "start": 39.14,
+   "end": 39.44,
+   "prob": 0.999
+  },
+  {
+   "word": "That's",
+   "start": 39.58,
+   "end": 39.74,
+   "prob": 0.993
+  },
+  {
+   "word": "insane!",
+   "start": 39.74,
+   "end": 40.22,
+   "prob": 0.993
+  },
+  {
+   "word": "And",
+   "start": 40.5,
+   "end": 40.6,
+   "prob": 0.977
+  },
+  {
+   "word": "his",
+   "start": 40.6,
+   "end": 40.72,
+   "prob": 0.996
+  },
+  {
+   "word": "buddy",
+   "start": 40.72,
+   "end": 40.96,
+   "prob": 0.996
+  },
+  {
+   "word": "nods.",
+   "start": 40.96,
+   "end": 41.34,
+   "prob": 0.99
+  },
+  {
+   "word": "Completely",
+   "start": 42.04,
+   "end": 42.42,
+   "prob": 0.992
+  },
+  {
+   "word": "insane.",
+   "start": 42.42,
+   "end": 42.76,
+   "prob": 0.997
+  },
+  {
+   "word": "So",
+   "start": 43.08,
+   "end": 43.26,
+   "prob": 0.983
+  },
+  {
+   "word": "the",
+   "start": 43.26,
+   "end": 43.52,
+   "prob": 0.506
+  },
+  {
+   "word": "rich",
+   "start": 43.52,
+   "end": 43.7,
+   "prob": 0.993
+  },
+  {
+   "word": "guy",
+   "start": 43.7,
+   "end": 43.94,
+   "prob": 0.99
+  },
+  {
+   "word": "pays",
+   "start": 43.94,
+   "end": 44.2,
+   "prob": 0.994
+  },
+  {
+   "word": "up,",
+   "start": 44.2,
+   "end": 44.44,
+   "prob": 0.997
+  },
+  {
+   "word": "and",
+   "start": 44.6,
+   "end": 44.68,
+   "prob": 0.981
+  },
+  {
+   "word": "while",
+   "start": 44.68,
+   "end": 44.84,
+   "prob": 0.996
+  },
+  {
+   "word": "those",
+   "start": 44.84,
+   "end": 45.06,
+   "prob": 0.991
+  },
+  {
+   "word": "two",
+   "start": 45.06,
+   "end": 45.28,
+   "prob": 0.986
+  },
+  {
+   "word": "bolt",
+   "start": 45.28,
+   "end": 45.5,
+   "prob": 0.471
+  },
+  {
+   "word": "with",
+   "start": 45.5,
+   "end": 45.7,
+   "prob": 0.996
+  },
+  {
+   "word": "the",
+   "start": 45.7,
+   "end": 45.82,
+   "prob": 0.988
+  },
+  {
+   "word": "money,",
+   "start": 45.82,
+   "end": 46.02,
+   "prob": 1.0
+  },
+  {
+   "word": "he",
+   "start": 46.18,
+   "end": 46.32,
+   "prob": 0.974
+  },
+  {
+   "word": "stays",
+   "start": 46.32,
+   "end": 46.54,
+   "prob": 0.996
+  },
+  {
+   "word": "behind",
+   "start": 46.54,
+   "end": 46.98,
+   "prob": 0.999
+  },
+  {
+   "word": "and",
+   "start": 46.98,
+   "end": 47.2,
+   "prob": 0.918
+  },
+  {
+   "word": "pulls",
+   "start": 47.2,
+   "end": 47.38,
+   "prob": 0.991
+  },
+  {
+   "word": "a",
+   "start": 47.38,
+   "end": 47.52,
+   "prob": 0.996
+  },
+  {
+   "word": "stick",
+   "start": 47.52,
+   "end": 47.78,
+   "prob": 0.997
+  },
+  {
+   "word": "of",
+   "start": 47.78,
+   "end": 47.98,
+   "prob": 0.999
+  },
+  {
+   "word": "dynamite",
+   "start": 47.98,
+   "end": 48.48,
+   "prob": 0.997
+  },
+  {
+   "word": "out",
+   "start": 48.48,
+   "end": 48.64,
+   "prob": 0.998
+  },
+  {
+   "word": "of",
+   "start": 48.64,
+   "end": 48.72,
+   "prob": 0.997
+  },
+  {
+   "word": "his",
+   "start": 48.72,
+   "end": 48.82,
+   "prob": 0.998
+  },
+  {
+   "word": "suit.",
+   "start": 48.82,
+   "end": 49.1,
+   "prob": 0.998
+  },
+  {
+   "word": "He's",
+   "start": 49.22,
+   "end": 49.42,
+   "prob": 0.988
+  },
+  {
+   "word": "never",
+   "start": 49.42,
+   "end": 49.76,
+   "prob": 0.997
+  },
+  {
+   "word": "mind",
+   "start": 49.76,
+   "end": 50.02,
+   "prob": 0.722
+  },
+  {
+   "word": "a",
+   "start": 50.02,
+   "end": 50.28,
+   "prob": 0.991
+  },
+  {
+   "word": "day",
+   "start": 50.28,
+   "end": 50.5,
+   "prob": 0.999
+  },
+  {
+   "word": "in",
+   "start": 50.5,
+   "end": 50.64,
+   "prob": 0.997
+  },
+  {
+   "word": "his",
+   "start": 50.64,
+   "end": 50.76,
+   "prob": 0.999
+  },
+  {
+   "word": "life.",
+   "start": 50.76,
+   "end": 51.02,
+   "prob": 0.999
+  },
+  {
+   "word": "So",
+   "start": 51.18,
+   "end": 51.32,
+   "prob": 0.994
+  },
+  {
+   "word": "he",
+   "start": 51.32,
+   "end": 51.44,
+   "prob": 0.986
+  },
+  {
+   "word": "just",
+   "start": 51.44,
+   "end": 51.6,
+   "prob": 0.997
+  },
+  {
+   "word": "lights",
+   "start": 51.6,
+   "end": 51.86,
+   "prob": 0.979
+  },
+  {
+   "word": "it,",
+   "start": 51.86,
+   "end": 52.06,
+   "prob": 0.994
+  },
+  {
+   "word": "tosses",
+   "start": 52.18,
+   "end": 52.52,
+   "prob": 0.996
+  },
+  {
+   "word": "it",
+   "start": 52.52,
+   "end": 52.64,
+   "prob": 0.994
+  },
+  {
+   "word": "down",
+   "start": 52.64,
+   "end": 52.78,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 52.78,
+   "end": 52.94,
+   "prob": 0.995
+  },
+  {
+   "word": "tunnel",
+   "start": 52.94,
+   "end": 53.12,
+   "prob": 0.999
+  },
+  {
+   "word": "like",
+   "start": 53.12,
+   "end": 53.34,
+   "prob": 0.982
+  },
+  {
+   "word": "a",
+   "start": 53.34,
+   "end": 53.46,
+   "prob": 0.997
+  },
+  {
+   "word": "firecracker,",
+   "start": 53.46,
+   "end": 54.1,
+   "prob": 0.99
+  },
+  {
+   "word": "and",
+   "start": 54.16,
+   "end": 54.38,
+   "prob": 0.998
+  },
+  {
+   "word": "runs.",
+   "start": 54.38,
+   "end": 54.74,
+   "prob": 0.958
+  },
+  {
+   "word": "And",
+   "start": 54.74,
+   "end": 55.2,
+   "prob": 0.81
+  },
+  {
+   "word": "when",
+   "start": 55.2,
+   "end": 55.3,
+   "prob": 0.982
+  },
+  {
+   "word": "the",
+   "start": 55.3,
+   "end": 55.44,
+   "prob": 0.991
+  },
+  {
+   "word": "dust",
+   "start": 55.44,
+   "end": 55.64,
+   "prob": 0.998
+  },
+  {
+   "word": "clears,",
+   "start": 55.64,
+   "end": 56.0,
+   "prob": 0.993
+  },
+  {
+   "word": "there's",
+   "start": 56.3,
+   "end": 56.42,
+   "prob": 0.949
+  },
+  {
+   "word": "a",
+   "start": 56.42,
+   "end": 56.56,
+   "prob": 0.994
+  },
+  {
+   "word": "vein",
+   "start": 56.56,
+   "end": 56.76,
+   "prob": 0.679
+  },
+  {
+   "word": "of",
+   "start": 56.76,
+   "end": 57.0,
+   "prob": 0.996
+  },
+  {
+   "word": "real",
+   "start": 57.0,
+   "end": 57.34,
+   "prob": 0.985
+  },
+  {
+   "word": "gold",
+   "start": 57.34,
+   "end": 57.74,
+   "prob": 0.998
+  },
+  {
+   "word": "as",
+   "start": 57.74,
+   "end": 57.92,
+   "prob": 0.969
+  },
+  {
+   "word": "thick",
+   "start": 57.92,
+   "end": 58.22,
+   "prob": 0.997
+  },
+  {
+   "word": "as",
+   "start": 58.22,
+   "end": 58.38,
+   "prob": 0.998
+  },
+  {
+   "word": "your",
+   "start": 58.38,
+   "end": 58.5,
+   "prob": 0.994
+  },
+  {
+   "word": "arm,",
+   "start": 58.5,
+   "end": 58.82,
+   "prob": 0.992
+  },
+  {
+   "word": "10",
+   "start": 59.02,
+   "end": 59.2,
+   "prob": 0.551
+  },
+  {
+   "word": "feet",
+   "start": 59.2,
+   "end": 59.48,
+   "prob": 0.963
+  },
+  {
+   "word": "past",
+   "start": 59.48,
+   "end": 59.8,
+   "prob": 0.988
+  },
+  {
+   "word": "where",
+   "start": 59.8,
+   "end": 59.98,
+   "prob": 0.989
+  },
+  {
+   "word": "the",
+   "start": 59.98,
+   "end": 60.08,
+   "prob": 0.989
+  },
+  {
+   "word": "last",
+   "start": 60.08,
+   "end": 60.3,
+   "prob": 0.993
+  },
+  {
+   "word": "guy",
+   "start": 60.3,
+   "end": 60.52,
+   "prob": 0.993
+  },
+  {
+   "word": "gave",
+   "start": 60.52,
+   "end": 60.72,
+   "prob": 0.997
+  },
+  {
+   "word": "up.",
+   "start": 60.72,
+   "end": 60.94,
+   "prob": 0.999
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.0,
+   "end": 3.54,
+   "n_words": 15,
+   "text": "He loaded the shotgun with gold and fired it into the walls of the mine."
+  },
+  {
+   "start": 3.76,
+   "end": 6.36,
+   "n_words": 10,
+   "text": "His buddy just watches the gold vanish into the rock."
+  },
+  {
+   "start": 6.7,
+   "end": 8.92,
+   "n_words": 8,
+   "text": "So we're shooting gold into a gold mine?"
+  },
+  {
+   "start": 9.12,
+   "end": 10.58,
+   "n_words": 5,
+   "text": "You see, it's called salting."
+  },
+  {
+   "start": 10.74,
+   "end": 13.76,
+   "n_words": 12,
+   "text": "He's dug this mine for 10 years and found nothing but rock."
+  },
+  {
+   "start": 13.92,
+   "end": 16.02,
+   "n_words": 10,
+   "text": "And tomorrow, a rich guy is coming to buy it."
+  },
+  {
+   "start": 16.1,
+   "end": 18.7,
+   "n_words": 11,
+   "text": "So he spent his last hundred bucks on gold dust instead."
+  },
+  {
+   "start": 18.94,
+   "end": 23.18,
+   "n_words": 19,
+   "text": "Next morning, the rich guy rolls up in a white suit and bangs his head on the first beam."
+  },
+  {
+   "start": 23.34,
+   "end": 25.82,
+   "n_words": 10,
+   "text": "But he's brought an expert, and the expert isn't stupid."
+  },
+  {
+   "start": 25.82,
+   "end": 30.46,
+   "n_words": 18,
+   "text": "He smashes a chunk of wall, swirls it in a pan, and gold flakes spin to the bottom."
+  },
+  {
+   "start": 30.64,
+   "end": 33.38,
+   "n_words": 9,
+   "text": "But under his magnifying glass, every flake is flat."
+  },
+  {
+   "start": 33.66,
+   "end": 35.52,
+   "n_words": 7,
+   "text": "Somebody shot this gold into the wall."
+  },
+  {
+   "start": 35.7,
+   "end": 36.94,
+   "n_words": 6,
+   "text": "But the rich guy just laughs."
+  },
+  {
+   "start": 37.3,
+   "end": 39.44,
+   "n_words": 8,
+   "text": "Why would anyone shoot gold into a wall?"
+  },
+  {
+   "start": 39.58,
+   "end": 40.22,
+   "n_words": 2,
+   "text": "That's insane!"
+  },
+  {
+   "start": 40.5,
+   "end": 41.34,
+   "n_words": 4,
+   "text": "And his buddy nods."
+  },
+  {
+   "start": 42.04,
+   "end": 42.76,
+   "n_words": 2,
+   "text": "Completely insane."
+  },
+  {
+   "start": 43.08,
+   "end": 49.1,
+   "n_words": 27,
+   "text": "So the rich guy pays up, and while those two bolt with the money, he stays behind and pulls a stick of dynamite out of his suit."
+  },
+  {
+   "start": 49.22,
+   "end": 51.02,
+   "n_words": 8,
+   "text": "He's never mind a day in his life."
+  },
+  {
+   "start": 51.18,
+   "end": 54.74,
+   "n_words": 15,
+   "text": "So he just lights it, tosses it down the tunnel like a firecracker, and runs."
+  },
+  {
+   "start": 54.74,
+   "end": 60.94,
+   "n_words": 25,
+   "text": "And when the dust clears, there's a vein of real gold as thick as your arm, 10 feet past where the last guy gave up."
+  }
+ ]
+}

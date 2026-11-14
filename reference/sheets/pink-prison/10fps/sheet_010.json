@@ -1,0 +1,165 @@
+{
+ "file": "sheet_010.jpg",
+ "video": "pink-prison.mp4",
+ "sheet_index": 10,
+ "sheet_count": 33,
+ "t_start": 18.0,
+ "t_end": 20.0,
+ "sample_fps": 10.0,
+ "source_fps": 30.0,
+ "source_size": [
+  720,
+  1280
+ ],
+ "grid": {
+  "cols": 4,
+  "rows": 5,
+  "order": "left-to-right, top-to-bottom"
+ },
+ "tile_size": [
+  270,
+  480
+ ],
+ "tiles": [
+  {
+   "tile": 0,
+   "row": 0,
+   "col": 0,
+   "t": 18.0,
+   "src_frame": 540
+  },
+  {
+   "tile": 1,
+   "row": 0,
+   "col": 1,
+   "t": 18.1,
+   "src_frame": 543
+  },
+  {
+   "tile": 2,
+   "row": 0,
+   "col": 2,
+   "t": 18.2,
+   "src_frame": 546
+  },
+  {
+   "tile": 3,
+   "row": 0,
+   "col": 3,
+   "t": 18.3,
+   "src_frame": 549
+  },
+  {
+   "tile": 4,
+   "row": 1,
+   "col": 0,
+   "t": 18.4,
+   "src_frame": 552
+  },
+  {
+   "tile": 5,
+   "row": 1,
+   "col": 1,
+   "t": 18.5,
+   "src_frame": 555
+  },
+  {
+   "tile": 6,
+   "row": 1,
+   "col": 2,
+   "t": 18.6,
+   "src_frame": 558
+  },
+  {
+   "tile": 7,
+   "row": 1,
+   "col": 3,
+   "t": 18.7,
+   "src_frame": 561
+  },
+  {
+   "tile": 8,
+   "row": 2,
+   "col": 0,
+   "t": 18.8,
+   "src_frame": 564
+  },
+  {
+   "tile": 9,
+   "row": 2,
+   "col": 1,
+   "t": 18.9,
+   "src_frame": 567
+  },
+  {
+   "tile": 10,
+   "row": 2,
+   "col": 2,
+   "t": 19.0,
+   "src_frame": 570
+  },
+  {
+   "tile": 11,
+   "row": 2,
+   "col": 3,
+   "t": 19.1,
+   "src_frame": 573
+  },
+  {
+   "tile": 12,
+   "row": 3,
+   "col": 0,
+   "t": 19.2,
+   "src_frame": 576
+  },
+  {
+   "tile": 13,
+   "row": 3,
+   "col": 1,
+   "t": 19.3,
+   "src_frame": 579
+  },
+  {
+   "tile": 14,
+   "row": 3,
+   "col": 2,
+   "t": 19.4,
+   "src_frame": 582
+  },
+  {
+   "tile": 15,
+   "row": 3,
+   "col": 3,
+   "t": 19.5,
+   "src_frame": 585
+  },
+  {
+   "tile": 16,
+   "row": 4,
+   "col": 0,
+   "t": 19.6,
+   "src_frame": 588
+  },
+  {
+   "tile": 17,
+   "row": 4,
+   "col": 1,
+   "t": 19.7,
+   "src_frame": 591
+  },
+  {
+   "tile": 18,
+   "row": 4,
+   "col": 2,
+   "t": 19.8,
+   "src_frame": 594
+  },
+  {
+   "tile": 19,
+   "row": 4,
+   "col": 3,
+   "t": 19.9,
+   "src_frame": 597
+  }
+ ]
+}

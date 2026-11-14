@@ -1,0 +1,20 @@
+[
+ { "text": "This", "start": 0.10, "end": 0.32 },
+ { "text": "wall", "start": 0.34, "end": 0.62 },
+ { "text": "is", "start": 0.64, "end": 0.76 },
+ { "text": "the", "start": 0.78, "end": 0.88 },
+ { "text": "wrong", "start": 0.90, "end": 1.30 },
+ { "text": "pink.", "start": 1.34, "end": 1.80 },
+ { "text": "Exactly!", "start": 2.50, "end": 3.10 },
+ { "text": "So", "start": 3.30, "end": 3.45 },
+ { "text": "he", "start": 3.47, "end": 3.58 },
+ { "text": "walked", "start": 3.60, "end": 3.95 },
+ { "text": "outside.", "start": 3.97, "end": 4.50 },
+ { "text": "Fresh", "start": 4.90, "end": 5.20 },
+ { "text": "air,", "start": 5.22, "end": 5.60 },
+ { "text": "real", "start": 5.80, "end": 6.05 },
+ { "text": "grass,", "start": 6.07, "end": 6.50 },
+ { "text": "and", "start": 6.80, "end": 6.95 },
+ { "text": "nobody", "start": 6.97, "end": 7.35 },
+ { "text": "watching.", "start": 7.37, "end": 7.80 }
+]

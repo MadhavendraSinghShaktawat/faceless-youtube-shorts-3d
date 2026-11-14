@@ -1,0 +1,164 @@
+{
+ "pink-prison": {
+  "sfx_event_frames_pct": 53.1,
+  "bed_250-8000Hz": {
+   "rms_no_sfx_dBFS": -41.6,
+   "rms_no_sfx_rel_voice_dB": -24.6,
+   "rms_all_dBFS": -37.6,
+   "median_voice_loud": -46.0,
+   "median_voice_quiet": -43.7
+  },
+  "bed_20-16000Hz": {
+   "rms_no_sfx_dBFS": -40.0,
+   "rms_no_sfx_rel_voice_dB": -23.0,
+   "rms_all_dBFS": -30.9,
+   "median_voice_loud": -43.4,
+   "median_voice_quiet": -41.8
+  },
+  "bed_20-200Hz": {
+   "rms_no_sfx_dBFS": -45.5,
+   "rms_no_sfx_rel_voice_dB": -28.5,
+   "rms_all_dBFS": -32.0,
+   "median_voice_loud": -49.5,
+   "median_voice_quiet": -51.1
+  },
+  "voice_stem_median_dBFS": -18.4,
+  "pauses_ge150ms_at_median-8dB": {
+   "count": 18,
+   "total_s": 3.81,
+   "median_s": 0.2,
+   "max_s": 0.39,
+   "pct_of_runtime": 5.8
+  },
+  "pauses_ge150ms_at_median-11dB": {
+   "count": 15,
+   "total_s": 2.81,
+   "median_s": 0.17,
+   "max_s": 0.29,
+   "pct_of_runtime": 4.3
+  },
+  "pauses_ge150ms_at_median-15dB": {
+   "count": 6,
+   "total_s": 1.13,
+   "median_s": 0.18,
+   "max_s": 0.22,
+   "pct_of_runtime": 1.7
+  },
+  "lpc_formants_median_Hz": [
+   415,
+   1624,
+   2596,
+   3924
+  ],
+  "lpc_frames": 822,
+  "mean_formant_spacing_F4-F1_over_3_Hz": 1158
+ },
+ "one-cart": {
+  "sfx_event_frames_pct": 70.7,
+  "bed_250-8000Hz": {
+   "rms_no_sfx_dBFS": -38.7,
+   "rms_no_sfx_rel_voice_dB": -21.6,
+   "rms_all_dBFS": -35.5,
+   "median_voice_loud": -45.6,
+   "median_voice_quiet": -41.4
+  },
+  "bed_20-16000Hz": {
+   "rms_no_sfx_dBFS": -36.0,
+   "rms_no_sfx_rel_voice_dB": -18.9,
+   "rms_all_dBFS": -31.2,
+   "median_voice_loud": -37.9,
+   "median_voice_quiet": -36.7
+  },
+  "bed_20-200Hz": {
+   "rms_no_sfx_dBFS": -39.7,
+   "rms_no_sfx_rel_voice_dB": -22.6,
+   "rms_all_dBFS": -33.4,
+   "median_voice_loud": -42.7,
+   "median_voice_quiet": -44.2
+  },
+  "voice_stem_median_dBFS": -18.2,
+  "pauses_ge150ms_at_median-8dB": {
+   "count": 21,
+   "total_s": 4.27,
+   "median_s": 0.2,
+   "max_s": 0.29,
+   "pct_of_runtime": 6.4
+  },
+  "pauses_ge150ms_at_median-11dB": {
+   "count": 8,
+   "total_s": 1.48,
+   "median_s": 0.18,
+   "max_s": 0.23,
+   "pct_of_runtime": 2.2
+  },
+  "pauses_ge150ms_at_median-15dB": {
+   "count": 4,
+   "total_s": 0.65,
+   "median_s": 0.17,
+   "max_s": 0.17,
+   "pct_of_runtime": 1.0
+  },
+  "lpc_formants_median_Hz": [
+   402,
+   1498,
+   2605,
+   3885
+  ],
+  "lpc_frames": 660,
+  "mean_formant_spacing_F4-F1_over_3_Hz": 1124
+ },
+ "mine-salting": {
+  "sfx_event_frames_pct": 55.3,
+  "bed_250-8000Hz": {
+   "rms_no_sfx_dBFS": -39.1,
+   "rms_no_sfx_rel_voice_dB": -22.4,
+   "rms_all_dBFS": -33.6,
+   "median_voice_loud": -41.6,
+   "median_voice_quiet": -40.3
+  },
+  "bed_20-16000Hz": {
+   "rms_no_sfx_dBFS": -34.9,
+   "rms_no_sfx_rel_voice_dB": -18.2,
+   "rms_all_dBFS": -30.5,
+   "median_voice_loud": -35.9,
+   "median_voice_quiet": -35.8
+  },
+  "bed_20-200Hz": {
+   "rms_no_sfx_dBFS": -37.2,
+   "rms_no_sfx_rel_voice_dB": -20.5,
+   "rms_all_dBFS": -33.6,
+   "median_voice_loud": -38.6,
+   "median_voice_quiet": -38.1
+  },
+  "voice_stem_median_dBFS": -18.4,
+  "pauses_ge150ms_at_median-8dB": {
+   "count": 21,
+   "total_s": 4.33,
+   "median_s": 0.2,
+   "max_s": 0.35,
+   "pct_of_runtime": 7.1
+  },
+  "pauses_ge150ms_at_median-11dB": {
+   "count": 12,
+   "total_s": 2.23,
+   "median_s": 0.18,
+   "max_s": 0.26,
+   "pct_of_runtime": 3.7
+  },
+  "pauses_ge150ms_at_median-15dB": {
+   "count": 7,
+   "total_s": 1.24,
+   "median_s": 0.18,
+   "max_s": 0.19,
+   "pct_of_runtime": 2.0
+  },
+  "lpc_formants_median_Hz": [
+   417,
+   1521,
+   2622,
+   3807
+  ],
+  "lpc_frames": 760,
+  "mean_formant_spacing_F4-F1_over_3_Hz": 1122
+ }
+}

@@ -1,0 +1,235 @@
+{
+ "file": "t65.8_001.jpg",
+ "video": "one-cart.mp4",
+ "sheet_index": 1,
+ "sheet_count": 1,
+ "t_start": 65.8,
+ "t_end": 66.8,
+ "sample_fps": 30.0,
+ "source_fps": 30.0,
+ "source_size": [
+  720,
+  1280
+ ],
+ "grid": {
+  "cols": 5,
+  "rows": 6,
+  "order": "left-to-right, top-to-bottom"
+ },
+ "tile_size": [
+  216,
+  384
+ ],
+ "tiles": [
+  {
+   "tile": 0,
+   "row": 0,
+   "col": 0,
+   "t": 65.8,
+   "src_frame": 1974
+  },
+  {
+   "tile": 1,
+   "row": 0,
+   "col": 1,
+   "t": 65.833,
+   "src_frame": 1975
+  },
+  {
+   "tile": 2,
+   "row": 0,
+   "col": 2,
+   "t": 65.867,
+   "src_frame": 1976
+  },
+  {
+   "tile": 3,
+   "row": 0,
+   "col": 3,
+   "t": 65.9,
+   "src_frame": 1977
+  },
+  {
+   "tile": 4,
+   "row": 0,
+   "col": 4,
+   "t": 65.933,
+   "src_frame": 1978
+  },
+  {
+   "tile": 5,
+   "row": 1,
+   "col": 0,
+   "t": 65.967,
+   "src_frame": 1979
+  },
+  {
+   "tile": 6,
+   "row": 1,
+   "col": 1,
+   "t": 66.0,
+   "src_frame": 1980
+  },
+  {
+   "tile": 7,
+   "row": 1,
+   "col": 2,
+   "t": 66.033,
+   "src_frame": 1981
+  },
+  {
+   "tile": 8,
+   "row": 1,
+   "col": 3,
+   "t": 66.067,
+   "src_frame": 1982
+  },
+  {
+   "tile": 9,
+   "row": 1,
+   "col": 4,
+   "t": 66.1,
+   "src_frame": 1983
+  },
+  {
+   "tile": 10,
+   "row": 2,
+   "col": 0,
+   "t": 66.133,
+   "src_frame": 1984
+  },
+  {
+   "tile": 11,
+   "row": 2,
+   "col": 1,
+   "t": 66.167,
+   "src_frame": 1985
+  },
+  {
+   "tile": 12,
+   "row": 2,
+   "col": 2,
+   "t": 66.2,
+   "src_frame": 1986
+  },
+  {
+   "tile": 13,
+   "row": 2,
+   "col": 3,
+   "t": 66.233,
+   "src_frame": 1987
+  },
+  {
+   "tile": 14,
+   "row": 2,
+   "col": 4,
+   "t": 66.267,
+   "src_frame": 1988
+  },
+  {
+   "tile": 15,
+   "row": 3,
+   "col": 0,
+   "t": 66.3,
+   "src_frame": 1989
+  },
+  {
+   "tile": 16,
+   "row": 3,
+   "col": 1,
+   "t": 66.333,
+   "src_frame": 1990
+  },
+  {
+   "tile": 17,
+   "row": 3,
+   "col": 2,
+   "t": 66.367,
+   "src_frame": 1991
+  },
+  {
+   "tile": 18,
+   "row": 3,
+   "col": 3,
+   "t": 66.4,
+   "src_frame": 1992
+  },
+  {
+   "tile": 19,
+   "row": 3,
+   "col": 4,
+   "t": 66.433,
+   "src_frame": 1993
+  },
+  {
+   "tile": 20,
+   "row": 4,
+   "col": 0,
+   "t": 66.467,
+   "src_frame": 1994
+  },
+  {
+   "tile": 21,
+   "row": 4,
+   "col": 1,
+   "t": 66.5,
+   "src_frame": 1995
+  },
+  {
+   "tile": 22,
+   "row": 4,
+   "col": 2,
+   "t": 66.533,
+   "src_frame": 1996
+  },
+  {
+   "tile": 23,
+   "row": 4,
+   "col": 3,
+   "t": 66.567,
+   "src_frame": 1997
+  },
+  {
+   "tile": 24,
+   "row": 4,
+   "col": 4,
+   "t": 66.6,
+   "src_frame": 1998
+  },
+  {
+   "tile": 25,
+   "row": 5,
+   "col": 0,
+   "t": 66.633,
+   "src_frame": 1999
+  },
+  {
+   "tile": 26,
+   "row": 5,
+   "col": 1,
+   "t": 66.667,
+   "src_frame": 2000
+  },
+  {
+   "tile": 27,
+   "row": 5,
+   "col": 2,
+   "t": 66.7,
+   "src_frame": 2001
+  },
+  {
+   "tile": 28,
+   "row": 5,
+   "col": 3,
+   "t": 66.733,
+   "src_frame": 2002
+  },
+  {
+   "tile": 29,
+   "row": 5,
+   "col": 4,
+   "t": 66.767,
+   "src_frame": 2003
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "file": "sheet_034.jpg",
+ "video": "one-cart.mp4",
+ "sheet_index": 34,
+ "sheet_count": 34,
+ "t_start": 66.0,
+ "t_end": 66.8,
+ "sample_fps": 10.0,
+ "source_fps": 30.0,
+ "source_size": [
+  720,
+  1280
+ ],
+ "grid": {
+  "cols": 4,
+  "rows": 5,
+  "order": "left-to-right, top-to-bottom"
+ },
+ "tile_size": [
+  270,
+  480
+ ],
+ "tiles": [
+  {
+   "tile": 0,
+   "row": 0,
+   "col": 0,
+   "t": 66.0,
+   "src_frame": 1980
+  },
+  {
+   "tile": 1,
+   "row": 0,
+   "col": 1,
+   "t": 66.1,
+   "src_frame": 1983
+  },
+  {
+   "tile": 2,
+   "row": 0,
+   "col": 2,
+   "t": 66.2,
+   "src_frame": 1986
+  },
+  {
+   "tile": 3,
+   "row": 0,
+   "col": 3,
+   "t": 66.3,
+   "src_frame": 1989
+  },
+  {
+   "tile": 4,
+   "row": 1,
+   "col": 0,
+   "t": 66.4,
+   "src_frame": 1992
+  },
+  {
+   "tile": 5,
+   "row": 1,
+   "col": 1,
+   "t": 66.5,
+   "src_frame": 1995
+  },
+  {
+   "tile": 6,
+   "row": 1,
+   "col": 2,
+   "t": 66.6,
+   "src_frame": 1998
+  },
+  {
+   "tile": 7,
+   "row": 1,
+   "col": 3,
+   "t": 66.7,
+   "src_frame": 2001
+  }
+ ]
+}

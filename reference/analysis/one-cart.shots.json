@@ -1,0 +1,252 @@
+[
+  {
+    "id": "S01",
+    "t_start": 0.0,
+    "t_end": 2.0,
+    "location": "Outside fort wall, grass at foot of grey stone wall (day)",
+    "action": "Inventor (crimson quilted robe, white headband) leans in cranking a brace drill into a yellow perforated board; snap-in to macro of the bit, chips and sawdust fall; bit withdraws f56-f59.",
+    "camera": "Slow push-in already moving at f0 (0-1.0s); fast push-in f30-f39 (0.3s, ease-out) to macro; slow drift 1.3-2.0. Wide lens, low height.",
+    "transition_out": "No cut: camera sweeps right and rockets up the wall (continuous move into S02)",
+    "caption_text": "He drilled 82 holes into the wood"
+  },
+  {
+    "id": "S02",
+    "t_start": 2.0,
+    "t_end": 4.75,
+    "location": "Up the fort wall, over pagoda gatehouse, out over the valley, down to the dirt road",
+    "action": "Camera reveals the valley; enemy column with dust trail on a road; arrives in front of general on red palanquin under a parasol, soldiers marching toward camera.",
+    "camera": "Hyper-fast crane up + fly-over f60-f78 (0.6s, largest frame deltas in the video, every frame sharp/no motion blur), then dive/push toward the column 2.6-3.3, then slow pull-back/drift 3.3-4.7 as army walks at camera.",
+    "transition_out": "Cross-dissolve f140-f146 (~0.2s)",
+    "caption_text": "because down the hill an army is marching straight"
+  },
+  {
+    "id": "S03",
+    "t_start": 4.75,
+    "t_end": 5.85,
+    "location": "Road below the fort, side-on",
+    "action": "General points sword at the fort on the hill; soldier walks; dust puff behind.",
+    "camera": "Slow lateral drift/push, fort soft in background (DOF).",
+    "transition_out": "Cross-dissolve f174-f180",
+    "caption_text": "for his fort. And while"
+  },
+  {
+    "id": "S04",
+    "t_start": 5.85,
+    "t_end": 7.85,
+    "location": "Fort courtyard by the arch gate",
+    "action": "Soldiers sharpen swords at a grindstone with sparks; pan passes several soldier types and ends on two smirking at screen-left.",
+    "camera": "Continuous lateral truck/pan left with slight push, constant speed, ~2s.",
+    "transition_out": "Cross-dissolve ~f234-f240",
+    "caption_text": "everyone else sharpens swords, he's in the corner,"
+  },
+  {
+    "id": "S05",
+    "t_start": 7.85,
+    "t_end": 13.0,
+    "location": "Courtyard corner, grass, lit arch with volumetric shaft behind",
+    "action": "Inventor crouched drilling; commander (grey helmet, red plume, navy studded armour, red skirt) walks in at 9.3 and talks; gold wood shavings spiral up 11.3-12.6; inventor lifts the board.",
+    "camera": "Slow orbit right 8.0-9.2, then slow push on two-shot 9.5-12.5 (lowest-motion stretch of the first half).",
+    "transition_out": "Cross-dissolve ~f387-f393",
+    "caption_text": "still drilling. His commander asks, Are we fighting them or grating cheese? But it gets"
+  },
+  {
+    "id": "S06",
+    "t_start": 13.0,
+    "t_end": 14.2,
+    "location": "Same spot, reverse angle (wood palisade + red cone tower behind)",
+    "action": "Commander leans in tilted; inventor holds up the holed board, flips it.",
+    "camera": "Slow push.",
+    "transition_out": "Cross-dissolve ~f423-f432",
+    "caption_text": "weirder. He bolts"
+  },
+  {
+    "id": "S07",
+    "t_start": 14.2,
+    "t_end": 20.2,
+    "location": "Cart on grass, then macro on the board",
+    "action": "Board snaps onto cart frame with a gold outline highlight; arrows with paper tubes fly in and slot into holes (one, then many, with glints); a gold fuse string drops from each.",
+    "camera": "Slow push 14.4-15.5; fast push-in 15.5-16.2; continuous macro orbit from front to behind the board with tilt-down along the shafts 16.0-20.2.",
+    "transition_out": "No cut (continuous)",
+    "caption_text": "the wood onto a cart and into every hole goes something long and thin. Wrapped in paper, each with a string."
+  },
+  {
+    "id": "S08",
+    "t_start": 20.2,
+    "t_end": 24.0,
+    "location": "Cart rear / grass, courtyard",
+    "action": "Pull back reveals inventor twisting strings; onlookers gather; fuse bundle sweeps over the grass and coils into a rope coil; inventor stands over it glaring.",
+    "camera": "Pull-back + orbit right 20.2-21.9; tilt down/up on rope 22.0-22.4; ~120 degree orbit around inventor 22.4-24.0 while sky turns dusk purple.",
+    "transition_out": "No cut (continuous)",
+    "caption_text": "Then he twists all the strings into one rope nobody's allowed to touch."
+  },
+  {
+    "id": "S09",
+    "t_start": 24.0,
+    "t_end": 26.0,
+    "location": "Same, dusk",
+    "action": "Kettle-hat soldier bends and reaches; anger FX on inventor (red lightning lines, black aura, ground cracks, rocks fly); slap = pink/red shockwave ring f777-f780; helmet flies off.",
+    "camera": "Slow drift, then pulling back from 25.1; begins fast pull-back at 25.9.",
+    "transition_out": "No cut (continuous)",
+    "caption_text": "One soldier reaches for it and he slaps"
+  },
+  {
+    "id": "S10",
+    "t_start": 26.0,
+    "t_end": 28.95,
+    "location": "Wide of fort exterior, cracked ground slabs, dusk",
+    "action": "Fast pull-back and rise reveals whole fort, ground split into slabs, crack up the wall, helmet tumbling to f809, onlookers on wall and ground react; inventor holds rope coil.",
+    "camera": "Fast dolly-out + crane up 26.0-27.0 (ease-out), settle 27.0-28.3, slight push-in 28.3-28.9. Peripheral blur at frame edges.",
+    "transition_out": "Cross-dissolve f866-f873 (~0.23s), day to night",
+    "caption_text": "his hand so hard the whole fort hears it. That night,"
+  },
+  {
+    "id": "S11",
+    "t_start": 28.95,
+    "t_end": 33.7,
+    "location": "Wall-walk at night in rain, pagoda, lanterns",
+    "action": "Push to face: raindrop hits forehead f880-f885, eyes pop wide; coat comes off in one frame (f915), flies as cloth over the cart f915-f930; he hops onto the cart and lies on it.",
+    "camera": "Fast push-in to CU 29.1-29.5, hold CU 29.5-30.2, fast pull-back/crane 30.2-32.4, near-hold 32.4-33.6.",
+    "transition_out": "No cut (continuous)",
+    "caption_text": "it pours. So he throws his coat over the cart and lies on top of it like a human umbrella."
+  },
+  {
+    "id": "S12",
+    "t_start": 33.7,
+    "t_end": 36.8,
+    "location": "Same, closer low angle",
+    "action": "Kettle-hat soldier rises into frame with a lantern; inventor rants from the cart ('we're all dead'), throws arm out.",
+    "camera": "Orbit right + push-in 33.7-34.3, then two-shot hold with slow drift 34.3-36.7.",
+    "transition_out": "Cross-dissolve f1100-f1108 (~0.27s), night to sunrise",
+    "caption_text": "One drop gets in there and we're all dead. The next morning,"
+  },
+  {
+    "id": "S13",
+    "t_start": 36.8,
+    "t_end": 39.05,
+    "location": "Wall-walk at sunrise",
+    "action": "Inventor asleep on the cart; ladder tops pop up over the parapet one by one; he wakes at 38.0.",
+    "camera": "Very slow push (second-lowest motion in the video).",
+    "transition_out": "Cross-dissolve ~f1167-f1173",
+    "caption_text": "ladders slam against the walls and the"
+  },
+  {
+    "id": "S14",
+    "t_start": 39.05,
+    "t_end": 40.4,
+    "location": "Field, low in the grass",
+    "action": "Army charges at camera; general screaming under parasol; yellow chevron shields, flags, dust haze.",
+    "camera": "Low dolly-in + tilt up.",
+    "transition_out": "Cross-dissolve ~f1209-f1215",
+    "caption_text": "army charges. Everyone"
+  },
+  {
+    "id": "S15",
+    "t_start": 40.4,
+    "t_end": 43.4,
+    "location": "Wall-walk, bright day",
+    "action": "Commander (with torch) and red-bearded soldier yell at deadpan inventor (now in cream tunic); kettle-hat soldier behind; cart behind.",
+    "camera": "Continuous slow push-in from full-body four-shot to MCU two-shot, slight orbit; wide lens low.",
+    "transition_out": "Cross-dissolve f1300-f1305",
+    "caption_text": "screams at him to do something, but he just watches them get"
+  },
+  {
+    "id": "S16",
+    "t_start": 43.4,
+    "t_end": 45.1,
+    "location": "Over the parapet looking down at the field",
+    "action": "Dense army band with flags; enemy soldier pops up over the ledge 44.0-44.3 with arm overshoot, grins.",
+    "camera": "Slow push/tilt.",
+    "transition_out": "Cross-dissolve ~f1350-f1356",
+    "caption_text": "closer and closer until they're"
+  },
+  {
+    "id": "S17",
+    "t_start": 45.1,
+    "t_end": 46.9,
+    "location": "Field, low in grass",
+    "action": "Army packed in rows; big yellow boar flags slide into right foreground.",
+    "camera": "Slow truck right + push.",
+    "transition_out": "Cross-dissolve ~f1404-f1410",
+    "caption_text": "packed shoulder to shoulder, close enough"
+  },
+  {
+    "id": "S18",
+    "t_start": 46.9,
+    "t_end": 48.4,
+    "location": "Front rank close-up, low angle",
+    "action": "Four soldiers grin and laugh, teeth showing; sun flare upper left.",
+    "camera": "Slow push-in to faces.",
+    "transition_out": "Cross-dissolve ~f1449-f1455",
+    "caption_text": "to see their teeth. That's when"
+  },
+  {
+    "id": "S19",
+    "t_start": 48.4,
+    "t_end": 50.8,
+    "location": "Wall-walk, day",
+    "action": "Inventor rips coat off the cart (cloth flies out of frame in ~8 frames) revealing rocket box; commander's eyes pop; torch lights the rope at f1514-f1516.",
+    "camera": "Slow push-in.",
+    "transition_out": "Cross-dissolve f1521-f1527 with a radial light-streak overlay at f1521",
+    "caption_text": "he rips off the coat and lights the rope. The spark"
+  },
+  {
+    "id": "S20",
+    "t_start": 50.8,
+    "t_end": 55.3,
+    "location": "Macro behind the cart",
+    "action": "Spark climbs the twisted rope (rope chars black behind it), splits into ~82 glowing points racing along the fan of strings; camera flies through the fan among the rocket ends.",
+    "camera": "Slow push/tilt 50.9-52.0; accelerating push + tilt up 52.0-53.5; push-through the fan 53.5-55.2 (second-fastest motion, f1616-f1620); whip tilt back 55.2-55.4.",
+    "transition_out": "No cut (continuous)",
+    "caption_text": "races down it and splits into 82 tiny flames, and each one hits"
+  },
+  {
+    "id": "S21",
+    "t_start": 55.3,
+    "t_end": 58.6,
+    "location": "Behind the board looking over the wall to mountains",
+    "action": "One rocket-arrow rises out of the board as an explainer prop: cutaway windows show powder; arrowhead glows gold on 'arrow,'; it shrinks back into its hole with a star glint.",
+    "camera": "Push-in on rocket 55.4-56.0, slow pull-back/down 56.0-57.7, hold with slow push 57.8-58.5.",
+    "transition_out": "Cross-dissolve f1755-f1761",
+    "caption_text": "a tube of gunpowder strapped to an arrow, turning every one of them"
+  },
+  {
+    "id": "S22",
+    "t_start": 58.6,
+    "t_end": 60.4,
+    "location": "Wall-walk, day",
+    "action": "Inventor and nervous commander beside the cart; board face blooms white-yellow, spark shower, tan smoke puff.",
+    "camera": "Slow push/drift, very wide lens.",
+    "transition_out": "Cross-dissolve f1810-f1814",
+    "caption_text": "into a rocket. All 82"
+  },
+  {
+    "id": "S23",
+    "t_start": 60.4,
+    "t_end": 63.65,
+    "location": "Behind the cart, then out over the parapet and valley",
+    "action": "Rockets blast through the crenel; white smoke cone with gold heads; sky fills with criss-crossing white ribbon trails over the valley.",
+    "camera": "Hold 60.5-60.7; whip forward through the crenel following the rockets 60.7-61.4; slows and tilts up 61.5-63.5.",
+    "transition_out": "Cross-dissolve f1907-f1913",
+    "caption_text": "blast off the card at once, flying every which way. But with the army"
+  },
+  {
+    "id": "S24",
+    "t_start": 63.65,
+    "t_end": 65.4,
+    "location": "High view from the wall onto the army line",
+    "action": "Small orange explosions pop along the line f1916-f1928, merge, one big central blast f1931-f1938; gold zigzag spark rises; ladder hooks in foreground.",
+    "camera": "Slow push, then pull-back/tilt-up with the blast.",
+    "transition_out": "Cross-dissolve f1958-f1965",
+    "caption_text": "packed that tight. Not a single"
+  },
+  {
+    "id": "S25",
+    "t_start": 65.4,
+    "t_end": 66.8,
+    "location": "Battlement, inventor centred, mushroom cloud behind",
+    "action": "Inventor stands arms crossed, half-lidded, smirk and brow shift at f1989; cloud boils slowly.",
+    "camera": "Very slow push-in; holds to last frame f2003, no fade, no end card.",
+    "transition_out": "End of file (hard end)",
+    "caption_text": "one misses."
+  }
+]

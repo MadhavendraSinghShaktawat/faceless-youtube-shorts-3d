@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <style>
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+      #gl { position: absolute; inset: 0; width: 1080px; height: 1920px; display: block; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="outline" data-start="0" data-duration="3" data-fps="30" data-width="1080" data-height="1920" data-no-timeline>
+      <canvas id="gl" class="clip" data-start="0" data-duration="3" data-track-index="0" width="1080" height="1920"></canvas>
+    </div>
+    <script src="../outline.bundle.js"></script>
+  </body>
+</html>

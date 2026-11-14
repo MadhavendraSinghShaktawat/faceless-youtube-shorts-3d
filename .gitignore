@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+research/_bench/*/node_modules/
+
+# render outputs and build artefacts
+out/
+.build/
+renders/
+.hyperframes/
+videos/*/.build/
+videos/*/out/
+*.bundle.js
+research/_bench/*/bundle.js
+
+# large / third-party material that is not redistributed
+reference/source/
+research/_assets_test/
+
+# OS
+.DS_Store

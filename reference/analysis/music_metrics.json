@@ -1,0 +1,938 @@
+{
+ "pink-prison": {
+  "voice_stem_rms_dBFS": -17.2,
+  "bed_stem_rms_dBFS": -30.4,
+  "tonal_notes": {
+   "count": 604,
+   "median_abs_cents_from_12TET": 5.8,
+   "median_note_dur_s": 0.4,
+   "p90_note_dur_s": 0.72,
+   "median_note_peak_dB": -48.0,
+   "first_note_s": 0.08,
+   "last_note_end_s": 65.22
+  },
+  "per_5s": [
+   {
+    "t": 0,
+    "notes": 55,
+    "median_dur": 0.46,
+    "top_pitch_classes": [
+     "B",
+     "E",
+     "G",
+     "C",
+     "A"
+    ],
+    "median_fund_Hz": 1044,
+    "music_band_median_dB": -41.3,
+    "music_band_p20_dB": -46.5,
+    "full_median_dB": -40.4
+   },
+   {
+    "t": 5,
+    "notes": 45,
+    "median_dur": 0.4,
+    "top_pitch_classes": [
+     "B",
+     "F#",
+     "E",
+     "G",
+     "C#"
+    ],
+    "median_fund_Hz": 1319,
+    "music_band_median_dB": -42.6,
+    "music_band_p20_dB": -47.3,
+    "full_median_dB": -41.6
+   },
+   {
+    "t": 10,
+    "notes": 45,
+    "median_dur": 0.36,
+    "top_pitch_classes": [
+     "B",
+     "E",
+     "A",
+     "G",
+     "F#"
+    ],
+    "median_fund_Hz": 883,
+    "music_band_median_dB": -45.5,
+    "music_band_p20_dB": -53.7,
+    "full_median_dB": -42.4
+   },
+   {
+    "t": 15,
+    "notes": 35,
+    "median_dur": 0.42,
+    "top_pitch_classes": [
+     "C",
+     "F#",
+     "A",
+     "E",
+     "D#"
+    ],
+    "median_fund_Hz": 877,
+    "music_band_median_dB": -45.5,
+    "music_band_p20_dB": -54.1,
+    "full_median_dB": -42.7
+   },
+   {
+    "t": 20,
+    "notes": 34,
+    "median_dur": 0.35,
+    "top_pitch_classes": [
+     "E",
+     "G",
+     "B",
+     "F#",
+     "A"
+    ],
+    "median_fund_Hz": 662,
+    "music_band_median_dB": -48.2,
+    "music_band_p20_dB": -52.8,
+    "full_median_dB": -43.1
+   },
+   {
+    "t": 25,
+    "notes": 31,
+    "median_dur": 0.38,
+    "top_pitch_classes": [
+     "G",
+     "C",
+     "F#",
+     "E",
+     "B"
+    ],
+    "median_fund_Hz": 743,
+    "music_band_median_dB": -44.4,
+    "music_band_p20_dB": -52.2,
+    "full_median_dB": -31.5
+   },
+   {
+    "t": 30,
+    "notes": 30,
+    "median_dur": 0.34,
+    "top_pitch_classes": [
+     "E",
+     "A",
+     "B",
+     "G",
+     "F#"
+    ],
+    "median_fund_Hz": 786,
+    "music_band_median_dB": -48.2,
+    "music_band_p20_dB": -53.7,
+    "full_median_dB": -42.0
+   },
+   {
+    "t": 35,
+    "notes": 47,
+    "median_dur": 0.36,
+    "top_pitch_classes": [
+     "C",
+     "A",
+     "F#",
+     "E",
+     "B"
+    ],
+    "median_fund_Hz": 786,
+    "music_band_median_dB": -46.0,
+    "music_band_p20_dB": -51.0,
+    "full_median_dB": -44.2
+   },
+   {
+    "t": 40,
+    "notes": 46,
+    "median_dur": 0.39,
+    "top_pitch_classes": [
+     "G",
+     "E",
+     "C",
+     "B",
+     "F#"
+    ],
+    "median_fund_Hz": 886,
+    "music_band_median_dB": -44.0,
+    "music_band_p20_dB": -50.3,
+    "full_median_dB": -42.4
+   },
+   {
+    "t": 45,
+    "notes": 56,
+    "median_dur": 0.4,
+    "top_pitch_classes": [
+     "B",
+     "G",
+     "E",
+     "F#",
+     "C"
+    ],
+    "median_fund_Hz": 1004,
+    "music_band_median_dB": -45.0,
+    "music_band_p20_dB": -51.7,
+    "full_median_dB": -42.8
+   },
+   {
+    "t": 50,
+    "notes": 58,
+    "median_dur": 0.38,
+    "top_pitch_classes": [
+     "E",
+     "A",
+     "G",
+     "B",
+     "F#"
+    ],
+    "median_fund_Hz": 1518,
+    "music_band_median_dB": -41.6,
+    "music_band_p20_dB": -44.7,
+    "full_median_dB": -37.9
+   },
+   {
+    "t": 55,
+    "notes": 51,
+    "median_dur": 0.48,
+    "top_pitch_classes": [
+     "C",
+     "E",
+     "B",
+     "G",
+     "F#"
+    ],
+    "median_fund_Hz": 883,
+    "music_band_median_dB": -42.9,
+    "music_band_p20_dB": -47.4,
+    "full_median_dB": -40.8
+   },
+   {
+    "t": 60,
+    "notes": 71,
+    "median_dur": 0.4,
+    "top_pitch_classes": [
+     "F#",
+     "B",
+     "G",
+     "E",
+     "A"
+    ],
+    "median_fund_Hz": 1233,
+    "music_band_median_dB": -41.4,
+    "music_band_p20_dB": -45.1,
+    "full_median_dB": -39.9
+   }
+  ],
+  "pitch_class_seconds": {
+   "E": 48.9,
+   "B": 48.0,
+   "G": 43.2,
+   "F#": 34.2,
+   "C": 28.4,
+   "A": 28.1,
+   "D#": 12.7,
+   "D": 9.8,
+   "C#": 8.0,
+   "G#": 4.6,
+   "A#": 3.0,
+   "F": 1.8
+  },
+  "tempo_candidates": [
+   {
+    "lag_s": 0.91,
+    "bpm": 65.9,
+    "r": 0.166
+   },
+   {
+    "lag_s": 1.61,
+    "bpm": 37.3,
+    "r": 0.153
+   },
+   {
+    "lag_s": 0.42,
+    "bpm": 142.9,
+    "r": 0.148
+   },
+   {
+    "lag_s": 0.48,
+    "bpm": 125.0,
+    "r": 0.14
+   },
+   {
+    "lag_s": 0.71,
+    "bpm": 84.5,
+    "r": 0.139
+   }
+  ],
+  "music_band_median_dBFS": -43.9,
+  "bed_full_median_dBFS": -41.2,
+  "bed_full_median_rel_voice_dB": -24.0,
+  "bed_full_p90_rel_voice_dB": -14.9,
+  "ducking": {
+   "pauses_ge120ms_below_-30dBFS": 24,
+   "pause_frames": 289,
+   "music_band_250-4000Hz_p25_voice_loud": -50.1,
+   "music_band_250-4000Hz_p25_in_pauses": -46.0,
+   "music_band_250-4000Hz_p50_voice_loud": -44.8,
+   "music_band_250-4000Hz_p50_in_pauses": -42.9,
+   "music_band_250-4000Hz_p75_voice_loud": -40.5,
+   "music_band_250-4000Hz_p75_in_pauses": -40.6,
+   "bed_full_p25_voice_loud": -45.4,
+   "bed_full_p25_in_pauses": -43.5,
+   "bed_full_p50_voice_loud": -41.5,
+   "bed_full_p50_in_pauses": -40.8,
+   "bed_full_p75_voice_loud": -37.3,
+   "bed_full_p75_in_pauses": -38.2,
+   "difference_dB(pause-voice)_median_music_band": 1.9,
+   "per_pause_local_difference_dB": {
+    "median": -0.7,
+    "p25": -4.2,
+    "p75": 4.1,
+    "n": 23
+   },
+   "pause_aligned_median_curve_dB_every_50ms_from_-300ms": [
+    -46.0,
+    -47.9,
+    -47.0,
+    -47.0,
+    -46.5,
+    -46.3,
+    -42.9,
+    -43.1,
+    -43.3,
+    -42.6,
+    -43.6,
+    -44.8
+   ],
+   "pause_aligned_n": 11,
+   "mix_side_300-3000Hz_median_dB_voice_active": -52.2,
+   "mix_side_300-3000Hz_median_dB_in_pauses": -50.3
+  }
+ },
+ "one-cart": {
+  "voice_stem_rms_dBFS": -17.2,
+  "bed_stem_rms_dBFS": -30.9,
+  "tonal_notes": {
+   "count": 622,
+   "median_abs_cents_from_12TET": 7.6,
+   "median_note_dur_s": 0.34,
+   "p90_note_dur_s": 0.64,
+   "median_note_peak_dB": -49.2,
+   "first_note_s": 0.0,
+   "last_note_end_s": 66.84
+  },
+  "per_5s": [
+   {
+    "t": 0,
+    "notes": 54,
+    "median_dur": 0.37,
+    "top_pitch_classes": [
+     "A",
+     "D",
+     "F",
+     "E",
+     "A#"
+    ],
+    "median_fund_Hz": 991,
+    "music_band_median_dB": -37.8,
+    "music_band_p20_dB": -40.8,
+    "full_median_dB": -36.2
+   },
+   {
+    "t": 5,
+    "notes": 57,
+    "median_dur": 0.3,
+    "top_pitch_classes": [
+     "E",
+     "A",
+     "F",
+     "G",
+     "D"
+    ],
+    "median_fund_Hz": 1114,
+    "music_band_median_dB": -36.0,
+    "music_band_p20_dB": -39.6,
+    "full_median_dB": -34.3
+   },
+   {
+    "t": 10,
+    "notes": 35,
+    "median_dur": 0.3,
+    "top_pitch_classes": [
+     "A",
+     "D",
+     "F",
+     "C",
+     "E"
+    ],
+    "median_fund_Hz": 576,
+    "music_band_median_dB": -44.1,
+    "music_band_p20_dB": -53.8,
+    "full_median_dB": -38.9
+   },
+   {
+    "t": 15,
+    "notes": 30,
+    "median_dur": 0.3,
+    "top_pitch_classes": [
+     "D",
+     "C",
+     "G",
+     "A#",
+     "E"
+    ],
+    "median_fund_Hz": 743,
+    "music_band_median_dB": -48.8,
+    "music_band_p20_dB": -54.0,
+    "full_median_dB": -40.0
+   },
+   {
+    "t": 20,
+    "notes": 48,
+    "median_dur": 0.32,
+    "top_pitch_classes": [
+     "C",
+     "F",
+     "D",
+     "G",
+     "A"
+    ],
+    "median_fund_Hz": 786,
+    "music_band_median_dB": -48.3,
+    "music_band_p20_dB": -54.2,
+    "full_median_dB": -39.7
+   },
+   {
+    "t": 25,
+    "notes": 33,
+    "median_dur": 0.34,
+    "top_pitch_classes": [
+     "F",
+     "D",
+     "A#",
+     "E",
+     "C"
+    ],
+    "median_fund_Hz": 651,
+    "music_band_median_dB": -36.7,
+    "music_band_p20_dB": -48.9,
+    "full_median_dB": -32.5
+   },
+   {
+    "t": 30,
+    "notes": 62,
+    "median_dur": 0.41,
+    "top_pitch_classes": [
+     "E",
+     "A",
+     "G",
+     "D",
+     "C"
+    ],
+    "median_fund_Hz": 633,
+    "music_band_median_dB": -34.5,
+    "music_band_p20_dB": -37.1,
+    "full_median_dB": -34.1
+   },
+   {
+    "t": 35,
+    "notes": 64,
+    "median_dur": 0.34,
+    "top_pitch_classes": [
+     "A",
+     "D",
+     "F",
+     "E",
+     "A#"
+    ],
+    "median_fund_Hz": 877,
+    "music_band_median_dB": -36.5,
+    "music_band_p20_dB": -39.2,
+    "full_median_dB": -35.2
+   },
+   {
+    "t": 40,
+    "notes": 38,
+    "median_dur": 0.32,
+    "top_pitch_classes": [
+     "D",
+     "E",
+     "G",
+     "C",
+     "F"
+    ],
+    "median_fund_Hz": 668,
+    "music_band_median_dB": -49.7,
+    "music_band_p20_dB": -54.3,
+    "full_median_dB": -41.4
+   },
+   {
+    "t": 45,
+    "notes": 14,
+    "median_dur": 0.31,
+    "top_pitch_classes": [
+     "D",
+     "F",
+     "G",
+     "A#",
+     "A"
+    ],
+    "median_fund_Hz": 993,
+    "music_band_median_dB": -48.0,
+    "music_band_p20_dB": -52.5,
+    "full_median_dB": -35.9
+   },
+   {
+    "t": 50,
+    "notes": 59,
+    "median_dur": 0.36,
+    "top_pitch_classes": [
+     "E",
+     "C",
+     "G",
+     "D",
+     "F"
+    ],
+    "median_fund_Hz": 705,
+    "music_band_median_dB": -45.8,
+    "music_band_p20_dB": -49.4,
+    "full_median_dB": -36.5
+   },
+   {
+    "t": 55,
+    "notes": 47,
+    "median_dur": 0.32,
+    "top_pitch_classes": [
+     "A",
+     "E",
+     "D",
+     "F",
+     "G"
+    ],
+    "median_fund_Hz": 781,
+    "music_band_median_dB": -48.8,
+    "music_band_p20_dB": -52.8,
+    "full_median_dB": -38.2
+   },
+   {
+    "t": 60,
+    "notes": 60,
+    "median_dur": 0.37,
+    "top_pitch_classes": [
+     "E",
+     "A",
+     "F",
+     "D",
+     "G"
+    ],
+    "median_fund_Hz": 883,
+    "music_band_median_dB": -33.7,
+    "music_band_p20_dB": -36.1,
+    "full_median_dB": -32.2
+   },
+   {
+    "t": 65,
+    "notes": 21,
+    "median_dur": 0.34,
+    "top_pitch_classes": [
+     "G",
+     "C#",
+     "F",
+     "D",
+     "E"
+    ],
+    "median_fund_Hz": 786,
+    "music_band_median_dB": -31.3,
+    "music_band_p20_dB": -33.9,
+    "full_median_dB": -27.9
+   }
+  ],
+  "pitch_class_seconds": {
+   "D": 44.0,
+   "A": 38.7,
+   "E": 37.2,
+   "F": 36.1,
+   "G": 28.7,
+   "C": 27.2,
+   "A#": 13.7,
+   "C#": 11.2,
+   "B": 7.3,
+   "G#": 6.2,
+   "F#": 2.2
+  },
+  "tempo_candidates": [
+   {
+    "lag_s": 0.79,
+    "bpm": 75.9,
+    "r": 0.124
+   },
+   {
+    "lag_s": 0.55,
+    "bpm": 109.1,
+    "r": 0.12
+   },
+   {
+    "lag_s": 0.26,
+    "bpm": 230.8,
+    "r": 0.118
+   },
+   {
+    "lag_s": 0.75,
+    "bpm": 80.0,
+    "r": 0.116
+   },
+   {
+    "lag_s": 1.07,
+    "bpm": 56.1,
+    "r": 0.11
+   }
+  ],
+  "music_band_median_dBFS": -41.0,
+  "bed_full_median_dBFS": -35.9,
+  "bed_full_median_rel_voice_dB": -18.7,
+  "bed_full_p90_rel_voice_dB": -11.6,
+  "ducking": {
+   "pauses_ge120ms_below_-30dBFS": 15,
+   "pause_frames": 156,
+   "music_band_250-4000Hz_p25_voice_loud": -49.5,
+   "music_band_250-4000Hz_p25_in_pauses": -39.8,
+   "music_band_250-4000Hz_p50_voice_loud": -42.0,
+   "music_band_250-4000Hz_p50_in_pauses": -36.0,
+   "music_band_250-4000Hz_p75_voice_loud": -35.7,
+   "music_band_250-4000Hz_p75_in_pauses": -34.2,
+   "bed_full_p25_voice_loud": -40.0,
+   "bed_full_p25_in_pauses": -36.8,
+   "bed_full_p50_voice_loud": -36.1,
+   "bed_full_p50_in_pauses": -34.7,
+   "bed_full_p75_voice_loud": -32.5,
+   "bed_full_p75_in_pauses": -32.5,
+   "difference_dB(pause-voice)_median_music_band": 6.0,
+   "per_pause_local_difference_dB": {
+    "median": 1.8,
+    "p25": 0.1,
+    "p75": 5.2,
+    "n": 15
+   },
+   "pause_aligned_median_curve_dB_every_50ms_from_-300ms": [
+    -47.4,
+    -49.8,
+    -52.0,
+    -43.0,
+    -38.3,
+    -39.8,
+    -38.0,
+    -37.1,
+    -36.5,
+    -37.7,
+    -38.9,
+    -38.7
+   ],
+   "pause_aligned_n": 5,
+   "mix_side_300-3000Hz_median_dB_voice_active": -47.6,
+   "mix_side_300-3000Hz_median_dB_in_pauses": -45.6
+  }
+ },
+ "mine-salting": {
+  "voice_stem_rms_dBFS": -16.9,
+  "bed_stem_rms_dBFS": -30.4,
+  "tonal_notes": {
+   "count": 728,
+   "median_abs_cents_from_12TET": 7.6,
+   "median_note_dur_s": 0.34,
+   "p90_note_dur_s": 0.64,
+   "median_note_peak_dB": -49.0,
+   "first_note_s": 0.02,
+   "last_note_end_s": 61.06
+  },
+  "per_5s": [
+   {
+    "t": 0,
+    "notes": 28,
+    "median_dur": 0.26,
+    "top_pitch_classes": [
+     "E",
+     "A",
+     "D",
+     "F",
+     "C"
+    ],
+    "median_fund_Hz": 740,
+    "music_band_median_dB": -43.4,
+    "music_band_p20_dB": -51.3,
+    "full_median_dB": -33.6
+   },
+   {
+    "t": 5,
+    "notes": 32,
+    "median_dur": 0.32,
+    "top_pitch_classes": [
+     "E",
+     "F",
+     "G",
+     "A",
+     "A#"
+    ],
+    "median_fund_Hz": 883,
+    "music_band_median_dB": -45.6,
+    "music_band_p20_dB": -55.4,
+    "full_median_dB": -35.1
+   },
+   {
+    "t": 10,
+    "notes": 49,
+    "median_dur": 0.32,
+    "top_pitch_classes": [
+     "D",
+     "G",
+     "A",
+     "F",
+     "E"
+    ],
+    "median_fund_Hz": 1174,
+    "music_band_median_dB": -43.8,
+    "music_band_p20_dB": -50.9,
+    "full_median_dB": -36.0
+   },
+   {
+    "t": 15,
+    "notes": 87,
+    "median_dur": 0.34,
+    "top_pitch_classes": [
+     "A",
+     "E",
+     "F",
+     "C#",
+     "D"
+    ],
+    "median_fund_Hz": 1405,
+    "music_band_median_dB": -39.9,
+    "music_band_p20_dB": -43.9,
+    "full_median_dB": -35.7
+   },
+   {
+    "t": 20,
+    "notes": 102,
+    "median_dur": 0.34,
+    "top_pitch_classes": [
+     "A",
+     "F",
+     "C#",
+     "B",
+     "G"
+    ],
+    "median_fund_Hz": 1723,
+    "music_band_median_dB": -40.7,
+    "music_band_p20_dB": -44.8,
+    "full_median_dB": -35.4
+   },
+   {
+    "t": 25,
+    "notes": 83,
+    "median_dur": 0.34,
+    "top_pitch_classes": [
+     "G",
+     "F",
+     "C#",
+     "E",
+     "D"
+    ],
+    "median_fund_Hz": 1577,
+    "music_band_median_dB": -40.3,
+    "music_band_p20_dB": -43.2,
+    "full_median_dB": -35.1
+   },
+   {
+    "t": 30,
+    "notes": 81,
+    "median_dur": 0.42,
+    "top_pitch_classes": [
+     "C#",
+     "E",
+     "A",
+     "G",
+     "F"
+    ],
+    "median_fund_Hz": 1760,
+    "music_band_median_dB": -40.1,
+    "music_band_p20_dB": -44.6,
+    "full_median_dB": -35.1
+   },
+   {
+    "t": 35,
+    "notes": 35,
+    "median_dur": 0.3,
+    "top_pitch_classes": [
+     "F",
+     "E",
+     "A",
+     "A#",
+     "D"
+    ],
+    "median_fund_Hz": 888,
+    "music_band_median_dB": -47.4,
+    "music_band_p20_dB": -53.3,
+    "full_median_dB": -34.9
+   },
+   {
+    "t": 40,
+    "notes": 44,
+    "median_dur": 0.3,
+    "top_pitch_classes": [
+     "A",
+     "D",
+     "E",
+     "C",
+     "G"
+    ],
+    "median_fund_Hz": 834,
+    "music_band_median_dB": -42.2,
+    "music_band_p20_dB": -49.9,
+    "full_median_dB": -35.5
+   },
+   {
+    "t": 45,
+    "notes": 46,
+    "median_dur": 0.32,
+    "top_pitch_classes": [
+     "C#",
+     "F",
+     "B",
+     "G#",
+     "G"
+    ],
+    "median_fund_Hz": 1505,
+    "music_band_median_dB": -39.1,
+    "music_band_p20_dB": -44.2,
+    "full_median_dB": -33.9
+   },
+   {
+    "t": 50,
+    "notes": 72,
+    "median_dur": 0.36,
+    "top_pitch_classes": [
+     "A",
+     "G",
+     "F",
+     "C#",
+     "E"
+    ],
+    "median_fund_Hz": 1507,
+    "music_band_median_dB": -40.5,
+    "music_band_p20_dB": -44.5,
+    "full_median_dB": -34.7
+   },
+   {
+    "t": 55,
+    "notes": 61,
+    "median_dur": 0.32,
+    "top_pitch_classes": [
+     "A",
+     "F",
+     "D",
+     "A#",
+     "F#"
+    ],
+    "median_fund_Hz": 1044,
+    "music_band_median_dB": -39.8,
+    "music_band_p20_dB": -45.7,
+    "full_median_dB": -35.1
+   },
+   {
+    "t": 60,
+    "notes": 8,
+    "median_dur": 0.3,
+    "top_pitch_classes": [
+     "A",
+     "D"
+    ],
+    "median_fund_Hz": 732,
+    "music_band_median_dB": -42.2,
+    "music_band_p20_dB": -48.9,
+    "full_median_dB": -38.0
+   }
+  ],
+  "pitch_class_seconds": {
+   "A": 47.5,
+   "F": 38.8,
+   "E": 32.5,
+   "D": 32.2,
+   "C#": 31.1,
+   "G": 29.3,
+   "B": 18.3,
+   "C": 16.9,
+   "G#": 14.0,
+   "A#": 11.0,
+   "F#": 10.7,
+   "D#": 8.6
+  },
+  "tempo_candidates": [
+   {
+    "lag_s": 1.2,
+    "bpm": 50.0,
+    "r": 0.188
+   },
+   {
+    "lag_s": 0.6,
+    "bpm": 100.0,
+    "r": 0.174
+   },
+   {
+    "lag_s": 1.8,
+    "bpm": 33.3,
+    "r": 0.169
+   },
+   {
+    "lag_s": 1.16,
+    "bpm": 51.7,
+    "r": 0.126
+   },
+   {
+    "lag_s": 1.54,
+    "bpm": 39.0,
+    "r": 0.103
+   }
+  ],
+  "music_band_median_dBFS": -41.2,
+  "bed_full_median_dBFS": -35.2,
+  "bed_full_median_rel_voice_dB": -18.2,
+  "bed_full_p90_rel_voice_dB": -12.7,
+  "ducking": {
+   "pauses_ge120ms_below_-30dBFS": 22,
+   "pause_frames": 249,
+   "music_band_250-4000Hz_p25_voice_loud": -46.6,
+   "music_band_250-4000Hz_p25_in_pauses": -43.6,
+   "music_band_250-4000Hz_p50_voice_loud": -41.6,
+   "music_band_250-4000Hz_p50_in_pauses": -39.5,
+   "music_band_250-4000Hz_p75_voice_loud": -37.9,
+   "music_band_250-4000Hz_p75_in_pauses": -36.3,
+   "bed_full_p25_voice_loud": -38.2,
+   "bed_full_p25_in_pauses": -37.7,
+   "bed_full_p50_voice_loud": -35.2,
+   "bed_full_p50_in_pauses": -35.5,
+   "bed_full_p75_voice_loud": -32.7,
+   "bed_full_p75_in_pauses": -32.2,
+   "difference_dB(pause-voice)_median_music_band": 2.1,
+   "per_pause_local_difference_dB": {
+    "median": 3.0,
+    "p25": 0.8,
+    "p75": 8.3,
+    "n": 21
+   },
+   "pause_aligned_median_curve_dB_every_50ms_from_-300ms": [
+    -39.4,
+    -40.6,
+    -39.6,
+    -41.2,
+    -40.4,
+    -40.4,
+    -40.5,
+    -39.4,
+    -39.6,
+    -40.8,
+    -41.6,
+    -40.9
+   ],
+   "pause_aligned_n": 11,
+   "mix_side_300-3000Hz_median_dB_voice_active": -51.2,
+   "mix_side_300-3000Hz_median_dB_in_pauses": -50.4
+  }
+ }
+}

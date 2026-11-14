@@ -1,0 +1,235 @@
+{
+ "file": "t24.1_001.jpg",
+ "video": "mine-salting.mp4",
+ "sheet_index": 1,
+ "sheet_count": 1,
+ "t_start": 24.1,
+ "t_end": 25.1,
+ "sample_fps": 30.0,
+ "source_fps": 30.0,
+ "source_size": [
+  1080,
+  1920
+ ],
+ "grid": {
+  "cols": 5,
+  "rows": 6,
+  "order": "left-to-right, top-to-bottom"
+ },
+ "tile_size": [
+  216,
+  384
+ ],
+ "tiles": [
+  {
+   "tile": 0,
+   "row": 0,
+   "col": 0,
+   "t": 24.1,
+   "src_frame": 723
+  },
+  {
+   "tile": 1,
+   "row": 0,
+   "col": 1,
+   "t": 24.133,
+   "src_frame": 724
+  },
+  {
+   "tile": 2,
+   "row": 0,
+   "col": 2,
+   "t": 24.167,
+   "src_frame": 725
+  },
+  {
+   "tile": 3,
+   "row": 0,
+   "col": 3,
+   "t": 24.2,
+   "src_frame": 726
+  },
+  {
+   "tile": 4,
+   "row": 0,
+   "col": 4,
+   "t": 24.233,
+   "src_frame": 727
+  },
+  {
+   "tile": 5,
+   "row": 1,
+   "col": 0,
+   "t": 24.267,
+   "src_frame": 728
+  },
+  {
+   "tile": 6,
+   "row": 1,
+   "col": 1,
+   "t": 24.3,
+   "src_frame": 729
+  },
+  {
+   "tile": 7,
+   "row": 1,
+   "col": 2,
+   "t": 24.333,
+   "src_frame": 730
+  },
+  {
+   "tile": 8,
+   "row": 1,
+   "col": 3,
+   "t": 24.367,
+   "src_frame": 731
+  },
+  {
+   "tile": 9,
+   "row": 1,
+   "col": 4,
+   "t": 24.4,
+   "src_frame": 732
+  },
+  {
+   "tile": 10,
+   "row": 2,
+   "col": 0,
+   "t": 24.433,
+   "src_frame": 733
+  },
+  {
+   "tile": 11,
+   "row": 2,
+   "col": 1,
+   "t": 24.467,
+   "src_frame": 734
+  },
+  {
+   "tile": 12,
+   "row": 2,
+   "col": 2,
+   "t": 24.5,
+   "src_frame": 735
+  },
+  {
+   "tile": 13,
+   "row": 2,
+   "col": 3,
+   "t": 24.533,
+   "src_frame": 736
+  },
+  {
+   "tile": 14,
+   "row": 2,
+   "col": 4,
+   "t": 24.567,
+   "src_frame": 737
+  },
+  {
+   "tile": 15,
+   "row": 3,
+   "col": 0,
+   "t": 24.6,
+   "src_frame": 738
+  },
+  {
+   "tile": 16,
+   "row": 3,
+   "col": 1,
+   "t": 24.633,
+   "src_frame": 739
+  },
+  {
+   "tile": 17,
+   "row": 3,
+   "col": 2,
+   "t": 24.667,
+   "src_frame": 740
+  },
+  {
+   "tile": 18,
+   "row": 3,
+   "col": 3,
+   "t": 24.7,
+   "src_frame": 741
+  },
+  {
+   "tile": 19,
+   "row": 3,
+   "col": 4,
+   "t": 24.733,
+   "src_frame": 742
+  },
+  {
+   "tile": 20,
+   "row": 4,
+   "col": 0,
+   "t": 24.767,
+   "src_frame": 743
+  },
+  {
+   "tile": 21,
+   "row": 4,
+   "col": 1,
+   "t": 24.8,
+   "src_frame": 744
+  },
+  {
+   "tile": 22,
+   "row": 4,
+   "col": 2,
+   "t": 24.833,
+   "src_frame": 745
+  },
+  {
+   "tile": 23,
+   "row": 4,
+   "col": 3,
+   "t": 24.867,
+   "src_frame": 746
+  },
+  {
+   "tile": 24,
+   "row": 4,
+   "col": 4,
+   "t": 24.9,
+   "src_frame": 747
+  },
+  {
+   "tile": 25,
+   "row": 5,
+   "col": 0,
+   "t": 24.933,
+   "src_frame": 748
+  },
+  {
+   "tile": 26,
+   "row": 5,
+   "col": 1,
+   "t": 24.967,
+   "src_frame": 749
+  },
+  {
+   "tile": 27,
+   "row": 5,
+   "col": 2,
+   "t": 25.0,
+   "src_frame": 750
+  },
+  {
+   "tile": 28,
+   "row": 5,
+   "col": 3,
+   "t": 25.033,
+   "src_frame": 751
+  },
+  {
+   "tile": 29,
+   "row": 5,
+   "col": 4,
+   "t": 25.067,
+   "src_frame": 752
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "outline-shader",
+  "private": true,
+  "type": "module",
+  "description": "Inverted-hull anime outline + cel shading for three.js r187, with a headless render test.",
+  "scripts": { "test": "node render-test.mjs" },
+  "dependencies": { "three": "0.187.0" },
+  "devDependencies": { "puppeteer": "25.17.0" }
+}

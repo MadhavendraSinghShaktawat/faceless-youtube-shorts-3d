@@ -1,0 +1,15 @@
+import puppeteer from '../../outline-shader/node_modules/puppeteer/lib/puppeteer/puppeteer.js';
+import http from 'node:http'; import fs from 'node:fs'; import path from 'node:path'; import { fileURLToPath } from 'node:url';
+const here = path.dirname(fileURLToPath(import.meta.url)); const root = path.resolve(here, '../..');
+const mime = { '.html': 'text/html', '.js': 'text/javascript' };
+const server = http.createServer((req, res) => { const f = path.join(root, decodeURIComponent(req.url.split('?')[0])); if (!fs.existsSync(f) || fs.statSync(f).isDirectory()) return res.writeHead(404).end(); res.writeHead(200, { 'content-type': mime[path.extname(f)] ?? 'application/octet-stream' }).end(fs.readFileSync(f)); });
+await new Promise((r) => server.listen(0, '127.0.0.1', r)); const base = `http://127.0.0.1:${server.address().port}`;
+const browser = await puppeteer.launch({ headless: true, args: ['--use-gl=angle', '--use-angle=metal', '--enable-gpu', '--ignore-gpu-blocklist', '--enable-unsafe-webgpu'], defaultViewport: { width: 1080, height: 1920, deviceScaleFactor: 1 } });
+const page = await browser.newPage();
+page.on('console', (m) => { if (['error', 'warn'].includes(m.type()) && !m.text().includes('404')) console.log('[page]', m.type(), m.text().slice(0, 300)); });
+await page.goto(`${base}/_bench/techniques/webgpu.html`);
+await page.waitForFunction('window.demoReady === true || window.demoError', { timeout: 60000 });
+console.log('error:', await page.evaluate(() => window.demoError), 'backend:', await page.evaluate(() => window.backend));
+await page.evaluate(() => window.renderAt(1));
+fs.writeFileSync(path.join(here, 'out', 'webgpu.png'), await page.screenshot({ type: 'png' }));
+await browser.close(); server.close();

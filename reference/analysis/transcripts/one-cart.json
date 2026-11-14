@@ -1,0 +1,1508 @@
+{
+ "video": "one-cart",
+ "engine": "faster-whisper small.en, word_timestamps (cross-attention DTW, ~+-50-100 ms)",
+ "words": [
+  {
+   "word": "He",
+   "start": 0.0,
+   "end": 0.2,
+   "prob": 0.819
+  },
+  {
+   "word": "drilled",
+   "start": 0.2,
+   "end": 0.46,
+   "prob": 0.986
+  },
+  {
+   "word": "82",
+   "start": 0.46,
+   "end": 0.94,
+   "prob": 0.88
+  },
+  {
+   "word": "holes",
+   "start": 0.94,
+   "end": 1.5,
+   "prob": 0.993
+  },
+  {
+   "word": "into",
+   "start": 1.5,
+   "end": 1.78,
+   "prob": 0.991
+  },
+  {
+   "word": "the",
+   "start": 1.78,
+   "end": 1.94,
+   "prob": 0.997
+  },
+  {
+   "word": "wood,",
+   "start": 1.94,
+   "end": 2.24,
+   "prob": 0.982
+  },
+  {
+   "word": "because",
+   "start": 2.28,
+   "end": 2.58,
+   "prob": 0.931
+  },
+  {
+   "word": "down",
+   "start": 2.58,
+   "end": 2.88,
+   "prob": 0.983
+  },
+  {
+   "word": "the",
+   "start": 2.88,
+   "end": 3.06,
+   "prob": 0.996
+  },
+  {
+   "word": "hill,",
+   "start": 3.06,
+   "end": 3.32,
+   "prob": 0.997
+  },
+  {
+   "word": "an",
+   "start": 3.54,
+   "end": 3.62,
+   "prob": 0.986
+  },
+  {
+   "word": "army",
+   "start": 3.62,
+   "end": 3.96,
+   "prob": 0.991
+  },
+  {
+   "word": "is",
+   "start": 3.96,
+   "end": 4.16,
+   "prob": 0.995
+  },
+  {
+   "word": "marching",
+   "start": 4.16,
+   "end": 4.46,
+   "prob": 0.998
+  },
+  {
+   "word": "straight",
+   "start": 4.46,
+   "end": 4.88,
+   "prob": 0.993
+  },
+  {
+   "word": "for",
+   "start": 4.88,
+   "end": 5.12,
+   "prob": 0.994
+  },
+  {
+   "word": "his",
+   "start": 5.12,
+   "end": 5.28,
+   "prob": 0.996
+  },
+  {
+   "word": "fort,",
+   "start": 5.28,
+   "end": 5.54,
+   "prob": 0.982
+  },
+  {
+   "word": "and",
+   "start": 5.68,
+   "end": 5.78,
+   "prob": 0.947
+  },
+  {
+   "word": "while",
+   "start": 5.78,
+   "end": 5.96,
+   "prob": 0.993
+  },
+  {
+   "word": "everyone",
+   "start": 5.96,
+   "end": 6.36,
+   "prob": 0.995
+  },
+  {
+   "word": "else",
+   "start": 6.36,
+   "end": 6.58,
+   "prob": 0.99
+  },
+  {
+   "word": "sharpens",
+   "start": 6.58,
+   "end": 7.0,
+   "prob": 0.836
+  },
+  {
+   "word": "swords,",
+   "start": 7.0,
+   "end": 7.32,
+   "prob": 0.994
+  },
+  {
+   "word": "he's",
+   "start": 7.62,
+   "end": 7.82,
+   "prob": 0.958
+  },
+  {
+   "word": "in",
+   "start": 7.82,
+   "end": 7.92,
+   "prob": 0.996
+  },
+  {
+   "word": "the",
+   "start": 7.92,
+   "end": 8.06,
+   "prob": 0.995
+  },
+  {
+   "word": "corner",
+   "start": 8.06,
+   "end": 8.34,
+   "prob": 0.997
+  },
+  {
+   "word": "still",
+   "start": 8.34,
+   "end": 8.82,
+   "prob": 0.762
+  },
+  {
+   "word": "drilling.",
+   "start": 8.82,
+   "end": 9.3,
+   "prob": 0.995
+  },
+  {
+   "word": "His",
+   "start": 9.46,
+   "end": 9.58,
+   "prob": 0.99
+  },
+  {
+   "word": "commander",
+   "start": 9.58,
+   "end": 9.86,
+   "prob": 0.985
+  },
+  {
+   "word": "asks,",
+   "start": 9.86,
+   "end": 10.32,
+   "prob": 0.995
+  },
+  {
+   "word": "are",
+   "start": 10.58,
+   "end": 10.6,
+   "prob": 0.169
+  },
+  {
+   "word": "we",
+   "start": 10.6,
+   "end": 10.74,
+   "prob": 0.998
+  },
+  {
+   "word": "fighting",
+   "start": 10.74,
+   "end": 11.1,
+   "prob": 0.995
+  },
+  {
+   "word": "them",
+   "start": 11.1,
+   "end": 11.38,
+   "prob": 0.997
+  },
+  {
+   "word": "or",
+   "start": 11.38,
+   "end": 11.64,
+   "prob": 0.741
+  },
+  {
+   "word": "grating",
+   "start": 11.64,
+   "end": 12.02,
+   "prob": 0.984
+  },
+  {
+   "word": "cheese?",
+   "start": 12.02,
+   "end": 12.4,
+   "prob": 0.996
+  },
+  {
+   "word": "But",
+   "start": 12.8,
+   "end": 12.98,
+   "prob": 0.99
+  },
+  {
+   "word": "it",
+   "start": 12.98,
+   "end": 13.1,
+   "prob": 0.99
+  },
+  {
+   "word": "gets",
+   "start": 13.1,
+   "end": 13.32,
+   "prob": 0.994
+  },
+  {
+   "word": "weirder.",
+   "start": 13.32,
+   "end": 13.84,
+   "prob": 0.999
+  },
+  {
+   "word": "He",
+   "start": 14.02,
+   "end": 14.12,
+   "prob": 0.995
+  },
+  {
+   "word": "bolts",
+   "start": 14.12,
+   "end": 14.4,
+   "prob": 0.998
+  },
+  {
+   "word": "the",
+   "start": 14.4,
+   "end": 14.62,
+   "prob": 0.997
+  },
+  {
+   "word": "wood",
+   "start": 14.62,
+   "end": 14.8,
+   "prob": 0.995
+  },
+  {
+   "word": "onto",
+   "start": 14.8,
+   "end": 15.04,
+   "prob": 0.977
+  },
+  {
+   "word": "a",
+   "start": 15.04,
+   "end": 15.3,
+   "prob": 0.997
+  },
+  {
+   "word": "cart,",
+   "start": 15.3,
+   "end": 15.48,
+   "prob": 0.993
+  },
+  {
+   "word": "and",
+   "start": 15.64,
+   "end": 15.74,
+   "prob": 0.996
+  },
+  {
+   "word": "into",
+   "start": 15.74,
+   "end": 15.98,
+   "prob": 0.993
+  },
+  {
+   "word": "every",
+   "start": 15.98,
+   "end": 16.36,
+   "prob": 0.999
+  },
+  {
+   "word": "hole",
+   "start": 16.36,
+   "end": 16.66,
+   "prob": 0.999
+  },
+  {
+   "word": "goes",
+   "start": 16.66,
+   "end": 16.86,
+   "prob": 0.867
+  },
+  {
+   "word": "something",
+   "start": 16.86,
+   "end": 17.22,
+   "prob": 0.998
+  },
+  {
+   "word": "long",
+   "start": 17.22,
+   "end": 17.62,
+   "prob": 0.999
+  },
+  {
+   "word": "and",
+   "start": 17.62,
+   "end": 17.86,
+   "prob": 0.996
+  },
+  {
+   "word": "thin,",
+   "start": 17.86,
+   "end": 18.22,
+   "prob": 0.999
+  },
+  {
+   "word": "wrapped",
+   "start": 18.42,
+   "end": 18.56,
+   "prob": 0.999
+  },
+  {
+   "word": "in",
+   "start": 18.56,
+   "end": 18.76,
+   "prob": 0.998
+  },
+  {
+   "word": "paper,",
+   "start": 18.76,
+   "end": 19.1,
+   "prob": 0.999
+  },
+  {
+   "word": "each",
+   "start": 19.28,
+   "end": 19.44,
+   "prob": 0.999
+  },
+  {
+   "word": "with",
+   "start": 19.44,
+   "end": 19.68,
+   "prob": 0.997
+  },
+  {
+   "word": "a",
+   "start": 19.68,
+   "end": 19.8,
+   "prob": 0.997
+  },
+  {
+   "word": "string.",
+   "start": 19.8,
+   "end": 20.12,
+   "prob": 0.998
+  },
+  {
+   "word": "Then",
+   "start": 20.38,
+   "end": 20.56,
+   "prob": 0.997
+  },
+  {
+   "word": "he",
+   "start": 20.56,
+   "end": 20.78,
+   "prob": 0.666
+  },
+  {
+   "word": "twists",
+   "start": 20.78,
+   "end": 21.04,
+   "prob": 0.996
+  },
+  {
+   "word": "all",
+   "start": 21.04,
+   "end": 21.42,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 21.42,
+   "end": 21.58,
+   "prob": 0.981
+  },
+  {
+   "word": "strings",
+   "start": 21.58,
+   "end": 21.88,
+   "prob": 0.996
+  },
+  {
+   "word": "into",
+   "start": 21.88,
+   "end": 22.12,
+   "prob": 0.996
+  },
+  {
+   "word": "one",
+   "start": 22.12,
+   "end": 22.44,
+   "prob": 0.994
+  },
+  {
+   "word": "rope",
+   "start": 22.44,
+   "end": 22.74,
+   "prob": 0.999
+  },
+  {
+   "word": "nobody's",
+   "start": 22.74,
+   "end": 23.42,
+   "prob": 0.947
+  },
+  {
+   "word": "allowed",
+   "start": 23.42,
+   "end": 23.58,
+   "prob": 0.999
+  },
+  {
+   "word": "to",
+   "start": 23.58,
+   "end": 23.8,
+   "prob": 1.0
+  },
+  {
+   "word": "touch.",
+   "start": 23.8,
+   "end": 24.02,
+   "prob": 1.0
+  },
+  {
+   "word": "One",
+   "start": 24.24,
+   "end": 24.44,
+   "prob": 0.996
+  },
+  {
+   "word": "soldier",
+   "start": 24.44,
+   "end": 24.7,
+   "prob": 0.992
+  },
+  {
+   "word": "reaches",
+   "start": 24.7,
+   "end": 25.04,
+   "prob": 0.998
+  },
+  {
+   "word": "for",
+   "start": 25.04,
+   "end": 25.38,
+   "prob": 0.999
+  },
+  {
+   "word": "it,",
+   "start": 25.38,
+   "end": 25.52,
+   "prob": 0.998
+  },
+  {
+   "word": "and",
+   "start": 25.56,
+   "end": 25.64,
+   "prob": 0.997
+  },
+  {
+   "word": "he",
+   "start": 25.64,
+   "end": 25.74,
+   "prob": 0.992
+  },
+  {
+   "word": "slaps",
+   "start": 25.74,
+   "end": 26.1,
+   "prob": 0.993
+  },
+  {
+   "word": "his",
+   "start": 26.1,
+   "end": 26.3,
+   "prob": 0.998
+  },
+  {
+   "word": "hand",
+   "start": 26.3,
+   "end": 26.46,
+   "prob": 0.533
+  },
+  {
+   "word": "so",
+   "start": 26.46,
+   "end": 26.82,
+   "prob": 0.994
+  },
+  {
+   "word": "hard",
+   "start": 26.82,
+   "end": 27.16,
+   "prob": 1.0
+  },
+  {
+   "word": "the",
+   "start": 27.16,
+   "end": 27.32,
+   "prob": 0.547
+  },
+  {
+   "word": "whole",
+   "start": 27.32,
+   "end": 27.62,
+   "prob": 0.998
+  },
+  {
+   "word": "fort",
+   "start": 27.62,
+   "end": 27.98,
+   "prob": 0.989
+  },
+  {
+   "word": "hears",
+   "start": 27.98,
+   "end": 28.24,
+   "prob": 0.999
+  },
+  {
+   "word": "it.",
+   "start": 28.24,
+   "end": 28.5,
+   "prob": 0.999
+  },
+  {
+   "word": "That",
+   "start": 28.5,
+   "end": 28.78,
+   "prob": 0.471
+  },
+  {
+   "word": "night,",
+   "start": 28.78,
+   "end": 29.04,
+   "prob": 0.993
+  },
+  {
+   "word": "it",
+   "start": 29.3,
+   "end": 29.42,
+   "prob": 0.98
+  },
+  {
+   "word": "pours.",
+   "start": 29.42,
+   "end": 29.94,
+   "prob": 0.982
+  },
+  {
+   "word": "So",
+   "start": 30.14,
+   "end": 30.26,
+   "prob": 0.985
+  },
+  {
+   "word": "he",
+   "start": 30.26,
+   "end": 30.38,
+   "prob": 0.909
+  },
+  {
+   "word": "throws",
+   "start": 30.38,
+   "end": 30.6,
+   "prob": 0.997
+  },
+  {
+   "word": "his",
+   "start": 30.6,
+   "end": 30.86,
+   "prob": 0.994
+  },
+  {
+   "word": "coat",
+   "start": 30.86,
+   "end": 31.02,
+   "prob": 0.995
+  },
+  {
+   "word": "over",
+   "start": 31.02,
+   "end": 31.32,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 31.32,
+   "end": 31.48,
+   "prob": 0.993
+  },
+  {
+   "word": "cart",
+   "start": 31.48,
+   "end": 31.7,
+   "prob": 0.972
+  },
+  {
+   "word": "and",
+   "start": 31.7,
+   "end": 31.96,
+   "prob": 0.739
+  },
+  {
+   "word": "lies",
+   "start": 31.96,
+   "end": 32.22,
+   "prob": 0.99
+  },
+  {
+   "word": "on",
+   "start": 32.22,
+   "end": 32.46,
+   "prob": 0.997
+  },
+  {
+   "word": "top",
+   "start": 32.46,
+   "end": 32.68,
+   "prob": 0.989
+  },
+  {
+   "word": "of",
+   "start": 32.68,
+   "end": 32.82,
+   "prob": 0.995
+  },
+  {
+   "word": "it",
+   "start": 32.82,
+   "end": 32.94,
+   "prob": 0.998
+  },
+  {
+   "word": "like",
+   "start": 32.94,
+   "end": 33.06,
+   "prob": 0.913
+  },
+  {
+   "word": "a",
+   "start": 33.06,
+   "end": 33.22,
+   "prob": 0.996
+  },
+  {
+   "word": "human",
+   "start": 33.22,
+   "end": 33.48,
+   "prob": 0.996
+  },
+  {
+   "word": "umbrella.",
+   "start": 33.48,
+   "end": 33.86,
+   "prob": 0.998
+  },
+  {
+   "word": "One",
+   "start": 34.14,
+   "end": 34.32,
+   "prob": 0.986
+  },
+  {
+   "word": "drop",
+   "start": 34.32,
+   "end": 34.56,
+   "prob": 0.997
+  },
+  {
+   "word": "gets",
+   "start": 34.56,
+   "end": 34.76,
+   "prob": 0.995
+  },
+  {
+   "word": "in",
+   "start": 34.76,
+   "end": 34.98,
+   "prob": 0.996
+  },
+  {
+   "word": "there,",
+   "start": 34.98,
+   "end": 35.2,
+   "prob": 0.997
+  },
+  {
+   "word": "and",
+   "start": 35.38,
+   "end": 35.46,
+   "prob": 0.991
+  },
+  {
+   "word": "we're",
+   "start": 35.46,
+   "end": 35.72,
+   "prob": 0.994
+  },
+  {
+   "word": "all",
+   "start": 35.72,
+   "end": 36.0,
+   "prob": 0.99
+  },
+  {
+   "word": "dead.",
+   "start": 36.0,
+   "end": 36.32,
+   "prob": 0.998
+  },
+  {
+   "word": "The",
+   "start": 36.54,
+   "end": 36.62,
+   "prob": 0.981
+  },
+  {
+   "word": "next",
+   "start": 36.62,
+   "end": 36.8,
+   "prob": 0.999
+  },
+  {
+   "word": "morning,",
+   "start": 36.8,
+   "end": 37.2,
+   "prob": 0.999
+  },
+  {
+   "word": "ladders",
+   "start": 37.54,
+   "end": 37.72,
+   "prob": 0.978
+  },
+  {
+   "word": "slam",
+   "start": 37.72,
+   "end": 38.14,
+   "prob": 0.997
+  },
+  {
+   "word": "against",
+   "start": 38.14,
+   "end": 38.4,
+   "prob": 0.998
+  },
+  {
+   "word": "the",
+   "start": 38.4,
+   "end": 38.6,
+   "prob": 0.998
+  },
+  {
+   "word": "walls",
+   "start": 38.6,
+   "end": 38.84,
+   "prob": 0.991
+  },
+  {
+   "word": "and",
+   "start": 38.84,
+   "end": 39.06,
+   "prob": 0.614
+  },
+  {
+   "word": "the",
+   "start": 39.06,
+   "end": 39.18,
+   "prob": 0.997
+  },
+  {
+   "word": "army",
+   "start": 39.18,
+   "end": 39.46,
+   "prob": 0.905
+  },
+  {
+   "word": "charges.",
+   "start": 39.46,
+   "end": 39.94,
+   "prob": 0.998
+  },
+  {
+   "word": "Everyone",
+   "start": 40.28,
+   "end": 40.58,
+   "prob": 0.991
+  },
+  {
+   "word": "screams",
+   "start": 40.58,
+   "end": 41.04,
+   "prob": 0.991
+  },
+  {
+   "word": "at",
+   "start": 41.04,
+   "end": 41.26,
+   "prob": 0.998
+  },
+  {
+   "word": "him",
+   "start": 41.26,
+   "end": 41.36,
+   "prob": 0.999
+  },
+  {
+   "word": "to",
+   "start": 41.36,
+   "end": 41.5,
+   "prob": 0.998
+  },
+  {
+   "word": "do",
+   "start": 41.5,
+   "end": 41.76,
+   "prob": 0.986
+  },
+  {
+   "word": "something,",
+   "start": 41.76,
+   "end": 42.18,
+   "prob": 0.999
+  },
+  {
+   "word": "but",
+   "start": 42.32,
+   "end": 42.44,
+   "prob": 0.98
+  },
+  {
+   "word": "he",
+   "start": 42.44,
+   "end": 42.6,
+   "prob": 0.998
+  },
+  {
+   "word": "just",
+   "start": 42.6,
+   "end": 42.74,
+   "prob": 0.998
+  },
+  {
+   "word": "watches",
+   "start": 42.74,
+   "end": 43.1,
+   "prob": 0.996
+  },
+  {
+   "word": "them",
+   "start": 43.1,
+   "end": 43.36,
+   "prob": 0.999
+  },
+  {
+   "word": "get",
+   "start": 43.36,
+   "end": 43.52,
+   "prob": 0.998
+  },
+  {
+   "word": "closer",
+   "start": 43.52,
+   "end": 43.96,
+   "prob": 0.996
+  },
+  {
+   "word": "and",
+   "start": 43.96,
+   "end": 44.24,
+   "prob": 0.994
+  },
+  {
+   "word": "closer,",
+   "start": 44.24,
+   "end": 44.68,
+   "prob": 0.999
+  },
+  {
+   "word": "until",
+   "start": 44.8,
+   "end": 45.02,
+   "prob": 0.989
+  },
+  {
+   "word": "they're",
+   "start": 45.02,
+   "end": 45.22,
+   "prob": 0.988
+  },
+  {
+   "word": "packed",
+   "start": 45.22,
+   "end": 45.5,
+   "prob": 0.992
+  },
+  {
+   "word": "shoulder",
+   "start": 45.5,
+   "end": 45.86,
+   "prob": 0.946
+  },
+  {
+   "word": "to",
+   "start": 45.86,
+   "end": 46.08,
+   "prob": 0.841
+  },
+  {
+   "word": "shoulder,",
+   "start": 46.08,
+   "end": 46.44,
+   "prob": 1.0
+  },
+  {
+   "word": "close",
+   "start": 46.58,
+   "end": 46.78,
+   "prob": 0.997
+  },
+  {
+   "word": "enough",
+   "start": 46.78,
+   "end": 47.02,
+   "prob": 0.999
+  },
+  {
+   "word": "to",
+   "start": 47.02,
+   "end": 47.22,
+   "prob": 0.999
+  },
+  {
+   "word": "see",
+   "start": 47.22,
+   "end": 47.38,
+   "prob": 0.999
+  },
+  {
+   "word": "their",
+   "start": 47.38,
+   "end": 47.56,
+   "prob": 0.995
+  },
+  {
+   "word": "teeth.",
+   "start": 47.56,
+   "end": 47.84,
+   "prob": 0.999
+  },
+  {
+   "word": "That's",
+   "start": 48.12,
+   "end": 48.42,
+   "prob": 0.997
+  },
+  {
+   "word": "when",
+   "start": 48.42,
+   "end": 48.52,
+   "prob": 0.999
+  },
+  {
+   "word": "he",
+   "start": 48.52,
+   "end": 48.62,
+   "prob": 0.998
+  },
+  {
+   "word": "rips",
+   "start": 48.62,
+   "end": 48.92,
+   "prob": 0.992
+  },
+  {
+   "word": "off",
+   "start": 48.92,
+   "end": 49.12,
+   "prob": 0.99
+  },
+  {
+   "word": "the",
+   "start": 49.12,
+   "end": 49.28,
+   "prob": 0.995
+  },
+  {
+   "word": "coat",
+   "start": 49.28,
+   "end": 49.48,
+   "prob": 0.998
+  },
+  {
+   "word": "and",
+   "start": 49.48,
+   "end": 49.7,
+   "prob": 0.963
+  },
+  {
+   "word": "lights",
+   "start": 49.7,
+   "end": 49.98,
+   "prob": 0.99
+  },
+  {
+   "word": "the",
+   "start": 49.98,
+   "end": 50.2,
+   "prob": 0.998
+  },
+  {
+   "word": "rope.",
+   "start": 50.2,
+   "end": 50.42,
+   "prob": 0.988
+  },
+  {
+   "word": "The",
+   "start": 50.58,
+   "end": 50.7,
+   "prob": 0.992
+  },
+  {
+   "word": "spark",
+   "start": 50.7,
+   "end": 51.06,
+   "prob": 0.977
+  },
+  {
+   "word": "races",
+   "start": 51.06,
+   "end": 51.52,
+   "prob": 0.964
+  },
+  {
+   "word": "down",
+   "start": 51.52,
+   "end": 51.8,
+   "prob": 0.995
+  },
+  {
+   "word": "it",
+   "start": 51.8,
+   "end": 52.0,
+   "prob": 0.992
+  },
+  {
+   "word": "and",
+   "start": 52.0,
+   "end": 52.14,
+   "prob": 0.958
+  },
+  {
+   "word": "splits",
+   "start": 52.14,
+   "end": 52.46,
+   "prob": 0.994
+  },
+  {
+   "word": "into",
+   "start": 52.46,
+   "end": 52.76,
+   "prob": 0.993
+  },
+  {
+   "word": "82",
+   "start": 52.76,
+   "end": 53.2,
+   "prob": 0.909
+  },
+  {
+   "word": "tiny",
+   "start": 53.2,
+   "end": 53.78,
+   "prob": 0.995
+  },
+  {
+   "word": "flames,",
+   "start": 53.78,
+   "end": 54.24,
+   "prob": 0.998
+  },
+  {
+   "word": "and",
+   "start": 54.24,
+   "end": 54.56,
+   "prob": 0.618
+  },
+  {
+   "word": "each",
+   "start": 54.56,
+   "end": 54.82,
+   "prob": 0.997
+  },
+  {
+   "word": "one",
+   "start": 54.82,
+   "end": 55.12,
+   "prob": 0.995
+  },
+  {
+   "word": "hits",
+   "start": 55.12,
+   "end": 55.32,
+   "prob": 0.983
+  },
+  {
+   "word": "a",
+   "start": 55.32,
+   "end": 55.56,
+   "prob": 0.998
+  },
+  {
+   "word": "tube",
+   "start": 55.56,
+   "end": 55.68,
+   "prob": 0.989
+  },
+  {
+   "word": "of",
+   "start": 55.68,
+   "end": 55.86,
+   "prob": 0.998
+  },
+  {
+   "word": "gunpowder",
+   "start": 55.86,
+   "end": 56.36,
+   "prob": 0.987
+  },
+  {
+   "word": "strapped",
+   "start": 56.36,
+   "end": 56.72,
+   "prob": 0.972
+  },
+  {
+   "word": "to",
+   "start": 56.72,
+   "end": 56.96,
+   "prob": 0.999
+  },
+  {
+   "word": "an",
+   "start": 56.96,
+   "end": 57.06,
+   "prob": 0.997
+  },
+  {
+   "word": "arrow,",
+   "start": 57.06,
+   "end": 57.38,
+   "prob": 0.991
+  },
+  {
+   "word": "turning",
+   "start": 57.5,
+   "end": 57.74,
+   "prob": 0.994
+  },
+  {
+   "word": "every",
+   "start": 57.74,
+   "end": 58.2,
+   "prob": 0.96
+  },
+  {
+   "word": "one",
+   "start": 58.2,
+   "end": 58.46,
+   "prob": 0.995
+  },
+  {
+   "word": "of",
+   "start": 58.46,
+   "end": 58.56,
+   "prob": 0.995
+  },
+  {
+   "word": "them",
+   "start": 58.56,
+   "end": 58.74,
+   "prob": 0.999
+  },
+  {
+   "word": "into",
+   "start": 58.74,
+   "end": 58.98,
+   "prob": 0.995
+  },
+  {
+   "word": "a",
+   "start": 58.98,
+   "end": 59.26,
+   "prob": 0.998
+  },
+  {
+   "word": "rocket.",
+   "start": 59.26,
+   "end": 59.52,
+   "prob": 0.986
+  },
+  {
+   "word": "All",
+   "start": 59.84,
+   "end": 60.02,
+   "prob": 0.976
+  },
+  {
+   "word": "82",
+   "start": 60.02,
+   "end": 60.38,
+   "prob": 0.919
+  },
+  {
+   "word": "blast",
+   "start": 60.38,
+   "end": 60.92,
+   "prob": 0.987
+  },
+  {
+   "word": "off",
+   "start": 60.92,
+   "end": 61.2,
+   "prob": 0.974
+  },
+  {
+   "word": "the",
+   "start": 61.2,
+   "end": 61.34,
+   "prob": 0.997
+  },
+  {
+   "word": "cart",
+   "start": 61.34,
+   "end": 61.5,
+   "prob": 0.793
+  },
+  {
+   "word": "at",
+   "start": 61.5,
+   "end": 61.64,
+   "prob": 0.993
+  },
+  {
+   "word": "once,",
+   "start": 61.64,
+   "end": 61.94,
+   "prob": 0.999
+  },
+  {
+   "word": "flying",
+   "start": 62.04,
+   "end": 62.3,
+   "prob": 0.999
+  },
+  {
+   "word": "every",
+   "start": 62.3,
+   "end": 62.74,
+   "prob": 0.992
+  },
+  {
+   "word": "which",
+   "start": 62.74,
+   "end": 62.94,
+   "prob": 0.989
+  },
+  {
+   "word": "way.",
+   "start": 62.94,
+   "end": 63.28,
+   "prob": 0.982
+  },
+  {
+   "word": "But",
+   "start": 63.42,
+   "end": 63.5,
+   "prob": 0.99
+  },
+  {
+   "word": "with",
+   "start": 63.5,
+   "end": 63.62,
+   "prob": 0.971
+  },
+  {
+   "word": "the",
+   "start": 63.62,
+   "end": 63.74,
+   "prob": 0.996
+  },
+  {
+   "word": "army",
+   "start": 63.74,
+   "end": 64.02,
+   "prob": 0.845
+  },
+  {
+   "word": "packed",
+   "start": 64.02,
+   "end": 64.32,
+   "prob": 0.948
+  },
+  {
+   "word": "that",
+   "start": 64.32,
+   "end": 64.62,
+   "prob": 0.987
+  },
+  {
+   "word": "tight,",
+   "start": 64.62,
+   "end": 64.96,
+   "prob": 0.999
+  },
+  {
+   "word": "not",
+   "start": 65.18,
+   "end": 65.28,
+   "prob": 0.996
+  },
+  {
+   "word": "a",
+   "start": 65.28,
+   "end": 65.42,
+   "prob": 0.997
+  },
+  {
+   "word": "single",
+   "start": 65.42,
+   "end": 65.76,
+   "prob": 1.0
+  },
+  {
+   "word": "one",
+   "start": 65.76,
+   "end": 66.2,
+   "prob": 0.997
+  },
+  {
+   "word": "misses.",
+   "start": 66.2,
+   "end": 66.46,
+   "prob": 0.998
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.0,
+   "end": 9.3,
+   "n_words": 31,
+   "text": "He drilled 82 holes into the wood, because down the hill, an army is marching straight for his fort, and while everyone else sharpens swords, he's in the corner still drilling."
+  },
+  {
+   "start": 9.46,
+   "end": 12.4,
+   "n_words": 10,
+   "text": "His commander asks, are we fighting them or grating cheese?"
+  },
+  {
+   "start": 12.8,
+   "end": 13.84,
+   "n_words": 4,
+   "text": "But it gets weirder."
+  },
+  {
+   "start": 14.02,
+   "end": 20.12,
+   "n_words": 23,
+   "text": "He bolts the wood onto a cart, and into every hole goes something long and thin, wrapped in paper, each with a string."
+  },
+  {
+   "start": 20.38,
+   "end": 24.02,
+   "n_words": 13,
+   "text": "Then he twists all the strings into one rope nobody's allowed to touch."
+  },
+  {
+   "start": 24.24,
+   "end": 28.5,
+   "n_words": 17,
+   "text": "One soldier reaches for it, and he slaps his hand so hard the whole fort hears it."
+  },
+  {
+   "start": 28.5,
+   "end": 29.94,
+   "n_words": 4,
+   "text": "That night, it pours."
+  },
+  {
+   "start": 30.14,
+   "end": 33.86,
+   "n_words": 18,
+   "text": "So he throws his coat over the cart and lies on top of it like a human umbrella."
+  },
+  {
+   "start": 34.14,
+   "end": 36.32,
+   "n_words": 9,
+   "text": "One drop gets in there, and we're all dead."
+  },
+  {
+   "start": 36.54,
+   "end": 39.94,
+   "n_words": 12,
+   "text": "The next morning, ladders slam against the walls and the army charges."
+  },
+  {
+   "start": 40.28,
+   "end": 47.84,
+   "n_words": 28,
+   "text": "Everyone screams at him to do something, but he just watches them get closer and closer, until they're packed shoulder to shoulder, close enough to see their teeth."
+  },
+  {
+   "start": 48.12,
+   "end": 50.42,
+   "n_words": 11,
+   "text": "That's when he rips off the coat and lights the rope."
+  },
+  {
+   "start": 50.58,
+   "end": 59.52,
+   "n_words": 31,
+   "text": "The spark races down it and splits into 82 tiny flames, and each one hits a tube of gunpowder strapped to an arrow, turning every one of them into a rocket."
+  },
+  {
+   "start": 59.84,
+   "end": 63.28,
+   "n_words": 12,
+   "text": "All 82 blast off the cart at once, flying every which way."
+  },
+  {
+   "start": 63.42,
+   "end": 66.46,
+   "n_words": 12,
+   "text": "But with the army packed that tight, not a single one misses."
+  }
+ ]
+}

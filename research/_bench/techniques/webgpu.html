@@ -1,0 +1,33 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:#000}canvas{display:block;width:1080px;height:1920px}</style>
+<script type="importmap">
+{ "imports": { "three": "/outline-shader/node_modules/three/build/three.webgpu.js", "three/webgpu": "/outline-shader/node_modules/three/build/three.webgpu.js", "three/tsl": "/outline-shader/node_modules/three/build/three.tsl.js", "three/addons/": "/outline-shader/node_modules/three/examples/jsm/" } }
+</script></head>
+<body><canvas id="gl" width="1080" height="1920"></canvas>
+<script type="module">
+  import * as THREE from 'three/webgpu';
+  import { toonOutlinePass, pass, uniform } from 'three/tsl';
+  import { bloom } from 'three/addons/tsl/display/BloomNode.js';
+  try {
+    const canvas = document.getElementById('gl');
+    const renderer = new THREE.WebGPURenderer({ canvas, antialias: true, forceWebGL: new URLSearchParams(location.search).get('gl') === '1' });
+    renderer.setPixelRatio(1); renderer.setSize(1080, 1920, false);
+    await renderer.init();
+    const scene = new THREE.Scene(); scene.background = new THREE.Color(0xffe3c2);
+    const camera = new THREE.PerspectiveCamera(35, 1080 / 1920, 0.5, 60); camera.position.set(0, 1, 9); camera.lookAt(0, 0, 0);
+    scene.add(new THREE.HemisphereLight(0xffffff, 0x886655, 1.2));
+    const sun = new THREE.DirectionalLight(0xffffff, 2.5); sun.position.set(4, 8, 6); scene.add(sun);
+    const ramp = new THREE.DataTexture(new Uint8Array([90, 180, 255]), 3, 1, THREE.RedFormat); ramp.minFilter = ramp.magFilter = THREE.NearestFilter; ramp.needsUpdate = true;
+    const knot = new THREE.Mesh(new THREE.TorusKnotGeometry(1, 0.4, 100, 100), new THREE.MeshToonNodeMaterial({ color: 0x4e62f9, gradientMap: ramp }));
+    knot.position.y = 1.6; scene.add(knot);
+    const box = new THREE.Mesh(new THREE.BoxGeometry(1.6, 1.6, 1.6), new THREE.MeshToonNodeMaterial({ color: 0xff6b6b, gradientMap: ramp }));
+    box.position.y = -1.8; box.rotation.set(0.5, 0.6, 0); scene.add(box);
+    const pipeline = new THREE.RenderPipeline(renderer);
+    pipeline.outputNode = toonOutlinePass(scene, camera, uniform(new THREE.Color(0x1a1020)), uniform(0.004), uniform(1));
+    window.renderAt = async (t) => { knot.rotation.set(t * 0.7, t * 0.9, 0); await pipeline.renderAsync?.() ?? pipeline.render(); };
+    await window.renderAt(1);
+    window.backend = renderer.backend.isWebGPUBackend ? 'webgpu' : 'webgl2-fallback';
+    window.demoReady = true;
+  } catch (e) { window.demoError = String(e.stack || e); }
+</script></body></html>

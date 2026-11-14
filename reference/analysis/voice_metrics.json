@@ -1,0 +1,1027 @@
+{
+ "pink-prison": {
+  "video": "pink-prison",
+  "duration_s": 65.2,
+  "words": 237,
+  "wpm_overall": 218.1,
+  "wpm_speaking_span": 218.8,
+  "pauses_gt150ms": {
+   "count": 24,
+   "total_s": 6.52,
+   "at_sentence_end": 16,
+   "at_comma": 8,
+   "mid_phrase": 0,
+   "max": [
+    0.52,
+    12.4,
+    "thrilled.",
+    "Barbie's"
+   ],
+   "median_s": 0.26
+  },
+  "sentence_gap_s": {
+   "n": 21,
+   "median": 0.26,
+   "mean": 0.239,
+   "min": 0.0,
+   "max": 0.52,
+   "p25": 0.16,
+   "p75": 0.3
+  },
+  "articulation_wpm_excl_pauses_gt150ms": 243.2,
+  "wpm_per_10s": [
+   216,
+   192,
+   240,
+   204,
+   234,
+   228
+  ],
+  "wpm_per_5s": [
+   192,
+   240,
+   204,
+   180,
+   276,
+   204,
+   228,
+   180,
+   228,
+   240,
+   240,
+   216,
+   216
+  ],
+  "syllables_per_s_est": 4.97,
+  "audio_first_frame_above_-50dBFS_s": 0.11,
+  "voice_onset_above_-25dBFS_s": 0.16,
+  "last_word_end_s": 65.0,
+  "tail_after_last_word_s": 0.2,
+  "level_last_100ms_dBFS": -30.2,
+  "pitch_Hz": {
+   "median": 204.2,
+   "p5": 122.5,
+   "p95": 324.3,
+   "mean": 210.3,
+   "sd_semitones": 5.4,
+   "range_p5_p95_semitones": 16.9,
+   "voiced_frames": 3685
+  },
+  "sentence_f0_median_p95": [
+   [
+    0.0,
+    226,
+    349,
+    "They painted the jail cell pink."
+   ],
+   [
+    2.1,
+    223,
+    382,
+    "And not just any pink."
+   ],
+   [
+    3.38,
+    202,
+    345,
+    "A scientist mixes exactly one pint of re"
+   ],
+   [
+    11.22,
+    174,
+    315,
+    "The guards are thrilled."
+   ],
+   [
+    12.92,
+    163,
+    287,
+    "Barbie's gonna love it in here."
+   ],
+   [
+    14.42,
+    203,
+    329,
+    "Then he gives them one strange rule."
+   ],
+   [
+    16.6,
+    185,
+    298,
+    "Every prisoner who goes in comes out aft"
+   ],
+   [
+    22.3,
+    200,
+    356,
+    "So the first guy they throw in is the bi"
+   ],
+   [
+    25.14,
+    225,
+    399,
+    "300 pounds of tattoos, laughing at the w"
+   ],
+   [
+    28.58,
+    218,
+    327,
+    "But when they pull him out 15 minutes la"
+   ],
+   [
+    33.44,
+    230,
+    300,
+    "And the guard slams his hand down in two"
+   ],
+   [
+    36.18,
+    240,
+    244,
+    "Wait, what?"
+   ],
+   [
+    36.98,
+    292,
+    334,
+    "Well, nobody can explain it."
+   ],
+   [
+    38.62,
+    233,
+    300,
+    "But within a year, jails all over the co"
+   ],
+   [
+    42.78,
+    143,
+    285,
+    "Until one night, a guard forgets about t"
+   ],
+   [
+    45.92,
+    228,
+    302,
+    "At 15 minutes, he's sitting quietly."
+   ],
+   [
+    47.88,
+    179,
+    282,
+    "At 20, he's pacing."
+   ],
+   [
+    49.26,
+    210,
+    313,
+    "And by the time they open the door, he's"
+   ],
+   [
+    52.78,
+    199,
+    302,
+    "You see, the scientist swore this pink d"
+   ],
+   [
+    57.46,
+    193,
+    300,
+    "So jails used it to calm their most viol"
+   ],
+   [
+    60.18,
+    185,
+    276,
+    "But it only works for 15 minutes."
+   ],
+   [
+    62.48,
+    201,
+    285,
+    "Leave someone in any longer and it does "
+   ]
+  ],
+  "voice_level_dBFS": {
+   "rms_in_words": -16.7,
+   "p10": -30.0,
+   "p50": -18.0,
+   "p95": -11.9
+  },
+  "sentence_level_sd_dB": 1.26,
+  "sentence_level_range_dB": [
+   -21.0,
+   -14.8
+  ],
+  "all_gaps_gt150ms": [
+   [
+    0.32,
+    1.78,
+    "pink.",
+    "And"
+   ],
+   [
+    0.28,
+    10.94,
+    "shade.",
+    "The"
+   ],
+   [
+    0.52,
+    12.4,
+    "thrilled.",
+    "Barbie's"
+   ],
+   [
+    0.22,
+    14.2,
+    "here.",
+    "Then"
+   ],
+   [
+    0.18,
+    16.42,
+    "rule.",
+    "Every"
+   ],
+   [
+    0.26,
+    22.04,
+    "stopwatch.",
+    "So"
+   ],
+   [
+    0.38,
+    26.96,
+    "tattoos,",
+    "laughing"
+   ],
+   [
+    0.36,
+    28.22,
+    "walls.",
+    "But"
+   ],
+   [
+    0.22,
+    30.32,
+    "later,",
+    "the"
+   ],
+   [
+    0.3,
+    35.88,
+    "seconds.",
+    "Wait,"
+   ],
+   [
+    0.2,
+    36.32,
+    "Wait,",
+    "what?"
+   ],
+   [
+    0.3,
+    36.68,
+    "what?",
+    "Well,"
+   ],
+   [
+    0.36,
+    37.16,
+    "Well,",
+    "nobody"
+   ],
+   [
+    0.22,
+    39.3,
+    "year,",
+    "jails"
+   ],
+   [
+    0.16,
+    45.76,
+    "cell.",
+    "At"
+   ],
+   [
+    0.22,
+    46.66,
+    "minutes,",
+    "he's"
+   ],
+   [
+    0.3,
+    47.58,
+    "quietly.",
+    "At"
+   ],
+   [
+    0.18,
+    48.38,
+    "20,",
+    "he's"
+   ],
+   [
+    0.26,
+    49.0,
+    "pacing.",
+    "And"
+   ],
+   [
+    0.16,
+    50.44,
+    "door,",
+    "he's"
+   ],
+   [
+    0.24,
+    52.54,
+    "floor.",
+    "You"
+   ],
+   [
+    0.3,
+    57.16,
+    "minutes.",
+    "So"
+   ],
+   [
+    0.36,
+    59.82,
+    "prisoners.",
+    "But"
+   ],
+   [
+    0.22,
+    62.26,
+    "minutes.",
+    "Leave"
+   ]
+  ]
+ },
+ "one-cart": {
+  "video": "one-cart",
+  "duration_s": 66.83,
+  "words": 235,
+  "wpm_overall": 211.0,
+  "wpm_speaking_span": 212.2,
+  "pauses_gt150ms": {
+   "count": 22,
+   "total_s": 5.34,
+   "at_sentence_end": 12,
+   "at_comma": 10,
+   "mid_phrase": 0,
+   "max": [
+    0.4,
+    12.4,
+    "cheese?",
+    "But"
+   ],
+   "median_s": 0.22
+  },
+  "sentence_gap_s": {
+   "n": 14,
+   "median": 0.22,
+   "mean": 0.226,
+   "min": 0.0,
+   "max": 0.4,
+   "p25": 0.165,
+   "p75": 0.28
+  },
+  "articulation_wpm_excl_pauses_gt150ms": 230.7,
+  "wpm_per_10s": [
+   204,
+   204,
+   204,
+   234,
+   228,
+   198
+  ],
+  "wpm_per_5s": [
+   204,
+   204,
+   192,
+   216,
+   192,
+   216,
+   276,
+   192,
+   204,
+   252,
+   180,
+   216,
+   216
+  ],
+  "syllables_per_s_est": 4.68,
+  "audio_first_frame_above_-50dBFS_s": 0.05,
+  "voice_onset_above_-25dBFS_s": 0.12,
+  "last_word_end_s": 66.46,
+  "tail_after_last_word_s": 0.37,
+  "level_last_100ms_dBFS": -21.4,
+  "pitch_Hz": {
+   "median": 210.0,
+   "p5": 131.2,
+   "p95": 329.1,
+   "mean": 216.0,
+   "sd_semitones": 5.39,
+   "range_p5_p95_semitones": 15.9,
+   "voiced_frames": 3662
+  },
+  "sentence_f0_median_p95": [
+   [
+    0.0,
+    228,
+    337,
+    "He drilled 82 holes into the wood, becau"
+   ],
+   [
+    9.46,
+    292,
+    368,
+    "His commander asks, are we fighting them"
+   ],
+   [
+    12.8,
+    183,
+    317,
+    "But it gets weirder."
+   ],
+   [
+    14.02,
+    193,
+    322,
+    "He bolts the wood onto a cart, and into "
+   ],
+   [
+    20.38,
+    187,
+    307,
+    "Then he twists all the strings into one "
+   ],
+   [
+    24.24,
+    241,
+    348,
+    "One soldier reaches for it, and he slaps"
+   ],
+   [
+    28.5,
+    194,
+    290,
+    "That night, it pours."
+   ],
+   [
+    30.14,
+    179,
+    296,
+    "So he throws his coat over the cart and "
+   ],
+   [
+    34.14,
+    197,
+    254,
+    "One drop gets in there, and we're all de"
+   ],
+   [
+    36.54,
+    205,
+    308,
+    "The next morning, ladders slam against t"
+   ],
+   [
+    40.28,
+    210,
+    350,
+    "Everyone screams at him to do something,"
+   ],
+   [
+    48.12,
+    194,
+    332,
+    "That's when he rips off the coat and lig"
+   ],
+   [
+    50.58,
+    212,
+    315,
+    "The spark races down it and splits into "
+   ],
+   [
+    59.84,
+    238,
+    329,
+    "All 82 blast off the cart at once, flyin"
+   ],
+   [
+    63.42,
+    194,
+    278,
+    "But with the army packed that tight, not"
+   ]
+  ],
+  "voice_level_dBFS": {
+   "rms_in_words": -16.7,
+   "p10": -28.9,
+   "p50": -17.8,
+   "p95": -12.4
+  },
+  "sentence_level_sd_dB": 0.95,
+  "sentence_level_range_dB": [
+   -19.0,
+   -15.7
+  ],
+  "all_gaps_gt150ms": [
+   [
+    0.22,
+    3.32,
+    "hill,",
+    "an"
+   ],
+   [
+    0.3,
+    7.32,
+    "swords,",
+    "he's"
+   ],
+   [
+    0.16,
+    9.3,
+    "drilling.",
+    "His"
+   ],
+   [
+    0.26,
+    10.32,
+    "asks,",
+    "are"
+   ],
+   [
+    0.4,
+    12.4,
+    "cheese?",
+    "But"
+   ],
+   [
+    0.18,
+    13.84,
+    "weirder.",
+    "He"
+   ],
+   [
+    0.16,
+    15.48,
+    "cart,",
+    "and"
+   ],
+   [
+    0.2,
+    18.22,
+    "thin,",
+    "wrapped"
+   ],
+   [
+    0.18,
+    19.1,
+    "paper,",
+    "each"
+   ],
+   [
+    0.26,
+    20.12,
+    "string.",
+    "Then"
+   ],
+   [
+    0.22,
+    24.02,
+    "touch.",
+    "One"
+   ],
+   [
+    0.26,
+    29.04,
+    "night,",
+    "it"
+   ],
+   [
+    0.2,
+    29.94,
+    "pours.",
+    "So"
+   ],
+   [
+    0.28,
+    33.86,
+    "umbrella.",
+    "One"
+   ],
+   [
+    0.18,
+    35.2,
+    "there,",
+    "and"
+   ],
+   [
+    0.22,
+    36.32,
+    "dead.",
+    "The"
+   ],
+   [
+    0.34,
+    37.2,
+    "morning,",
+    "ladders"
+   ],
+   [
+    0.34,
+    39.94,
+    "charges.",
+    "Everyone"
+   ],
+   [
+    0.28,
+    47.84,
+    "teeth.",
+    "That's"
+   ],
+   [
+    0.16,
+    50.42,
+    "rope.",
+    "The"
+   ],
+   [
+    0.32,
+    59.52,
+    "rocket.",
+    "All"
+   ],
+   [
+    0.22,
+    64.96,
+    "tight,",
+    "not"
+   ]
+  ]
+ },
+ "mine-salting": {
+  "video": "mine-salting",
+  "duration_s": 61.05,
+  "words": 231,
+  "wpm_overall": 227.0,
+  "wpm_speaking_span": 227.4,
+  "pauses_gt150ms": {
+   "count": 25,
+   "total_s": 6.1,
+   "at_sentence_end": 15,
+   "at_comma": 10,
+   "mid_phrase": 0,
+   "max": [
+    0.7,
+    41.34,
+    "nods.",
+    "Completely"
+   ],
+   "median_s": 0.2
+  },
+  "sentence_gap_s": {
+   "n": 20,
+   "median": 0.18,
+   "mean": 0.214,
+   "min": 0.0,
+   "max": 0.7,
+   "p25": 0.155,
+   "p75": 0.28
+  },
+  "articulation_wpm_excl_pauses_gt150ms": 252.7,
+  "wpm_per_10s": [
+   222,
+   234,
+   240,
+   204,
+   216,
+   246
+  ],
+  "wpm_per_5s": [
+   252,
+   192,
+   216,
+   252,
+   264,
+   216,
+   192,
+   216,
+   180,
+   252,
+   252,
+   240
+  ],
+  "syllables_per_s_est": 4.71,
+  "audio_first_frame_above_-50dBFS_s": 0.05,
+  "voice_onset_above_-25dBFS_s": 0.13,
+  "last_word_end_s": 60.94,
+  "tail_after_last_word_s": 0.11,
+  "level_last_100ms_dBFS": -31.2,
+  "pitch_Hz": {
+   "median": 195.1,
+   "p5": 114.5,
+   "p95": 319.6,
+   "mean": 203.5,
+   "sd_semitones": 5.65,
+   "range_p5_p95_semitones": 17.8,
+   "voiced_frames": 3452
+  },
+  "sentence_f0_median_p95": [
+   [
+    0.0,
+    193,
+    342,
+    "He loaded the shotgun with gold and fire"
+   ],
+   [
+    3.76,
+    175,
+    261,
+    "His buddy just watches the gold vanish i"
+   ],
+   [
+    6.7,
+    210,
+    329,
+    "So we're shooting gold into a gold mine?"
+   ],
+   [
+    9.12,
+    245,
+    313,
+    "You see, it's called salting."
+   ],
+   [
+    10.74,
+    197,
+    287,
+    "He's dug this mine for 10 years and foun"
+   ],
+   [
+    13.92,
+    183,
+    325,
+    "And tomorrow, a rich guy is coming to bu"
+   ],
+   [
+    16.1,
+    215,
+    339,
+    "So he spent his last hundred bucks on go"
+   ],
+   [
+    18.94,
+    176,
+    301,
+    "Next morning, the rich guy rolls up in a"
+   ],
+   [
+    23.34,
+    174,
+    345,
+    "But he's brought an expert, and the expe"
+   ],
+   [
+    25.82,
+    218,
+    306,
+    "He smashes a chunk of wall, swirls it in"
+   ],
+   [
+    30.64,
+    157,
+    272,
+    "But under his magnifying glass, every fl"
+   ],
+   [
+    33.66,
+    203,
+    340,
+    "Somebody shot this gold into the wall."
+   ],
+   [
+    35.7,
+    140,
+    274,
+    "But the rich guy just laughs."
+   ],
+   [
+    37.3,
+    222,
+    306,
+    "Why would anyone shoot gold into a wall?"
+   ],
+   [
+    39.58,
+    361,
+    387,
+    "That's insane!"
+   ],
+   [
+    40.5,
+    133,
+    245,
+    "And his buddy nods."
+   ],
+   [
+    42.04,
+    116,
+    180,
+    "Completely insane."
+   ],
+   [
+    43.08,
+    194,
+    317,
+    "So the rich guy pays up, and while those"
+   ],
+   [
+    49.22,
+    201,
+    300,
+    "He's never mind a day in his life."
+   ],
+   [
+    51.18,
+    225,
+    320,
+    "So he just lights it, tosses it down the"
+   ],
+   [
+    54.74,
+    195,
+    327,
+    "And when the dust clears, there's a vein"
+   ]
+  ],
+  "voice_level_dBFS": {
+   "rms_in_words": -16.4,
+   "p10": -28.1,
+   "p50": -17.8,
+   "p95": -11.7
+  },
+  "sentence_level_sd_dB": 1.44,
+  "sentence_level_range_dB": [
+   -20.4,
+   -15.1
+  ],
+  "all_gaps_gt150ms": [
+   [
+    0.22,
+    3.54,
+    "mine.",
+    "His"
+   ],
+   [
+    0.34,
+    6.36,
+    "rock.",
+    "So"
+   ],
+   [
+    0.2,
+    8.92,
+    "mine?",
+    "You"
+   ],
+   [
+    0.16,
+    10.58,
+    "salting.",
+    "He's"
+   ],
+   [
+    0.16,
+    13.76,
+    "rock.",
+    "And"
+   ],
+   [
+    0.26,
+    14.36,
+    "tomorrow,",
+    "a"
+   ],
+   [
+    0.24,
+    18.7,
+    "instead.",
+    "Next"
+   ],
+   [
+    0.2,
+    19.44,
+    "morning,",
+    "the"
+   ],
+   [
+    0.16,
+    23.18,
+    "beam.",
+    "But"
+   ],
+   [
+    0.16,
+    24.24,
+    "expert,",
+    "and"
+   ],
+   [
+    0.34,
+    27.42,
+    "wall,",
+    "swirls"
+   ],
+   [
+    0.18,
+    28.58,
+    "pan,",
+    "and"
+   ],
+   [
+    0.18,
+    30.46,
+    "bottom.",
+    "But"
+   ],
+   [
+    0.2,
+    31.94,
+    "glass,",
+    "every"
+   ],
+   [
+    0.28,
+    33.38,
+    "flat.",
+    "Somebody"
+   ],
+   [
+    0.18,
+    35.52,
+    "wall.",
+    "But"
+   ],
+   [
+    0.36,
+    36.94,
+    "laughs.",
+    "Why"
+   ],
+   [
+    0.28,
+    40.22,
+    "insane!",
+    "And"
+   ],
+   [
+    0.7,
+    41.34,
+    "nods.",
+    "Completely"
+   ],
+   [
+    0.32,
+    42.76,
+    "insane.",
+    "So"
+   ],
+   [
+    0.16,
+    44.44,
+    "up,",
+    "and"
+   ],
+   [
+    0.16,
+    46.02,
+    "money,",
+    "he"
+   ],
+   [
+    0.16,
+    51.02,
+    "life.",
+    "So"
+   ],
+   [
+    0.3,
+    56.0,
+    "clears,",
+    "there's"
+   ],
+   [
+    0.2,
+    58.82,
+    "arm,",
+    "10"
+   ]
+  ]
+ }
+}

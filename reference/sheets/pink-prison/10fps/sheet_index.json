@@ -1,0 +1,219 @@
+{
+ "video": "pink-prison.mp4",
+ "duration": 65.233333,
+ "source_fps": 30.0,
+ "source_size": [
+  720,
+  1280
+ ],
+ "sample_fps": 10.0,
+ "range": [
+  0,
+  65.233333
+ ],
+ "grid": [
+  4,
+  5
+ ],
+ "how_to_read": "Each tile has burned-in time (s) + source frame number. Order is left-to-right, top-to-bottom. Use t_start/t_end to pick the sheet for a moment.",
+ "sheets": [
+  {
+   "file": "sheet_001.jpg",
+   "t_start": 0.0,
+   "t_end": 2.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_002.jpg",
+   "t_start": 2.0,
+   "t_end": 4.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_003.jpg",
+   "t_start": 4.0,
+   "t_end": 6.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_004.jpg",
+   "t_start": 6.0,
+   "t_end": 8.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_005.jpg",
+   "t_start": 8.0,
+   "t_end": 10.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_006.jpg",
+   "t_start": 10.0,
+   "t_end": 12.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_007.jpg",
+   "t_start": 12.0,
+   "t_end": 14.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_008.jpg",
+   "t_start": 14.0,
+   "t_end": 16.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_009.jpg",
+   "t_start": 16.0,
+   "t_end": 18.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_010.jpg",
+   "t_start": 18.0,
+   "t_end": 20.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_011.jpg",
+   "t_start": 20.0,
+   "t_end": 22.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_012.jpg",
+   "t_start": 22.0,
+   "t_end": 24.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_013.jpg",
+   "t_start": 24.0,
+   "t_end": 26.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_014.jpg",
+   "t_start": 26.0,
+   "t_end": 28.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_015.jpg",
+   "t_start": 28.0,
+   "t_end": 30.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_016.jpg",
+   "t_start": 30.0,
+   "t_end": 32.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_017.jpg",
+   "t_start": 32.0,
+   "t_end": 34.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_018.jpg",
+   "t_start": 34.0,
+   "t_end": 36.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_019.jpg",
+   "t_start": 36.0,
+   "t_end": 38.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_020.jpg",
+   "t_start": 38.0,
+   "t_end": 40.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_021.jpg",
+   "t_start": 40.0,
+   "t_end": 42.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_022.jpg",
+   "t_start": 42.0,
+   "t_end": 44.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_023.jpg",
+   "t_start": 44.0,
+   "t_end": 46.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_024.jpg",
+   "t_start": 46.0,
+   "t_end": 48.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_025.jpg",
+   "t_start": 48.0,
+   "t_end": 50.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_026.jpg",
+   "t_start": 50.0,
+   "t_end": 52.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_027.jpg",
+   "t_start": 52.0,
+   "t_end": 54.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_028.jpg",
+   "t_start": 54.0,
+   "t_end": 56.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_029.jpg",
+   "t_start": 56.0,
+   "t_end": 58.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_030.jpg",
+   "t_start": 58.0,
+   "t_end": 60.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_031.jpg",
+   "t_start": 60.0,
+   "t_end": 62.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_032.jpg",
+   "t_start": 62.0,
+   "t_end": 64.0,
+   "frames": 20
+  },
+  {
+   "file": "sheet_033.jpg",
+   "t_start": 64.0,
+   "t_end": 65.2,
+   "frames": 12
+  }
+ ]
+}

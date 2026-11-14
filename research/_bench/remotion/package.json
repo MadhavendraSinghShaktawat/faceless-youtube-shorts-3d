@@ -1,0 +1,23 @@
+{
+  "name": "bench-remotion",
+  "private": true,
+  "scripts": {
+    "render": "remotion render src/index.ts BenchPlain out/plain.mp4 --gl=angle"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/captions": "^4.0.543",
+    "@remotion/cli": "4.0.543",
+    "@remotion/media": "^4.0.543",
+    "@remotion/three": "4.0.543",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.543",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/three": "^0.187.0",
+    "typescript": "^5.9.0"
+  }
+}

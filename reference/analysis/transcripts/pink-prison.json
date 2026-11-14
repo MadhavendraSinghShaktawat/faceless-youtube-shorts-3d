@@ -1,0 +1,1562 @@
+{
+ "video": "pink-prison",
+ "engine": "faster-whisper small.en, word_timestamps (cross-attention DTW, ~+-50-100 ms)",
+ "words": [
+  {
+   "word": "They",
+   "start": 0.0,
+   "end": 0.32,
+   "prob": 0.611
+  },
+  {
+   "word": "painted",
+   "start": 0.32,
+   "end": 0.62,
+   "prob": 0.948
+  },
+  {
+   "word": "the",
+   "start": 0.62,
+   "end": 0.82,
+   "prob": 0.993
+  },
+  {
+   "word": "jail",
+   "start": 0.82,
+   "end": 1.08,
+   "prob": 0.98
+  },
+  {
+   "word": "cell",
+   "start": 1.08,
+   "end": 1.42,
+   "prob": 0.957
+  },
+  {
+   "word": "pink.",
+   "start": 1.42,
+   "end": 1.78,
+   "prob": 0.858
+  },
+  {
+   "word": "And",
+   "start": 2.1,
+   "end": 2.2,
+   "prob": 0.96
+  },
+  {
+   "word": "not",
+   "start": 2.2,
+   "end": 2.38,
+   "prob": 0.987
+  },
+  {
+   "word": "just",
+   "start": 2.38,
+   "end": 2.58,
+   "prob": 0.998
+  },
+  {
+   "word": "any",
+   "start": 2.58,
+   "end": 2.9,
+   "prob": 0.961
+  },
+  {
+   "word": "pink.",
+   "start": 2.9,
+   "end": 3.24,
+   "prob": 0.998
+  },
+  {
+   "word": "A",
+   "start": 3.38,
+   "end": 3.48,
+   "prob": 0.983
+  },
+  {
+   "word": "scientist",
+   "start": 3.48,
+   "end": 3.82,
+   "prob": 0.989
+  },
+  {
+   "word": "mixes",
+   "start": 3.82,
+   "end": 4.3,
+   "prob": 0.997
+  },
+  {
+   "word": "exactly",
+   "start": 4.3,
+   "end": 4.86,
+   "prob": 0.993
+  },
+  {
+   "word": "one",
+   "start": 4.86,
+   "end": 5.26,
+   "prob": 0.915
+  },
+  {
+   "word": "pint",
+   "start": 5.26,
+   "end": 5.52,
+   "prob": 0.999
+  },
+  {
+   "word": "of",
+   "start": 5.52,
+   "end": 5.68,
+   "prob": 0.997
+  },
+  {
+   "word": "red",
+   "start": 5.68,
+   "end": 5.92,
+   "prob": 0.992
+  },
+  {
+   "word": "into",
+   "start": 5.92,
+   "end": 6.22,
+   "prob": 0.983
+  },
+  {
+   "word": "a",
+   "start": 6.22,
+   "end": 6.4,
+   "prob": 0.995
+  },
+  {
+   "word": "gallon",
+   "start": 6.4,
+   "end": 6.62,
+   "prob": 0.995
+  },
+  {
+   "word": "of",
+   "start": 6.62,
+   "end": 6.82,
+   "prob": 0.999
+  },
+  {
+   "word": "white",
+   "start": 6.82,
+   "end": 7.08,
+   "prob": 0.997
+  },
+  {
+   "word": "and",
+   "start": 7.08,
+   "end": 7.3,
+   "prob": 0.536
+  },
+  {
+   "word": "makes",
+   "start": 7.3,
+   "end": 7.44,
+   "prob": 0.993
+  },
+  {
+   "word": "the",
+   "start": 7.44,
+   "end": 7.66,
+   "prob": 0.994
+  },
+  {
+   "word": "guards",
+   "start": 7.66,
+   "end": 7.84,
+   "prob": 0.985
+  },
+  {
+   "word": "repaint",
+   "start": 7.84,
+   "end": 8.34,
+   "prob": 0.968
+  },
+  {
+   "word": "the",
+   "start": 8.34,
+   "end": 8.52,
+   "prob": 0.995
+  },
+  {
+   "word": "whole",
+   "start": 8.52,
+   "end": 8.8,
+   "prob": 0.997
+  },
+  {
+   "word": "thing",
+   "start": 8.8,
+   "end": 9.14,
+   "prob": 0.999
+  },
+  {
+   "word": "because",
+   "start": 9.14,
+   "end": 9.46,
+   "prob": 0.861
+  },
+  {
+   "word": "the",
+   "start": 9.46,
+   "end": 9.62,
+   "prob": 0.994
+  },
+  {
+   "word": "first",
+   "start": 9.62,
+   "end": 9.92,
+   "prob": 0.994
+  },
+  {
+   "word": "coat",
+   "start": 9.92,
+   "end": 10.16,
+   "prob": 0.999
+  },
+  {
+   "word": "was",
+   "start": 10.16,
+   "end": 10.32,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 10.32,
+   "end": 10.46,
+   "prob": 0.995
+  },
+  {
+   "word": "wrong",
+   "start": 10.46,
+   "end": 10.62,
+   "prob": 0.999
+  },
+  {
+   "word": "shade.",
+   "start": 10.62,
+   "end": 10.94,
+   "prob": 0.997
+  },
+  {
+   "word": "The",
+   "start": 11.22,
+   "end": 11.32,
+   "prob": 0.992
+  },
+  {
+   "word": "guards",
+   "start": 11.32,
+   "end": 11.64,
+   "prob": 0.995
+  },
+  {
+   "word": "are",
+   "start": 11.64,
+   "end": 11.92,
+   "prob": 0.998
+  },
+  {
+   "word": "thrilled.",
+   "start": 11.92,
+   "end": 12.4,
+   "prob": 0.97
+  },
+  {
+   "word": "Barbie's",
+   "start": 12.92,
+   "end": 13.2,
+   "prob": 0.93
+  },
+  {
+   "word": "gonna",
+   "start": 13.2,
+   "end": 13.34,
+   "prob": 0.759
+  },
+  {
+   "word": "love",
+   "start": 13.34,
+   "end": 13.7,
+   "prob": 0.974
+  },
+  {
+   "word": "it",
+   "start": 13.7,
+   "end": 13.86,
+   "prob": 0.998
+  },
+  {
+   "word": "in",
+   "start": 13.86,
+   "end": 13.98,
+   "prob": 0.994
+  },
+  {
+   "word": "here.",
+   "start": 13.98,
+   "end": 14.2,
+   "prob": 0.998
+  },
+  {
+   "word": "Then",
+   "start": 14.42,
+   "end": 14.62,
+   "prob": 0.993
+  },
+  {
+   "word": "he",
+   "start": 14.62,
+   "end": 14.88,
+   "prob": 0.433
+  },
+  {
+   "word": "gives",
+   "start": 14.88,
+   "end": 15.06,
+   "prob": 0.997
+  },
+  {
+   "word": "them",
+   "start": 15.06,
+   "end": 15.24,
+   "prob": 0.997
+  },
+  {
+   "word": "one",
+   "start": 15.24,
+   "end": 15.54,
+   "prob": 0.994
+  },
+  {
+   "word": "strange",
+   "start": 15.54,
+   "end": 16.0,
+   "prob": 0.995
+  },
+  {
+   "word": "rule.",
+   "start": 16.0,
+   "end": 16.42,
+   "prob": 0.999
+  },
+  {
+   "word": "Every",
+   "start": 16.6,
+   "end": 16.8,
+   "prob": 0.994
+  },
+  {
+   "word": "prisoner",
+   "start": 16.8,
+   "end": 17.12,
+   "prob": 0.996
+  },
+  {
+   "word": "who",
+   "start": 17.12,
+   "end": 17.36,
+   "prob": 0.995
+  },
+  {
+   "word": "goes",
+   "start": 17.36,
+   "end": 17.56,
+   "prob": 0.999
+  },
+  {
+   "word": "in",
+   "start": 17.56,
+   "end": 17.82,
+   "prob": 0.999
+  },
+  {
+   "word": "comes",
+   "start": 17.82,
+   "end": 18.12,
+   "prob": 0.937
+  },
+  {
+   "word": "out",
+   "start": 18.12,
+   "end": 18.38,
+   "prob": 0.996
+  },
+  {
+   "word": "after",
+   "start": 18.38,
+   "end": 18.68,
+   "prob": 0.995
+  },
+  {
+   "word": "exactly",
+   "start": 18.68,
+   "end": 19.28,
+   "prob": 0.998
+  },
+  {
+   "word": "15",
+   "start": 19.28,
+   "end": 19.74,
+   "prob": 0.838
+  },
+  {
+   "word": "minutes",
+   "start": 19.74,
+   "end": 20.1,
+   "prob": 0.991
+  },
+  {
+   "word": "and",
+   "start": 20.1,
+   "end": 20.36,
+   "prob": 0.339
+  },
+  {
+   "word": "he",
+   "start": 20.36,
+   "end": 20.56,
+   "prob": 0.997
+  },
+  {
+   "word": "waits",
+   "start": 20.56,
+   "end": 20.74,
+   "prob": 0.999
+  },
+  {
+   "word": "at",
+   "start": 20.74,
+   "end": 20.9,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 20.9,
+   "end": 21.02,
+   "prob": 0.998
+  },
+  {
+   "word": "door",
+   "start": 21.02,
+   "end": 21.22,
+   "prob": 0.999
+  },
+  {
+   "word": "with",
+   "start": 21.22,
+   "end": 21.4,
+   "prob": 0.997
+  },
+  {
+   "word": "a",
+   "start": 21.4,
+   "end": 21.54,
+   "prob": 0.994
+  },
+  {
+   "word": "stopwatch.",
+   "start": 21.54,
+   "end": 22.04,
+   "prob": 0.952
+  },
+  {
+   "word": "So",
+   "start": 22.3,
+   "end": 22.4,
+   "prob": 0.991
+  },
+  {
+   "word": "the",
+   "start": 22.4,
+   "end": 22.54,
+   "prob": 0.925
+  },
+  {
+   "word": "first",
+   "start": 22.54,
+   "end": 22.74,
+   "prob": 0.999
+  },
+  {
+   "word": "guy",
+   "start": 22.74,
+   "end": 22.94,
+   "prob": 0.998
+  },
+  {
+   "word": "they",
+   "start": 22.94,
+   "end": 23.12,
+   "prob": 0.992
+  },
+  {
+   "word": "throw",
+   "start": 23.12,
+   "end": 23.32,
+   "prob": 0.997
+  },
+  {
+   "word": "in",
+   "start": 23.32,
+   "end": 23.54,
+   "prob": 0.995
+  },
+  {
+   "word": "is",
+   "start": 23.54,
+   "end": 23.72,
+   "prob": 0.98
+  },
+  {
+   "word": "the",
+   "start": 23.72,
+   "end": 23.86,
+   "prob": 0.998
+  },
+  {
+   "word": "biggest",
+   "start": 23.86,
+   "end": 24.24,
+   "prob": 0.999
+  },
+  {
+   "word": "inmate",
+   "start": 24.24,
+   "end": 24.6,
+   "prob": 0.996
+  },
+  {
+   "word": "in",
+   "start": 24.6,
+   "end": 24.76,
+   "prob": 0.998
+  },
+  {
+   "word": "the",
+   "start": 24.76,
+   "end": 24.84,
+   "prob": 0.999
+  },
+  {
+   "word": "building.",
+   "start": 24.84,
+   "end": 25.14,
+   "prob": 1.0
+  },
+  {
+   "word": "300",
+   "start": 25.14,
+   "end": 25.84,
+   "prob": 0.518
+  },
+  {
+   "word": "pounds",
+   "start": 25.84,
+   "end": 26.26,
+   "prob": 0.894
+  },
+  {
+   "word": "of",
+   "start": 26.26,
+   "end": 26.48,
+   "prob": 0.985
+  },
+  {
+   "word": "tattoos,",
+   "start": 26.48,
+   "end": 26.96,
+   "prob": 0.976
+  },
+  {
+   "word": "laughing",
+   "start": 27.34,
+   "end": 27.56,
+   "prob": 0.951
+  },
+  {
+   "word": "at",
+   "start": 27.56,
+   "end": 27.82,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 27.82,
+   "end": 27.92,
+   "prob": 0.997
+  },
+  {
+   "word": "walls.",
+   "start": 27.92,
+   "end": 28.22,
+   "prob": 0.99
+  },
+  {
+   "word": "But",
+   "start": 28.58,
+   "end": 28.62,
+   "prob": 0.978
+  },
+  {
+   "word": "when",
+   "start": 28.62,
+   "end": 28.8,
+   "prob": 0.754
+  },
+  {
+   "word": "they",
+   "start": 28.8,
+   "end": 28.94,
+   "prob": 0.995
+  },
+  {
+   "word": "pull",
+   "start": 28.94,
+   "end": 29.12,
+   "prob": 0.996
+  },
+  {
+   "word": "him",
+   "start": 29.12,
+   "end": 29.2,
+   "prob": 0.861
+  },
+  {
+   "word": "out",
+   "start": 29.2,
+   "end": 29.38,
+   "prob": 0.998
+  },
+  {
+   "word": "15",
+   "start": 29.38,
+   "end": 29.74,
+   "prob": 0.953
+  },
+  {
+   "word": "minutes",
+   "start": 29.74,
+   "end": 29.98,
+   "prob": 0.994
+  },
+  {
+   "word": "later,",
+   "start": 29.98,
+   "end": 30.32,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 30.54,
+   "end": 30.6,
+   "prob": 0.927
+  },
+  {
+   "word": "scientist",
+   "start": 30.6,
+   "end": 30.9,
+   "prob": 0.951
+  },
+  {
+   "word": "asks",
+   "start": 30.9,
+   "end": 31.3,
+   "prob": 0.985
+  },
+  {
+   "word": "the",
+   "start": 31.3,
+   "end": 31.54,
+   "prob": 0.993
+  },
+  {
+   "word": "skinniest",
+   "start": 31.54,
+   "end": 32.02,
+   "prob": 0.858
+  },
+  {
+   "word": "guard",
+   "start": 32.02,
+   "end": 32.24,
+   "prob": 0.993
+  },
+  {
+   "word": "there",
+   "start": 32.24,
+   "end": 32.48,
+   "prob": 0.98
+  },
+  {
+   "word": "to",
+   "start": 32.48,
+   "end": 32.68,
+   "prob": 0.987
+  },
+  {
+   "word": "arm",
+   "start": 32.68,
+   "end": 32.9,
+   "prob": 0.998
+  },
+  {
+   "word": "wrestle",
+   "start": 32.9,
+   "end": 33.08,
+   "prob": 0.966
+  },
+  {
+   "word": "him.",
+   "start": 33.08,
+   "end": 33.36,
+   "prob": 0.994
+  },
+  {
+   "word": "And",
+   "start": 33.44,
+   "end": 33.52,
+   "prob": 0.973
+  },
+  {
+   "word": "the",
+   "start": 33.52,
+   "end": 33.64,
+   "prob": 0.994
+  },
+  {
+   "word": "guard",
+   "start": 33.64,
+   "end": 33.84,
+   "prob": 0.963
+  },
+  {
+   "word": "slams",
+   "start": 33.84,
+   "end": 34.26,
+   "prob": 0.994
+  },
+  {
+   "word": "his",
+   "start": 34.26,
+   "end": 34.48,
+   "prob": 0.992
+  },
+  {
+   "word": "hand",
+   "start": 34.48,
+   "end": 34.7,
+   "prob": 0.989
+  },
+  {
+   "word": "down",
+   "start": 34.7,
+   "end": 34.94,
+   "prob": 0.999
+  },
+  {
+   "word": "in",
+   "start": 34.94,
+   "end": 35.18,
+   "prob": 0.993
+  },
+  {
+   "word": "two",
+   "start": 35.18,
+   "end": 35.42,
+   "prob": 0.854
+  },
+  {
+   "word": "seconds.",
+   "start": 35.42,
+   "end": 35.88,
+   "prob": 0.999
+  },
+  {
+   "word": "Wait,",
+   "start": 36.18,
+   "end": 36.32,
+   "prob": 0.974
+  },
+  {
+   "word": "what?",
+   "start": 36.52,
+   "end": 36.68,
+   "prob": 0.993
+  },
+  {
+   "word": "Well,",
+   "start": 36.98,
+   "end": 37.16,
+   "prob": 0.991
+  },
+  {
+   "word": "nobody",
+   "start": 37.52,
+   "end": 37.7,
+   "prob": 0.995
+  },
+  {
+   "word": "can",
+   "start": 37.7,
+   "end": 37.92,
+   "prob": 0.999
+  },
+  {
+   "word": "explain",
+   "start": 37.92,
+   "end": 38.3,
+   "prob": 0.999
+  },
+  {
+   "word": "it.",
+   "start": 38.3,
+   "end": 38.52,
+   "prob": 0.998
+  },
+  {
+   "word": "But",
+   "start": 38.62,
+   "end": 38.7,
+   "prob": 0.996
+  },
+  {
+   "word": "within",
+   "start": 38.7,
+   "end": 38.92,
+   "prob": 0.976
+  },
+  {
+   "word": "a",
+   "start": 38.92,
+   "end": 39.08,
+   "prob": 0.998
+  },
+  {
+   "word": "year,",
+   "start": 39.08,
+   "end": 39.3,
+   "prob": 1.0
+  },
+  {
+   "word": "jails",
+   "start": 39.52,
+   "end": 39.74,
+   "prob": 0.996
+  },
+  {
+   "word": "all",
+   "start": 39.74,
+   "end": 40.14,
+   "prob": 0.996
+  },
+  {
+   "word": "over",
+   "start": 40.14,
+   "end": 40.34,
+   "prob": 0.999
+  },
+  {
+   "word": "the",
+   "start": 40.34,
+   "end": 40.48,
+   "prob": 0.999
+  },
+  {
+   "word": "country",
+   "start": 40.48,
+   "end": 40.76,
+   "prob": 0.999
+  },
+  {
+   "word": "are",
+   "start": 40.76,
+   "end": 40.98,
+   "prob": 0.993
+  },
+  {
+   "word": "painting",
+   "start": 40.98,
+   "end": 41.24,
+   "prob": 0.998
+  },
+  {
+   "word": "their",
+   "start": 41.24,
+   "end": 41.5,
+   "prob": 0.96
+  },
+  {
+   "word": "cells",
+   "start": 41.5,
+   "end": 41.72,
+   "prob": 0.984
+  },
+  {
+   "word": "by",
+   "start": 41.72,
+   "end": 41.94,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 41.94,
+   "end": 42.08,
+   "prob": 0.998
+  },
+  {
+   "word": "truckload.",
+   "start": 42.08,
+   "end": 42.66,
+   "prob": 0.926
+  },
+  {
+   "word": "Until",
+   "start": 42.78,
+   "end": 43.06,
+   "prob": 0.992
+  },
+  {
+   "word": "one",
+   "start": 43.06,
+   "end": 43.36,
+   "prob": 0.953
+  },
+  {
+   "word": "night,",
+   "start": 43.36,
+   "end": 43.64,
+   "prob": 0.999
+  },
+  {
+   "word": "a",
+   "start": 43.78,
+   "end": 43.88,
+   "prob": 0.99
+  },
+  {
+   "word": "guard",
+   "start": 43.88,
+   "end": 44.1,
+   "prob": 0.998
+  },
+  {
+   "word": "forgets",
+   "start": 44.1,
+   "end": 44.54,
+   "prob": 0.997
+  },
+  {
+   "word": "about",
+   "start": 44.54,
+   "end": 44.74,
+   "prob": 0.999
+  },
+  {
+   "word": "the",
+   "start": 44.74,
+   "end": 44.9,
+   "prob": 0.999
+  },
+  {
+   "word": "guy",
+   "start": 44.9,
+   "end": 45.06,
+   "prob": 0.999
+  },
+  {
+   "word": "in",
+   "start": 45.06,
+   "end": 45.2,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 45.2,
+   "end": 45.3,
+   "prob": 0.997
+  },
+  {
+   "word": "pink",
+   "start": 45.3,
+   "end": 45.44,
+   "prob": 0.995
+  },
+  {
+   "word": "cell.",
+   "start": 45.44,
+   "end": 45.76,
+   "prob": 0.996
+  },
+  {
+   "word": "At",
+   "start": 45.92,
+   "end": 46.0,
+   "prob": 0.991
+  },
+  {
+   "word": "15",
+   "start": 46.0,
+   "end": 46.36,
+   "prob": 0.992
+  },
+  {
+   "word": "minutes,",
+   "start": 46.36,
+   "end": 46.66,
+   "prob": 0.998
+  },
+  {
+   "word": "he's",
+   "start": 46.88,
+   "end": 47.04,
+   "prob": 0.994
+  },
+  {
+   "word": "sitting",
+   "start": 47.04,
+   "end": 47.18,
+   "prob": 0.999
+  },
+  {
+   "word": "quietly.",
+   "start": 47.18,
+   "end": 47.58,
+   "prob": 0.998
+  },
+  {
+   "word": "At",
+   "start": 47.88,
+   "end": 48.04,
+   "prob": 0.995
+  },
+  {
+   "word": "20,",
+   "start": 48.04,
+   "end": 48.38,
+   "prob": 0.998
+  },
+  {
+   "word": "he's",
+   "start": 48.56,
+   "end": 48.74,
+   "prob": 0.998
+  },
+  {
+   "word": "pacing.",
+   "start": 48.74,
+   "end": 49.0,
+   "prob": 1.0
+  },
+  {
+   "word": "And",
+   "start": 49.26,
+   "end": 49.36,
+   "prob": 0.994
+  },
+  {
+   "word": "by",
+   "start": 49.36,
+   "end": 49.46,
+   "prob": 0.996
+  },
+  {
+   "word": "the",
+   "start": 49.46,
+   "end": 49.6,
+   "prob": 0.999
+  },
+  {
+   "word": "time",
+   "start": 49.6,
+   "end": 49.76,
+   "prob": 0.999
+  },
+  {
+   "word": "they",
+   "start": 49.76,
+   "end": 49.94,
+   "prob": 0.995
+  },
+  {
+   "word": "open",
+   "start": 49.94,
+   "end": 50.08,
+   "prob": 0.934
+  },
+  {
+   "word": "the",
+   "start": 50.08,
+   "end": 50.24,
+   "prob": 0.998
+  },
+  {
+   "word": "door,",
+   "start": 50.24,
+   "end": 50.44,
+   "prob": 1.0
+  },
+  {
+   "word": "he's",
+   "start": 50.6,
+   "end": 50.8,
+   "prob": 0.995
+  },
+  {
+   "word": "trying",
+   "start": 50.8,
+   "end": 50.98,
+   "prob": 0.999
+  },
+  {
+   "word": "to",
+   "start": 50.98,
+   "end": 51.14,
+   "prob": 1.0
+  },
+  {
+   "word": "rip",
+   "start": 51.14,
+   "end": 51.34,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 51.34,
+   "end": 51.52,
+   "prob": 0.997
+  },
+  {
+   "word": "bench",
+   "start": 51.52,
+   "end": 51.82,
+   "prob": 0.999
+  },
+  {
+   "word": "out",
+   "start": 51.82,
+   "end": 52.02,
+   "prob": 0.998
+  },
+  {
+   "word": "of",
+   "start": 52.02,
+   "end": 52.12,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 52.12,
+   "end": 52.22,
+   "prob": 0.999
+  },
+  {
+   "word": "floor.",
+   "start": 52.22,
+   "end": 52.54,
+   "prob": 0.998
+  },
+  {
+   "word": "You",
+   "start": 52.78,
+   "end": 52.86,
+   "prob": 0.986
+  },
+  {
+   "word": "see,",
+   "start": 52.86,
+   "end": 53.06,
+   "prob": 0.999
+  },
+  {
+   "word": "the",
+   "start": 53.06,
+   "end": 53.28,
+   "prob": 0.143
+  },
+  {
+   "word": "scientist",
+   "start": 53.28,
+   "end": 53.68,
+   "prob": 0.088
+  },
+  {
+   "word": "swore",
+   "start": 53.68,
+   "end": 54.22,
+   "prob": 0.971
+  },
+  {
+   "word": "this",
+   "start": 54.22,
+   "end": 54.46,
+   "prob": 0.927
+  },
+  {
+   "word": "pink",
+   "start": 54.46,
+   "end": 54.76,
+   "prob": 0.949
+  },
+  {
+   "word": "drained",
+   "start": 54.76,
+   "end": 55.18,
+   "prob": 0.894
+  },
+  {
+   "word": "the",
+   "start": 55.18,
+   "end": 55.36,
+   "prob": 0.99
+  },
+  {
+   "word": "fight",
+   "start": 55.36,
+   "end": 55.58,
+   "prob": 0.99
+  },
+  {
+   "word": "out",
+   "start": 55.58,
+   "end": 55.74,
+   "prob": 0.987
+  },
+  {
+   "word": "of",
+   "start": 55.74,
+   "end": 55.84,
+   "prob": 0.989
+  },
+  {
+   "word": "anyone",
+   "start": 55.84,
+   "end": 56.24,
+   "prob": 0.981
+  },
+  {
+   "word": "in",
+   "start": 56.24,
+   "end": 56.5,
+   "prob": 0.995
+  },
+  {
+   "word": "15",
+   "start": 56.5,
+   "end": 56.84,
+   "prob": 0.733
+  },
+  {
+   "word": "minutes.",
+   "start": 56.84,
+   "end": 57.16,
+   "prob": 0.988
+  },
+  {
+   "word": "So",
+   "start": 57.46,
+   "end": 57.48,
+   "prob": 0.972
+  },
+  {
+   "word": "jails",
+   "start": 57.48,
+   "end": 57.74,
+   "prob": 0.726
+  },
+  {
+   "word": "used",
+   "start": 57.74,
+   "end": 58.06,
+   "prob": 0.984
+  },
+  {
+   "word": "it",
+   "start": 58.06,
+   "end": 58.22,
+   "prob": 0.99
+  },
+  {
+   "word": "to",
+   "start": 58.22,
+   "end": 58.36,
+   "prob": 0.996
+  },
+  {
+   "word": "calm",
+   "start": 58.36,
+   "end": 58.58,
+   "prob": 0.995
+  },
+  {
+   "word": "their",
+   "start": 58.58,
+   "end": 58.74,
+   "prob": 0.986
+  },
+  {
+   "word": "most",
+   "start": 58.74,
+   "end": 58.92,
+   "prob": 0.997
+  },
+  {
+   "word": "violent",
+   "start": 58.92,
+   "end": 59.38,
+   "prob": 0.996
+  },
+  {
+   "word": "prisoners.",
+   "start": 59.38,
+   "end": 59.82,
+   "prob": 0.996
+  },
+  {
+   "word": "But",
+   "start": 60.18,
+   "end": 60.26,
+   "prob": 0.987
+  },
+  {
+   "word": "it",
+   "start": 60.26,
+   "end": 60.52,
+   "prob": 0.883
+  },
+  {
+   "word": "only",
+   "start": 60.52,
+   "end": 60.84,
+   "prob": 0.989
+  },
+  {
+   "word": "works",
+   "start": 60.84,
+   "end": 61.18,
+   "prob": 0.997
+  },
+  {
+   "word": "for",
+   "start": 61.18,
+   "end": 61.46,
+   "prob": 0.995
+  },
+  {
+   "word": "15",
+   "start": 61.46,
+   "end": 61.9,
+   "prob": 0.98
+  },
+  {
+   "word": "minutes.",
+   "start": 61.9,
+   "end": 62.26,
+   "prob": 0.996
+  },
+  {
+   "word": "Leave",
+   "start": 62.48,
+   "end": 62.6,
+   "prob": 0.997
+  },
+  {
+   "word": "someone",
+   "start": 62.6,
+   "end": 62.86,
+   "prob": 0.988
+  },
+  {
+   "word": "in",
+   "start": 62.86,
+   "end": 63.04,
+   "prob": 0.989
+  },
+  {
+   "word": "any",
+   "start": 63.04,
+   "end": 63.18,
+   "prob": 0.991
+  },
+  {
+   "word": "longer",
+   "start": 63.18,
+   "end": 63.58,
+   "prob": 0.998
+  },
+  {
+   "word": "and",
+   "start": 63.58,
+   "end": 63.84,
+   "prob": 0.588
+  },
+  {
+   "word": "it",
+   "start": 63.84,
+   "end": 63.96,
+   "prob": 0.993
+  },
+  {
+   "word": "does",
+   "start": 63.96,
+   "end": 64.1,
+   "prob": 0.997
+  },
+  {
+   "word": "the",
+   "start": 64.1,
+   "end": 64.28,
+   "prob": 0.995
+  },
+  {
+   "word": "exact",
+   "start": 64.28,
+   "end": 64.64,
+   "prob": 0.997
+  },
+  {
+   "word": "opposite.",
+   "start": 64.64,
+   "end": 65.0,
+   "prob": 0.998
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.0,
+   "end": 1.78,
+   "n_words": 6,
+   "text": "They painted the jail cell pink."
+  },
+  {
+   "start": 2.1,
+   "end": 3.24,
+   "n_words": 5,
+   "text": "And not just any pink."
+  },
+  {
+   "start": 3.38,
+   "end": 10.94,
+   "n_words": 29,
+   "text": "A scientist mixes exactly one pint of red into a gallon of white and makes the guards repaint the whole thing because the first coat was the wrong shade."
+  },
+  {
+   "start": 11.22,
+   "end": 12.4,
+   "n_words": 4,
+   "text": "The guards are thrilled."
+  },
+  {
+   "start": 12.92,
+   "end": 14.2,
+   "n_words": 6,
+   "text": "Barbie's gonna love it in here."
+  },
+  {
+   "start": 14.42,
+   "end": 16.42,
+   "n_words": 7,
+   "text": "Then he gives them one strange rule."
+  },
+  {
+   "start": 16.6,
+   "end": 22.04,
+   "n_words": 20,
+   "text": "Every prisoner who goes in comes out after exactly 15 minutes and he waits at the door with a stopwatch."
+  },
+  {
+   "start": 22.3,
+   "end": 25.14,
+   "n_words": 14,
+   "text": "So the first guy they throw in is the biggest inmate in the building."
+  },
+  {
+   "start": 25.14,
+   "end": 28.22,
+   "n_words": 8,
+   "text": "300 pounds of tattoos, laughing at the walls."
+  },
+  {
+   "start": 28.58,
+   "end": 33.36,
+   "n_words": 20,
+   "text": "But when they pull him out 15 minutes later, the scientist asks the skinniest guard there to arm wrestle him."
+  },
+  {
+   "start": 33.44,
+   "end": 35.88,
+   "n_words": 10,
+   "text": "And the guard slams his hand down in two seconds."
+  },
+  {
+   "start": 36.18,
+   "end": 36.68,
+   "n_words": 2,
+   "text": "Wait, what?"
+  },
+  {
+   "start": 36.98,
+   "end": 38.52,
+   "n_words": 5,
+   "text": "Well, nobody can explain it."
+  },
+  {
+   "start": 38.62,
+   "end": 42.66,
+   "n_words": 16,
+   "text": "But within a year, jails all over the country are painting their cells by the truckload."
+  },
+  {
+   "start": 42.78,
+   "end": 45.76,
+   "n_words": 13,
+   "text": "Until one night, a guard forgets about the guy in the pink cell."
+  },
+  {
+   "start": 45.92,
+   "end": 47.58,
+   "n_words": 6,
+   "text": "At 15 minutes, he's sitting quietly."
+  },
+  {
+   "start": 47.88,
+   "end": 49.0,
+   "n_words": 4,
+   "text": "At 20, he's pacing."
+  },
+  {
+   "start": 49.26,
+   "end": 52.54,
+   "n_words": 18,
+   "text": "And by the time they open the door, he's trying to rip the bench out of the floor."
+  },
+  {
+   "start": 52.78,
+   "end": 57.16,
+   "n_words": 16,
+   "text": "You see, the scientist swore this pink drained the fight out of anyone in 15 minutes."
+  },
+  {
+   "start": 57.46,
+   "end": 59.82,
+   "n_words": 10,
+   "text": "So jails used it to calm their most violent prisoners."
+  },
+  {
+   "start": 60.18,
+   "end": 62.26,
+   "n_words": 7,
+   "text": "But it only works for 15 minutes."
+  },
+  {
+   "start": 62.48,
+   "end": 65.0,
+   "n_words": 11,
+   "text": "Leave someone in any longer and it does the exact opposite."
+  }
+ ]
+}

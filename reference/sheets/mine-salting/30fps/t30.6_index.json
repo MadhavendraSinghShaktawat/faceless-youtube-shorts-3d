@@ -1,0 +1,27 @@
+{
+ "video": "mine-salting.mp4",
+ "duration": 61.066667,
+ "source_fps": 30.0,
+ "source_size": [
+  1080,
+  1920
+ ],
+ "sample_fps": 30.0,
+ "range": [
+  30.6,
+  31.6
+ ],
+ "grid": [
+  5,
+  6
+ ],
+ "how_to_read": "Each tile has burned-in time (s) + source frame number. Order is left-to-right, top-to-bottom. Use t_start/t_end to pick the sheet for a moment.",
+ "sheets": [
+  {
+   "file": "t30.6_001.jpg",
+   "t_start": 30.6,
+   "t_end": 31.6,
+   "frames": 30
+  }
+ ]
+}

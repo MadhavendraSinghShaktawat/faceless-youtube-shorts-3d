@@ -1,0 +1,165 @@
+{
+ "file": "sheet_027.jpg",
+ "video": "one-cart.mp4",
+ "sheet_index": 27,
+ "sheet_count": 34,
+ "t_start": 52.0,
+ "t_end": 54.0,
+ "sample_fps": 10.0,
+ "source_fps": 30.0,
+ "source_size": [
+  720,
+  1280
+ ],
+ "grid": {
+  "cols": 4,
+  "rows": 5,
+  "order": "left-to-right, top-to-bottom"
+ },
+ "tile_size": [
+  270,
+  480
+ ],
+ "tiles": [
+  {
+   "tile": 0,
+   "row": 0,
+   "col": 0,
+   "t": 52.0,
+   "src_frame": 1560
+  },
+  {
+   "tile": 1,
+   "row": 0,
+   "col": 1,
+   "t": 52.1,
+   "src_frame": 1563
+  },
+  {
+   "tile": 2,
+   "row": 0,
+   "col": 2,
+   "t": 52.2,
+   "src_frame": 1566
+  },
+  {
+   "tile": 3,
+   "row": 0,
+   "col": 3,
+   "t": 52.3,
+   "src_frame": 1569
+  },
+  {
+   "tile": 4,
+   "row": 1,
+   "col": 0,
+   "t": 52.4,
+   "src_frame": 1572
+  },
+  {
+   "tile": 5,
+   "row": 1,
+   "col": 1,
+   "t": 52.5,
+   "src_frame": 1575
+  },
+  {
+   "tile": 6,
+   "row": 1,
+   "col": 2,
+   "t": 52.6,
+   "src_frame": 1578
+  },
+  {
+   "tile": 7,
+   "row": 1,
+   "col": 3,
+   "t": 52.7,
+   "src_frame": 1581
+  },
+  {
+   "tile": 8,
+   "row": 2,
+   "col": 0,
+   "t": 52.8,
+   "src_frame": 1584
+  },
+  {
+   "tile": 9,
+   "row": 2,
+   "col": 1,
+   "t": 52.9,
+   "src_frame": 1587
+  },
+  {
+   "tile": 10,
+   "row": 2,
+   "col": 2,
+   "t": 53.0,
+   "src_frame": 1590
+  },
+  {
+   "tile": 11,
+   "row": 2,
+   "col": 3,
+   "t": 53.1,
+   "src_frame": 1593
+  },
+  {
+   "tile": 12,
+   "row": 3,
+   "col": 0,
+   "t": 53.2,
+   "src_frame": 1596
+  },
+  {
+   "tile": 13,
+   "row": 3,
+   "col": 1,
+   "t": 53.3,
+   "src_frame": 1599
+  },
+  {
+   "tile": 14,
+   "row": 3,
+   "col": 2,
+   "t": 53.4,
+   "src_frame": 1602
+  },
+  {
+   "tile": 15,
+   "row": 3,
+   "col": 3,
+   "t": 53.5,
+   "src_frame": 1605
+  },
+  {
+   "tile": 16,
+   "row": 4,
+   "col": 0,
+   "t": 53.6,
+   "src_frame": 1608
+  },
+  {
+   "tile": 17,
+   "row": 4,
+   "col": 1,
+   "t": 53.7,
+   "src_frame": 1611
+  },
+  {
+   "tile": 18,
+   "row": 4,
+   "col": 2,
+   "t": 53.8,
+   "src_frame": 1614
+  },
+  {
+   "tile": 19,
+   "row": 4,
+   "col": 3,
+   "t": 53.9,
+   "src_frame": 1617
+  }
+ ]
+}

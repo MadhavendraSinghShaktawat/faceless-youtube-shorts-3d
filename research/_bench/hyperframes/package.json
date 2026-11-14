@@ -1,0 +1,15 @@
+{
+  "name": "bench-hyperframes",
+  "private": true,
+  "scripts": {
+    "build": "NODE_PATH=./node_modules esbuild src/entry.js --bundle --format=iife --outfile=bundle.js --log-level=warning && NODE_PATH=./node_modules esbuild src/outline-entry.js --bundle --format=iife --define:import.meta.url=location.href --outfile=outline.bundle.js --log-level=warning",
+    "lint": "hyperframes lint",
+    "render": "npm run build && HYPERFRAMES_NO_TELEMETRY=1 hyperframes render --gpu --output out/hf.mp4",
+    "render:outline": "npm run build && HYPERFRAMES_NO_TELEMETRY=1 hyperframes render --gpu -c compositions/outline.html --output out/outline.mp4"
+  },
+  "dependencies": {
+    "hyperframes": "0.9.41",
+    "three": "0.187.0",
+    "esbuild": "^0.25.0"
+  }
+}

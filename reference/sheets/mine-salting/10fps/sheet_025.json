@@ -1,0 +1,165 @@
+{
+ "file": "sheet_025.jpg",
+ "video": "mine-salting.mp4",
+ "sheet_index": 25,
+ "sheet_count": 31,
+ "t_start": 48.0,
+ "t_end": 50.0,
+ "sample_fps": 10.0,
+ "source_fps": 30.0,
+ "source_size": [
+  1080,
+  1920
+ ],
+ "grid": {
+  "cols": 4,
+  "rows": 5,
+  "order": "left-to-right, top-to-bottom"
+ },
+ "tile_size": [
+  270,
+  480
+ ],
+ "tiles": [
+  {
+   "tile": 0,
+   "row": 0,
+   "col": 0,
+   "t": 48.0,
+   "src_frame": 1440
+  },
+  {
+   "tile": 1,
+   "row": 0,
+   "col": 1,
+   "t": 48.1,
+   "src_frame": 1443
+  },
+  {
+   "tile": 2,
+   "row": 0,
+   "col": 2,
+   "t": 48.2,
+   "src_frame": 1446
+  },
+  {
+   "tile": 3,
+   "row": 0,
+   "col": 3,
+   "t": 48.3,
+   "src_frame": 1449
+  },
+  {
+   "tile": 4,
+   "row": 1,
+   "col": 0,
+   "t": 48.4,
+   "src_frame": 1452
+  },
+  {
+   "tile": 5,
+   "row": 1,
+   "col": 1,
+   "t": 48.5,
+   "src_frame": 1455
+  },
+  {
+   "tile": 6,
+   "row": 1,
+   "col": 2,
+   "t": 48.6,
+   "src_frame": 1458
+  },
+  {
+   "tile": 7,
+   "row": 1,
+   "col": 3,
+   "t": 48.7,
+   "src_frame": 1461
+  },
+  {
+   "tile": 8,
+   "row": 2,
+   "col": 0,
+   "t": 48.8,
+   "src_frame": 1464
+  },
+  {
+   "tile": 9,
+   "row": 2,
+   "col": 1,
+   "t": 48.9,
+   "src_frame": 1467
+  },
+  {
+   "tile": 10,
+   "row": 2,
+   "col": 2,
+   "t": 49.0,
+   "src_frame": 1470
+  },
+  {
+   "tile": 11,
+   "row": 2,
+   "col": 3,
+   "t": 49.1,
+   "src_frame": 1473
+  },
+  {
+   "tile": 12,
+   "row": 3,
+   "col": 0,
+   "t": 49.2,
+   "src_frame": 1476
+  },
+  {
+   "tile": 13,
+   "row": 3,
+   "col": 1,
+   "t": 49.3,
+   "src_frame": 1479
+  },
+  {
+   "tile": 14,
+   "row": 3,
+   "col": 2,
+   "t": 49.4,
+   "src_frame": 1482
+  },
+  {
+   "tile": 15,
+   "row": 3,
+   "col": 3,
+   "t": 49.5,
+   "src_frame": 1485
+  },
+  {
+   "tile": 16,
+   "row": 4,
+   "col": 0,
+   "t": 49.6,
+   "src_frame": 1488
+  },
+  {
+   "tile": 17,
+   "row": 4,
+   "col": 1,
+   "t": 49.7,
+   "src_frame": 1491
+  },
+  {
+   "tile": 18,
+   "row": 4,
+   "col": 2,
+   "t": 49.8,
+   "src_frame": 1494
+  },
+  {
+   "tile": 19,
+   "row": 4,
+   "col": 3,
+   "t": 49.9,
+   "src_frame": 1497
+  }
+ ]
+}
