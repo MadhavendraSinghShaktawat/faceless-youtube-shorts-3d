@@ -1,4 +1,4 @@
-<!--
+<!-- 
   Faceless YouTube Shorts 3D (faceless-youtube-shorts-3d): a free, open-source Claude Code skill that writes,
   animates and renders faceless 3D cartoon YouTube Shorts, TikToks and Instagram Reels with three.js and HyperFrames.
   AI cartoon video generator, story-to-animation director, word-by-word captions, toon shading, anime outline shader.
