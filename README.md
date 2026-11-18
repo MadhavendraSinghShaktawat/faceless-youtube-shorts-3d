@@ -14,6 +14,7 @@
 </p>
 
 <p align="center">
+  <a href="#watch-the-video-tutorial">Video</a> ·
   <a href="#see-it-in-action">Demo</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#install">Install</a> ·
@@ -45,6 +46,16 @@ There is no app and no UI. You clone one folder, then talk to Claude.
 - **Self-review and cleanup.** Claude checks stills and contact sheets of its own render before handing it over, then deletes the temporary files.
 
 Made for **faceless YouTube Shorts, TikTok and Instagram Reels** channels, storytellers and anyone who wants cartoon explainers without drawing a frame.
+
+## Watch the video tutorial
+
+**19M views in 10 days: 3 steps to make these Shorts with Claude.** The full walkthrough, from idea to rendered Short, on YouTube.
+
+<p align="center">
+  <a href="https://youtu.be/QaGv6lXCPwA"><img src="https://img.youtube.com/vi/QaGv6lXCPwA/maxresdefault.jpg" width="720" alt="Watch on YouTube: 19M Views in 10 Days, 3 Steps to Make These Shorts With Claude" /></a>
+</p>
+
+<p align="center"><a href="https://youtu.be/QaGv6lXCPwA"><b>▶ Watch on YouTube</b></a></p>
 
 ## See it in action
 
